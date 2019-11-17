@@ -1,0 +1,76 @@
+
+ //   $test=\common\models\Pages::menuItems();
+
+  /*  NavBar::begin([
+        'brandLabel' => Yii::t('app','Woman Calculator'),
+        'brandUrl' => Yii::$app->homeUrl,
+        'options' => [
+            'class' => 'navbar-inverse navbar-fixed-top',
+        ],
+    ]);
+   $menuItems = \common\models\Pages::menuItems();
+*/
+      // [['label' => 'Страница два', 'url' => ['/page-two']],['label' => 'page-three', 'url' => ['/page-three']],];
+
+        //['label' => 'Home', 'url' => ['/pages/index']],
+
+
+
+        //['label' => 'Блог', 'url' => ['/blog/index']],
+        //['label' => 'Страницы', 'url' => ['/pages/index']],
+        //['label' => 'About', 'url' => ['/site/about']],
+        //['label' => 'Contact', 'url' => ['/site/contact']],
+
+
+   // $menuItems = $test;
+
+
+
+    /*if (Yii::$app->user->isGuest) {
+        //$menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
+        //$menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+    } else {
+        $menuItems[] = '<li>'
+            . Html::beginForm(['/site/logout'], 'post')
+            . Html::submitButton(
+                'Logout (' . Yii::$app->user->identity->username . ')',
+                ['class' => 'btn btn-link logout']
+            )
+            . Html::endForm()
+            . '</li>';
+    }*/
+ /*  echo Nav::widget([
+        'options' => ['class' => 'navbar-nav navbar-right'],
+        'items' => $menuItems,
+    ]);
+    NavBar::end();*/
+    ?>
+    <!--
+        <nav id="w0" class="navbar-inverse navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#w0-collapse"
+                            aria-expanded="false"><span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span></button>
+                    <a class="navbar-brand" href="/">Женский калькулятор</a></div>
+                <div id="w0-collapse" class="navbar-collapse collapse" aria-expanded="false" style="height: 0.994318px;">
+                    <ul id="w1" class="navbar-nav navbar-right nav">
+                        <li class="dropdown"><a class="dropdown-toggle" href="/ru/pregnancy-calculator/"
+                                                data-toggle="dropdown" aria-expanded="false">Беременность <span
+                                        class="caret"></span></a>
+                            <ul id="w2" class="dropdown-menu">
+                                <li><a href="/ru/last-menstrual-period-pregnancy-calculator/" tabindex="-1">Калькулятор
+                                        беременности по месячным</a></li>
+                                <li><a href="/ru/conception-pregnancy-calculator/" tabindex="-1">Калькулятор беременности по
+                                        дате зачатия</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/ru/page-three/">page-three</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    -->
