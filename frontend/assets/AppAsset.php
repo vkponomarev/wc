@@ -37,7 +37,7 @@ class AppAsset extends AssetBundle
     ];
 
     public $cssOptions = [
-        'position' => \yii\web\View::POS_HEAD
+        'position' => \yii\web\View::POS_END
     ];
 
 
