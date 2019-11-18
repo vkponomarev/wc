@@ -32,7 +32,7 @@ class AppAsset extends AssetBundle
         'yii\web\YiiAsset',
         //'yii\bootstrap\BootstrapPluginAsset',
         //'yii\bootstrap\BootstrapAsset',
-        'frontend\assets\FontAwesomeAsset',
+        //'frontend\assets\FontAwesomeAsset',
         'frontend\assets\MyAssets',
     ];
 
