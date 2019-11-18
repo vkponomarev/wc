@@ -1,11 +1,10 @@
 html,
 body {
     height: 100%;
-}
-
-html {
     font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif;
 }
+
+
 
 .wrap {
     min-height: 100%;
