@@ -50,7 +50,7 @@ $this->params['canonical'] = $canonical;
 
         <div class="h1-and-breadcrumbs">
             <h1 class="h1-all"><?= $this->params['pagesTranslations']->h1 ?></h1>
-            <ol class="breadcrumbs">
+            <ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
 
                 <li class="breadcrumbs-item" itemprop="itemListElement" itemscope
                     itemtype="http://schema.org/ListItem">
