@@ -4,11 +4,9 @@
 /* @var $content string */
 
 
+//Страницы правая колонка
 
-//AppAsset::register($this);
-//echo $this->params['title'];
-
-echo \common\models\Advertising::showAdvertising(2,$allAdvertising);
+//echo \common\models\Advertising::showAdvertising(2,$allAdvertising);
 
 ?>
 

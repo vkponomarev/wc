@@ -3,12 +3,9 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
+//Страницы внутри формы калькулятора
 
-
-//AppAsset::register($this);
-//echo $this->params['title'];
-
-echo \common\models\Advertising::showAdvertising(5,$allAdvertising);
+//echo \common\models\Advertising::showAdvertising(5,$allAdvertising);
 
 ?>
 
