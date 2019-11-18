@@ -19,7 +19,7 @@ return [
     ],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
-        'mailer' => [
+       'mailer' => [
             'class' => 'yii\swiftmailer\Mailer'
         ],
         'request' => [

@@ -1,4 +1,6 @@
-
+@font-face {
+    font-display: auto; /* Задаем поведение браузера на время загрузки */
+}
 
 @media only screen and (min-width: 768px) {
     .dropdown:hover .dropdown-menu {

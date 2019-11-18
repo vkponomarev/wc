@@ -11,7 +11,7 @@ class AppAsset extends AssetBundle
 {
     public $js = [
        // 'js/bootstrap.min.js',
-        '/assets/e00d61fc/js/bootstrap.js',
+        //'/assets/e00d61fc/js/bootstrap.js',
        // '/js/html2canvas.js',
 
     ];
@@ -30,8 +30,10 @@ class AppAsset extends AssetBundle
 
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        //'yii\bootstrap\BootstrapPluginAsset',
+        //'yii\bootstrap\BootstrapAsset',
         'frontend\assets\FontAwesomeAsset',
+        'frontend\assets\MyAssets',
     ];
 
     public $cssOptions = [
