@@ -199,10 +199,10 @@ AppAsset::register($this);
                 <ul class="contact">
                     <span><?=Yii::t('app','Read')?></span>
                     <li>
-                        <a href="/<?= Yii::$app->language ?>/cookie/"><?=Yii::t('app','Cookie info')?></a>
+                        <a href="/<?= Yii::$app->language ?>/cookie/" rel="nofollow"><?=Yii::t('app','Cookie info')?></a>
                     </li>
                     <li>
-                        <a href="/<?= Yii::$app->language ?>/policy/"><?=Yii::t('app','Privacy policy')?></a>
+                        <a href="/<?= Yii::$app->language ?>/policy/" rel="nofollow"><?=Yii::t('app','Privacy policy')?></a>
                     </li>
 
                 </ul>
@@ -212,10 +212,10 @@ AppAsset::register($this);
                 <ul class="contact">
                     <span><?=Yii::t('app','Help')?></span>
                     <li>
-                        <a href="/<?= Yii::$app->language ?>/translation/"><?=Yii::t('app','Translations')?></a>
+                        <a href="/<?= Yii::$app->language ?>/translation/" rel="nofollow"><?=Yii::t('app','Translations')?></a>
                     </li>
                     <li>
-                        <a href="/<?= Yii::$app->language ?>/donation/"><?=Yii::t('app','Donations')?></a>
+                        <a href="/<?= Yii::$app->language ?>/donation/" rel="nofollow"><?=Yii::t('app','Donations')?></a>
                     </li>
 
 
@@ -226,7 +226,7 @@ AppAsset::register($this);
                 <ul class="contact">
                     <span><?=Yii::t('app','Contacts')?></span>
                     <li>
-                        <a href="/<?= Yii::$app->language ?>/contact/"><?=Yii::t('app','Write to us')?></a>
+                        <a href="/<?= Yii::$app->language ?>/contact/" rel="nofollow"><?=Yii::t('app','Write to us')?></a>
                     </li>
 
                 </ul>
