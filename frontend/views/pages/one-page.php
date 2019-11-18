@@ -150,15 +150,22 @@ $this->params['canonical'] = $canonical;
 
                  ])  ?>
 
-
-            <?= $this->render('/partials/comments/_vk-comments.php')?>
-
+            <?php if (($allPagesData['pages']->id<>41)
+                and ($allPagesData['pages']->id<>42)
+                and ($allPagesData['pages']->id<>43)
+                and ($allPagesData['pages']->id<>44)
+                and ($allPagesData['pages']->id<>45)
+            ):?>
+                <?php if ($this->params['currentLanguages']->url=='ru'):?>
+                    <?= $this->render('/partials/comments/_vk-comments.php')?>
+                <?php else:?>
+                    <?= $this->render('/partials/comments/_fb-comments.php')?>
+                <?php endif;?>
+            <?php endif;?>
         </div>
 
 
         <div class="form-right col-sm-3">
-
-
 
             <?= $this->render('/partials/ads/_ads_2', [
                 'allAdvertising' => $allAdvertising])

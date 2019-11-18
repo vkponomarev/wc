@@ -20,6 +20,15 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130047868-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130047868-2');
+    </script>
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,18 +57,21 @@ AppAsset::register($this);
     <?= $this->render('/partials/canonical/_canonical');?>
 
 
+
     <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
 
     <script type="text/javascript">
-        VK.init({apiId: 7197721, onlyWidgets: true});
+        VK.init({apiId: 7213089, onlyWidgets: true});
     </script>
-
+    <meta name="yandex-verification" content="40aa82a8394e6c36" />
 
 
 </head>
 <body role="document">
 <?php $this->beginBody() ?>
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=174556506430768&autoLogAppEvents=1"></script>
 <div class="wrap">
     <?php
     //\common\models\Pages::menuItems();
@@ -78,6 +90,7 @@ AppAsset::register($this);
                 </button>
                 <a class="navbar-brand dropdown-a-extended brand-link-extended" href="/"><img class="brand-image"
                                                                                               src="/files/logo1.png"
+                                                                                              alt="<?=Yii::t('app','Woman')?> <?=Yii::t('app','Calculator')?>"
                                                                                               width="70">
                     <div class="brand-div"><?=Yii::t('app','Woman')?><br>
                         <?=Yii::t('app','Calculator')?></div>

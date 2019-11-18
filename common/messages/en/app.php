@@ -146,7 +146,10 @@ return [
     'cm' => 'cm',
 
 
-
+    // feedback form
+    'Name' => 'Name',
+    'Text' => 'Text',
+    'Send' => 'Send',
 
 
 

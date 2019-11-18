@@ -21,11 +21,11 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($this->params['model'], 'name')->textInput(['maxlength' => true])->label('Имя') ?>
+    <?= $form->field($this->params['model'], 'name')->textInput(['maxlength' => true])->label(Yii::t('app','Name')) ?>
 
     <?= $form->field($this->params['model'], 'email')->Input('email')->label('E-mail') ?>
 
-    <?= $form->field($this->params['model'], 'text')->textarea(['rows' => 10, 'cols' => 2])->label('Текст'); ?>
+    <?= $form->field($this->params['model'], 'text')->textarea(['rows' => 10, 'cols' => 2])->label(Yii::t('app','Text')); ?>
 
     <?= $form->field($this->params['model'], 'language')->hiddenInput(['value' => $this->params['currentLanguages']->url])->label(false) ?>
 
@@ -39,7 +39,7 @@ use yii\widgets\ActiveForm;
 
 
     <div class="form-group">
-        <?= Html::submitButton('Отправить', [
+        <?= Html::submitButton(Yii::t('app','Send'), [
             'class' => 'btn btn-success',
             'onclick'=>"document.getElementById('check').value = 'nospam';"]) ?>
     </div>

@@ -13,7 +13,7 @@
 
 
 <p><br></p>
-<div id="vk_comments"></div>
-<script type="text/javascript">
-    VK.Widgets.Comments("vk_comments", {limit: 15, attach: "*"});
-</script>
+<div class="comments-width">
+
+    <div class="fb-comments" data-href="https://womencalc.com" data-width="100%" data-numposts="15"></div>
+</div>

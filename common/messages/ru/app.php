@@ -144,4 +144,12 @@ return [
     'centimeter' => 'сантиметр',
     'cm' => 'см',
 
+
+    // feedback form
+    'Name' => 'Имя',
+    'Text' => 'Текст',
+    'Send' => 'Отправить',
+
+
+
 ];

@@ -28,7 +28,9 @@ $this->params['canonical'] = $canonical;
 <div class="container  container-no-top-padding-extended">
 
     <div class="h1-main">
-        <img src="/files/category-icons/<?=$currentPageId?>.jpg" width="70" height="70" class="h1-img">
+        <img src="/files/category-icons/<?=$currentPageId?>.jpg"
+             alt="<?= $this->params['pagesTranslations']->h1 ?>"
+             width="70" height="70" class="h1-img">
 
         <div class="h1-and-breadcrumbs">
         <h1 class="h1-all"><?= $this->params['pagesTranslations']->h1 ?></h1>
@@ -57,7 +59,9 @@ $this->params['canonical'] = $canonical;
                                               class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                         <div class="plates">
 
-                            <p><img class="plates-img" src="/files/category-icons/<?=$item['id']?>.png" width="50"></p>
+                            <p><img class="plates-img" src="/files/category-icons/<?=$item['id']?>.png"
+                                    alt="<?= $item['plates_title'] ?>"
+                                    width="50"></p>
 
                             <p class="plates-title"><?= $item['plates_title']; ?></p>
                             <p class="plates-under-title"><?php // $item['h1']; ?></p>
@@ -72,7 +76,9 @@ $this->params['canonical'] = $canonical;
                                class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                                 <div class="plates">
                                     <p>
-                                        <img class="plates-img" src="/files/category-icons/<?=$itemParent['id']?>.png" width="50">
+                                        <img class="plates-img" src="/files/category-icons/<?=$itemParent['id']?>.png"
+                                             alt="<?= $itemParent['plates_title'] ?>"
+                                             width="50">
                                     </p>
                                     <p class="plates-title">
                                         <?= $itemParent['plates_title']; ?>
