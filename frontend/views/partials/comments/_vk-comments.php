@@ -17,3 +17,4 @@
 <script type="text/javascript">
     VK.Widgets.Comments("vk_comments", {limit: 15, attach: "*"});
 </script>
+<p><br><br></p>
