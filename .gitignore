@@ -19,9 +19,13 @@ Thumbs.db
 
 # composer vendor dir
 /vendor
+/trash
+/backend/runtime
+/frontend/runtime
+/environments
 /backend/web/assets
 /frontend/web/assets
-/frontend/runtime
+
 # composer itself is not needed
 composer.phar
 composer.lock
