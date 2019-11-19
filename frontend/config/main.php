@@ -10,23 +10,13 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    //'bootstrap' => ['log'],
-   // 'bootstrap' => ['debug'],
-   // 'modules' => [
+    //'bootstrap' => ['debug'],
+    //'modules' => [
     //    'debug' => [
     //        'class' => 'yii\debug\Module',
-    //        'allowedIPs' => ['1.2.3.4', '127.0.0.1', '136.169.213.175']
-     //   ]
+    //        'allowedIPs' => ['*'],
+    //    ],
     //],
-    'bootstrap' => ['debug'],
-    'modules' => [
-        'debug' => [
-            'class' => 'yii\debug\Module',
-            // uncomment and adjust the following to add your IP if you are not connecting from localhost.
-            'allowedIPs' => ['*'],
-        ],
-        // ...
-    ],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
 
@@ -103,19 +93,5 @@ return [
     ],
     'sourceLanguage' => 'en',
     'language' => 'en',
-    /*'modules' => [
-        'languages' => [
-            'class' => 'klisl\languages\Module',
-            //Языки используемые в приложении
-            'languages' => [
-                'English' => 'en',
-                'Русский' => 'ru',
-
-            ],
-            'default_language' => 'en', //основной язык (по-умолчанию)
-            'show_default' => true, //true - показывать в URL основной язык, false - нет
-        ],
-    ],*/
-
     'params' => $params,
 ];
