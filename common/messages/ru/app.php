@@ -88,7 +88,6 @@ return [
     'Select a calendar start date:' => 'Выберите дату начала календаря:',
     'Choose mom\'s month of birth:' => 'Выберите месяц рождения мамы:',
     'Choose dad\'s month of birth:' => 'Выберите месяц рождения папы:',
-    'Select a calendar start date:' => 'Выберите дату начала календаря:',
     'Calculate' => 'Рассчитать',
     'Conditionally safe days' => 'Условно безопасные дни',
 

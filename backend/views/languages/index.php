@@ -44,6 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'url:url',
             'html_lang',
+            'lang_lang',
             'active',
 
             ['class' => 'yii\grid\ActionColumn'],

@@ -31,9 +31,9 @@ class Languages extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'url', 'html_lang' ,'name_ru'], 'required'],
+            [['name', 'url', 'html_lang' ,'lang_lang' ,'name_ru'], 'required'],
             [['active'], 'integer'],
-            [['name', 'url', 'html_lang','name_ru'], 'string', 'max' => 255],
+            [['name', 'url', 'html_lang','lang_lang' ,'name_ru'], 'string', 'max' => 255],
             [['url'],'unique'],
         ];
 
@@ -51,6 +51,8 @@ class Languages extends \yii\db\ActiveRecord
             'url' => 'Url',
             'html_lang' => 'Html Lang',
             'active' => 'Active',
+            'lang_lang' => 'Lang Lang',
+
         ];
     }
     public function getAllLanguages()

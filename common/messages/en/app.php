@@ -28,7 +28,7 @@ return [
     'By date of last period' => 'By date of last period',
     'By date of conception' => 'By date of conception',
     'Calculate pregnancy' => 'Calculate pregnancy',
-    'Calculate ovulation' => 'Рассчитать овуляцию',
+    'Calculate ovulation' => 'Calculate ovulation',
     'Calculate conception' => 'Calculate conception',
 
 
@@ -90,7 +90,6 @@ return [
     'Select a calendar start date:' => 'Select a calendar start date:',
     'Choose mom\'s month of birth:' => 'Choose mom\'s month of birth:',
     'Choose dad\'s month of birth:' => 'Choose dad\'s month of birth:',
-    'Select a calendar start date:' => 'Select a calendar start date:',
     'Calculate' => 'Calculate',
     'Conditionally safe days' => 'Conditionally safe days',
 
@@ -106,7 +105,7 @@ return [
     'Date of Dad\'s last blood update:' => 'Date of Dad\'s last blood update:',
     'Choose Mom\'s blood type:' => 'Choose mom\'s blood type:',
     'Choose Dad\'s blood type:' => 'Choose Dad\'s blood type:',
-    'Choose Mom\'s RH factor:' => 'Выберите резус фактор мамы:',
+    'Choose Mom\'s RH factor:' => 'Choose Mom\'s RH factor:',
     'Choose Dad\'s RH factor:' => 'Choose Dad\'s RH factor:',
     'Negative' => 'Negative',
     'Positive' => 'Positive',

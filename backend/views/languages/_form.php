@@ -20,6 +20,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'html_lang')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'lang_lang')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'active')->dropDownList(['off','on']) ?>
 
     <div class="form-group">

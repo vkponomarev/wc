@@ -54,7 +54,7 @@ return [
             'showScriptName' => false,
             'enableStrictParsing' => true,
             'class' => 'codemix\localeurls\UrlManager',
-            'languages' => ['en','ru'],
+            'languages' => ['en','ru','es','pt','ja','de','ko'],
             'enableDefaultLanguageUrlCode' => true,
             'rules' => [
                 '/' => 'pages/index',

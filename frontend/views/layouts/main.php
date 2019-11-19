@@ -78,7 +78,7 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=174556506430768&autoLogAppEvents=1"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/<?=$this->params['currentLanguages']->lang_lang?>/sdk.js#xfbml=1&version=v5.0&appId=174556506430768&autoLogAppEvents=1"></script>
 <div class="wrap">
     <?php
     //\common\models\Pages::menuItems();
