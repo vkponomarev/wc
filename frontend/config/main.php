@@ -6,19 +6,30 @@ $params = array_merge(
     require __DIR__ . '/params-local.php'
 );
 
+
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
     //'bootstrap' => ['log'],
+   // 'bootstrap' => ['debug'],
+   // 'modules' => [
+    //    'debug' => [
+    //        'class' => 'yii\debug\Module',
+    //        'allowedIPs' => ['1.2.3.4', '127.0.0.1', '136.169.213.175']
+     //   ]
+    //],
     'bootstrap' => ['debug'],
     'modules' => [
         'debug' => [
             'class' => 'yii\debug\Module',
-            'allowedIPs' => ['1.2.3.4', '127.0.0.1', '::1']
-        ]
+            // uncomment and adjust the following to add your IP if you are not connecting from localhost.
+            'allowedIPs' => ['*'],
+        ],
+        // ...
     ],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
+
        'mailer' => [
             'class' => 'yii\swiftmailer\Mailer'
         ],
