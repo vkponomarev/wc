@@ -236,15 +236,14 @@
 
 .calendar-one-day-name {
 
-    /* width: 14.28571428571429%; */
-    width: 32.5749px;
+    width: 14.28571428571429%;
+    /* width: 32.5749px; */
     min-height: 32px;
     font-weight: bold;
     padding: 6px 0 0 0;
-    margin: 0px 3px 0 3px;
+    margin: 0px 0px 0px 0px;
     /* align-items: center; */
     text-align: center;
-
     border-radius: 19px;
 }
 
@@ -252,29 +251,29 @@
 
     margin: 0 0 7px 0;
     display: inline-block;
+    width: 100%;
 
 }
-
-
-
 
 .calendar-one-week{
 
     margin: 0 0 3px 0;
     display: inline-block;
+    width: 100%;
 
 }
 
 
 .calendar-one-day{
 
-    width: 32.5749px;
+    /* width: 32.5749px; */
     min-height: 32px;
     padding: 7px 0 0 0;
-    margin: 0px 3px 0 3px;
+    margin: 0px 1px 0 1.7px;
     text-align: center;
-    border-radius: 19px;
+    border-radius: 20px;
     cursor: pointer;
+    width: 13.28571428571429%;
 
 }
 
