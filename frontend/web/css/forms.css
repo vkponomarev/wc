@@ -260,7 +260,9 @@
     .xs-align-mid{
 
         text-align: -webkit-center;
+        text-align: -moz-center;
         position: static;
+
     }
 
 
@@ -360,6 +362,7 @@
 .form-button-div{
 
     text-align: -webkit-center;
+    text-align: -moz-center;
 
 }
 
@@ -374,7 +377,7 @@
 .result-div-on{
 
     /*display: inline-flex;*/
-
+    text-align: -moz-center;
     text-align: -webkit-center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -429,6 +432,7 @@
 .align-mid{
 
     text-align: -webkit-center;
+    text-align: -moz-center;
 
 }
 

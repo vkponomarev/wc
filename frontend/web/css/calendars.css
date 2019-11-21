@@ -130,12 +130,13 @@
 .calendar-center {
 
     text-align: -webkit-center;
+    text-align: -moz-center;
 
 }
 
 .legend-center {
     text-align: -webkit-center;
-
+    text-align: -moz-center;
 }
 
 

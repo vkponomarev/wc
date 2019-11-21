@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 
+use common\models\Blog;
 use common\models\components\WomanCalendars;
 use common\models\Mail;
 use common\models\Pages;
@@ -55,6 +56,14 @@ class PagesController extends Controller
     public function actionOne($url)
     {
 
+        if($pages = Pages::find()->andWhere(['url' => $url])->one()){
+
+        } else {
+
+            throw new NotFoundHttpException('404');
+
+            }
+
         // Переменные и настройки для текстов всех страниц сайта
 
         if (!Yii::$app->request->get('date')){
@@ -69,8 +78,7 @@ class PagesController extends Controller
         $currentLanguages = Pages::currentLanguages();
         $allPages = Pages::allPages();
         $allPagesTranslations = Pages::allPagesTranslations($currentLanguages->id);
-        $pages = Pages::find()->andWhere(['url' => $url])->one();
-        $pregnancyCalculationMethod = Yii::$app->request->get('method');
+       $pregnancyCalculationMethod = Yii::$app->request->get('method');
         $languagesSwitcher = Pages::languagesSwitcher();
         $alternate = Pages::alternate($url,$languagesSwitcher,$currentLanguages);
         $canonical = Pages::canonical($url,$currentLanguages);
@@ -682,7 +690,7 @@ class PagesController extends Controller
             return $this->render('one-page', $pageViewData);
         }
 
-       throw new NotFoundHttpException('ой, нет такого блога.');
+       throw new NotFoundHttpException('404');
 
     }
 
