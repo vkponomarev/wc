@@ -20,7 +20,7 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
 
-       'mailer' => [
+        'mailer' => [
             'class' => 'yii\swiftmailer\Mailer'
         ],
         'request' => [
@@ -49,13 +49,12 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'enableStrictParsing' => true,
             'class' => 'codemix\localeurls\UrlManager',
-            'languages' => ['en','ru','es','pt','ja','de','ko','fr','jv','vi','it','tr','uk','th','pl','az','ro'],
+            'languages' => ['en','ru','es','pt','ja','de','ko','fr','jv','vi','it','tr','uk','th','pl','az','ro','uz','hu','el','cs','zh','hi','bn'],
             'enableDefaultLanguageUrlCode' => true,
             'rules' => [
                 '/' => 'pages/index',
