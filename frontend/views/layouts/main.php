@@ -36,6 +36,7 @@ AppAsset::register($this);
 
         gtag('config', 'UA-130047868-2');
     </script>
+
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -268,6 +269,9 @@ AppAsset::register($this);
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dbbf2586b540d45"></script>
 <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
 <script src="https://yastatic.net/share2/share.js" async="async"></script>
+
+<?= $this->render('/partials/counters/_counters');?>
+
 
 </body>
 </html>
