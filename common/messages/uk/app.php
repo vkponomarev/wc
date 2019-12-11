@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Украинский
     // Common -----------------
     'Woman' => 'Жінка',
     'Calculator' => 'Калькулятор',
@@ -133,6 +133,14 @@ return [
     'According to the Smirnov formula' => 'За формулою Смірнова',
     'from' => 'з',
     'to' => 'до',
+
+
+    //new
+    'Choose your due date:' => 'Оберіть свою дату:',
+    'Gestational age:' => 'Гестаційний вік:',
+    'Estimated date of conception:' => 'Приблизна дата зачаття:',
+    'Fertile day' => 'Родючий день',
+    'Choose a week of pregnancy:' => 'Виберіть тиждень вагітності:',
 
 
     // measures

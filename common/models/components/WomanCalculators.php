@@ -839,5 +839,60 @@ class WomanCalculators extends Pages
 
 
 
+    public function dueDateByPregnancyWeekCalculation($pregnancyWeek){
+
+        $viewResult = 1;
+
+        if (!$pregnancyWeek){
+            $pregnancyWeek = 0;
+            $viewResult = 0;
+        }
+
+        $weeksLeft = 40 - $pregnancyWeek;
+        $daysLeft = $weeksLeft * 7;
+
+        $todayDate = new \DateTime();
+        $dueDate = $todayDate->add(new \DateInterval('P' . $daysLeft . 'D'));
+
+        return [
+
+            'dueDate' => Yii::$app->formatter->asDate($dueDate->format('Y-m-d'), 'long'),
+            'viewResult' => $viewResult,
+
+        ];
+
+
+    }
+
+
+    public function conceptionDateByDueDateCalculation($dueDate){
+
+        $viewResult = 1;
+
+        if (!$dueDate){
+            $dueDate = 0;
+            $viewResult = 0;
+        }
+
+
+        //$now = time();
+        $dueDate = new \DateTime($dueDate);
+
+
+        $conceptionDate = $dueDate->sub(new \DateInterval('P266D'));
+
+
+        return [
+
+            'conceptionDate' => Yii::$app->formatter->asDate($conceptionDate->format('Y-m-d'), 'long'),
+            'viewResult' => $viewResult,
+
+        ];
+
+
+    }
+
+
+
 
 }

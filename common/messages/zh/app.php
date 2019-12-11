@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Китайский
     // Common -----------------
     'Woman' => '女人',
     'Calculator' => '計算器',
@@ -134,6 +134,13 @@ return [
     'from' => '從',
     'to' => '至',
 
+
+    //new
+    'Choose your due date:' => '選擇您的到期日:',
+    'Gestational age:' => '孕齡:',
+    'Estimated date of conception:' => '預計受孕日期:',
+    'Fertile day' => '肥沃的一天',
+    'Choose a week of pregnancy:' => '選擇懷孕一周:',
 
     // measures
     'kilogram' => '公斤',

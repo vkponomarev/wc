@@ -11,6 +11,7 @@
 
 
 ?>
+<?php if (!$this->params['isEmbed']): ?>
 <br>
 <div class="social-center">
 <?php if ($currentLanguages->url=='ru'):?>
@@ -22,4 +23,5 @@
     <div class="addthis_inline_share_toolbox"></div>
 <?php endif;?>
 </div>
+<?php endif;?>
 <br>

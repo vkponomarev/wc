@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Азербайджанский
     // Common -----------------
     'Woman' => 'Qadın',
     'Calculator' => 'Kalkulyator',
@@ -134,6 +134,12 @@ return [
     'from' => 'dən',
     'to' => 'üçün',
 
+    //new
+    'Choose your due date:' => 'Müddətinizi seçin:',
+    'Gestational age:' => 'Gestational yaş:',
+    'Estimated date of conception:' => 'Təxmini konsepsiya tarixi:',
+    'Fertile day' => 'Bərəkətli gün',
+    'Choose a week of pregnancy:' => 'Hamiləliyin bir həftəsini seçin:',
 
     // measures
     'kilogram' => 'kiloqramdır',

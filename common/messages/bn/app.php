@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Бенгальский
     // Common -----------------
     'Woman' => 'নারী',
     'Calculator' => 'গণক',
@@ -133,6 +133,13 @@ return [
     'According to the Smirnov formula' => 'স্মারনভ সূত্র অনুসারে',
     'from' => 'থেকে',
     'to' => 'থেকে',
+
+    //new
+    'Choose your due date:' => 'আপনার নির্ধারিত তারিখটি চয়ন করুন:',
+    'Gestational age:' => 'নির্ধারিত সময়ের বয়স:',
+    'Estimated date of conception:' => 'ধারণার আনুমানিক তারিখ:',
+    'Fertile day' => 'উর্বর দিন',
+    'Choose a week of pregnancy:' => 'গর্ভাবস্থার এক সপ্তাহ চয়ন করুন:',
 
 
     // measures

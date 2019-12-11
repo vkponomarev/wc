@@ -28,6 +28,10 @@ if (!$childGenderBloodRenewalData['childGenderBloodRenewalMotherBirthDate']){
 
         <form action="./#result">
 
+            <?php if ($this->params['isEmbed']): ?>
+                <input type="hidden" name="embed" value="<?=$this->params['isEmbed']?>">
+            <?php endif; ?>
+
             <div class="col-xs-12 col-sm-6 align-mid">
 
                 <div class="form-left-title"><?=Yii::t('app','Choose mom\'s birthday:')?></div>

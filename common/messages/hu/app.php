@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Венгерский
     // Common -----------------
     'Woman' => 'Nő',
     'Calculator' => 'Számológép',
@@ -133,6 +133,15 @@ return [
     'According to the Smirnov formula' => 'A Smirnov képlet szerint',
     'from' => 'tól',
     'to' => 'hogy',
+
+
+
+    //new
+    'Choose your due date:' => 'Válassza ki az esedékesség dátumát:',
+    'Gestational age:' => 'Terhesség kora:',
+    'Estimated date of conception:' => 'A fogamzás becsült dátuma:',
+    'Fertile day' => 'Termékeny nap',
+    'Choose a week of pregnancy:' => 'Válasszon egy terhességi hetet:',
 
 
     // measures

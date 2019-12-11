@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Вьетнамский
     // Common -----------------
     'Woman' => 'Đàn bà',
     'Calculator' => 'Máy tính',
@@ -133,6 +133,14 @@ return [
     'According to the Smirnov formula' => 'Theo công thức Smirnov',
     'from' => 'từ',
     'to' => 'đến',
+
+    //new
+    'Choose your due date:' => 'Chọn ngày đáo hạn của bạn:',
+    'Gestational age:' => 'Thời kì thai nghén:',
+    'Estimated date of conception:' => 'Ngày dự kiến thụ thai:',
+    'Fertile day' => 'Ngày sinh sản',
+    'Choose a week of pregnancy:' => 'Chọn một tuần mang thai:',
+
 
 
     // measures

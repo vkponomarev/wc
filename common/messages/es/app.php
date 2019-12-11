@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Испанский
     // Common -----------------
     'Woman' => 'Mujer',
     'Calculator' => 'Calculadora',
@@ -134,6 +134,13 @@ return [
     'from' => 'desde',
     'to' => 'a',
 
+
+    //new
+    'Choose your due date:' => 'Elige tu fecha de vencimiento:',
+    'Gestational age:' => 'Edad gestacional:',
+    'Estimated date of conception:' => 'Fecha estimada de concepción:',
+    'Fertile day' => 'Día fértil',
+    'Choose a week of pregnancy:' => 'Elige una semana de embarazo:',
 
     // measures
     'kilogram' => 'kilogramo',

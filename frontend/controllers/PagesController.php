@@ -56,6 +56,7 @@ class PagesController extends Controller
     public function actionOne($url)
     {
 
+
         if($pages = Pages::find()->andWhere(['url' => $url])->one()){
 
         } else {
@@ -75,13 +76,30 @@ class PagesController extends Controller
             $calculationDate = Yii::$app->request->get('date');
 
         }
+
+        $isEmbed = Yii::$app->request->get('embed');
+
+        // Если мы выводим встроенный калькулятор на стороннем сайте то используем соответсвующий шаблон
+
+
         $currentLanguages = Pages::currentLanguages();
         $allPages = Pages::allPages();
         $allPagesTranslations = Pages::allPagesTranslations($currentLanguages->id);
-       $pregnancyCalculationMethod = Yii::$app->request->get('method');
+        $pregnancyCalculationMethod = Yii::$app->request->get('method');
         $languagesSwitcher = Pages::languagesSwitcher();
         $alternate = Pages::alternate($url,$languagesSwitcher,$currentLanguages);
         $canonical = Pages::canonical($url,$currentLanguages);
+        $embedUrl = Pages::embedUrl($url,$currentLanguages);
+
+        $renderPage = 'page-one';
+
+        if ($isEmbed){
+
+            $this->layout = '/embed.php';
+            $renderPage = 'page-one-embed';
+
+        }
+
         $allPagesData = [
             'pages' => $pages,
             'pagesTranslations' => Pages::onePagesTranslations($currentLanguages->id,$url),
@@ -157,7 +175,15 @@ class PagesController extends Controller
             'fatherEyesColor' => Yii::$app->request->get('father-eyes-color'),
         ];
 
+        $dueDateByPregnancyWeekData = [
+            'dueDatePregnancyWeek' => Yii::$app->request->get('pregnancy-week'),
+        ];
+
+
         $pageViewData = [
+
+            'embedUrl' => $embedUrl,
+            'isEmbed' => $isEmbed,
             'currentLanguages' => $currentLanguages,
             'currentPageName' => 0,
             'allPagesData' => $allPagesData,
@@ -213,6 +239,13 @@ class PagesController extends Controller
             'childEyesColorCalculationData' => 0,
             'childEyesColorCalculation' => 0,
 
+            'dueDateByPregnancyWeekData' => 0,
+            'dueDateByPregnancyWeekCalculation' => 0,
+
+            'conceptionDateByDueDateData' => 0,
+            'conceptionDateByDueDateCalculation' => 0,
+
+
         ];
 
 
@@ -227,25 +260,25 @@ class PagesController extends Controller
                 $pregnancyCalculationData['pregnancyCalculationMethod'],
                 $calculationDate);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
         //calendar
         if ($pages->id == 3) {
             //echo 'мы тут';
            $pageViewData['currentPageName'] = 'calendar';
-           return $this->render('one-page', $pageViewData);
+           return $this->render($renderPage, $pageViewData);
         }
         //child-gender
         if ($pages->id == 4) {
             //echo 'мы тут';
             $pageViewData['currentPageName'] = 'child-gender';
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
         //due-date
         if ($pages->id == 7) {
             //echo 'мы тут';
             $pageViewData['currentPageName'] = 'due-date';
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
         // pregnancy-calculator-menstrual
         if ($pages->id == 5) {
@@ -256,8 +289,34 @@ class PagesController extends Controller
             $pageViewData['pregnancyCalculation'] = WomanCalculators::pregnancyCalculation(
                 $pregnancyCalculationData['pregnancyCalculationMethod'],
                 $calculationDate);
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
+
+
+        //50 - pregnancy-calculator-gestational-age
+        if ($pages->id == 50) {
+            //echo 'мы тут';
+            $pageViewData['currentPageName'] = 'pregnancy-calculator-gestational-age';
+            $pageViewData['calculationDate'] = $calculationDate;
+            $pageViewData['pregnancyCalculationData'] = $pregnancyCalculationData;
+            $pageViewData['pregnancyCalculation'] = WomanCalculators::pregnancyCalculation(
+                $pregnancyCalculationData['pregnancyCalculationMethod'],
+                $calculationDate);
+            return $this->render($renderPage, $pageViewData);
+        }
+
+        //52 - pregnancy-calculator-conception-date-due-date
+        if ($pages->id == 52) {
+            //echo 'мы тут';
+            $pageViewData['currentPageName'] = 'pregnancy-calculator-conception-date-due-date';
+            $pageViewData['calculationDate'] = $calculationDate;
+            $pageViewData['conceptionDateByDueDateCalculation'] = WomanCalculators::conceptionDateByDueDateCalculation(
+                $calculationDate);
+            return $this->render($renderPage, $pageViewData);
+        }
+
+
+
         //pregnancy-calculator-conception-date
         if ($pages->id == 6) {
             //echo 'мы тут';
@@ -267,7 +326,7 @@ class PagesController extends Controller
             $pageViewData['pregnancyCalculation'] = WomanCalculators::pregnancyCalculation(
                 $pregnancyCalculationData['pregnancyCalculationMethod'],
                 $calculationDate);
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
         //pregnancy-calculator-fetal-movement
         if ($pages->id == 8) {
@@ -278,7 +337,7 @@ class PagesController extends Controller
             $pageViewData['pregnancyCalculationByFetalMovement'] = WomanCalculators::pregnancyCalculationByFetalMovement(
                 $pregnancyCalculationByFetalMovementData['pregnancyCalculationMethod'],
                 $pregnancyCalculationByFetalMovementData['pregnancyCalculationDate']);
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //pregnancy-calculator-weeks
@@ -295,10 +354,10 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
-        //calendar-ovulation
+        //11 - calendar-ovulation
         if ($pages->id == 11) {
             //echo 'мы тут';
             $pageViewData['currentPageName'] = 'calendar-ovulation';
@@ -312,8 +371,27 @@ class PagesController extends Controller
                 'nameOfMonthsInYear' => WomanCalendars::nameOfMonthsInYear($calculationDate),
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
+
+
+        //49 - calendar-fertile-day
+        if ($pages->id == 49) {
+            //echo 'мы тут';
+            $pageViewData['currentPageName'] = 'calendar-fertile-day';
+            $pageViewData['calculationDate'] = $calculationDate;
+            $pageViewData['ovulationCalculationData'] = $ovulationCalculationData;
+            $pageViewData['ovulationCalendar'] = WomanCalendars::ovulationCalendar(
+                $ovulationCalculationData['ovulationCalculationMenstrualLength'],
+                $ovulationCalculationData['ovulationCalculationCycleLength'],
+                $ovulationCalculationData['calculationDate']);
+            $pageViewData['allCalendarsData'] = [
+                'nameOfMonthsInYear' => WomanCalendars::nameOfMonthsInYear($calculationDate),
+                'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
+            ];
+            return $this->render($renderPage, $pageViewData);
+        }
+
 
         //calendar-menstruation
         if ($pages->id == 12) {
@@ -328,7 +406,7 @@ class PagesController extends Controller
                 'nameOfMonthsInYear' => WomanCalendars::nameOfMonthsInYear($calculationDate),
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //calendar-pregnancy
@@ -344,7 +422,7 @@ class PagesController extends Controller
                 'nameOfMonthsInYear' => WomanCalendars::nameOfMonthsInYear($pageViewData['pregnancyCalendar']['calculationDate']),
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //14 calendar-conception
@@ -370,7 +448,7 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //17 calendar-conception-chinese
@@ -387,7 +465,7 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //18 child-gender-blood-renewal
@@ -406,7 +484,7 @@ class PagesController extends Controller
                 $childGenderBloodRenewalData['childGenderBloodRenewalFatherBirthDate'],
                 $childGenderBloodRenewalData['calculationDate']);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //19 child-gender-blood-type
@@ -419,7 +497,7 @@ class PagesController extends Controller
                 $childGenderBloodTypeData['childGenderBloodMotherType'],
                 $childGenderBloodTypeData['childGenderBloodFatherType']);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //21 child-gender-rh-factor
@@ -432,7 +510,7 @@ class PagesController extends Controller
                 $childGenderRhFactorData['childGenderMotherRhFactor'],
                 $childGenderRhFactorData['childGenderFatherRhFactor']);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //23 pregnancy-calculator-monthly
@@ -448,7 +526,7 @@ class PagesController extends Controller
                 'nameOfMonthsInYear' => WomanCalendars::nameOfMonthsInYear($calculationDate),
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //24 calendar-conception-japan
@@ -466,7 +544,7 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //25 child-gender-chinese-table
@@ -483,7 +561,7 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //26 child-gender-japan-table
@@ -501,7 +579,7 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //27 child-gender-conception-date
@@ -519,7 +597,7 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //28 child-gender-latest-menstrual
@@ -537,8 +615,28 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
+
+
+        //48 child-gender-ovulation
+        if (($pages->id == 48)) {
+            //echo 'мы тут';
+            $pageViewData['currentPageName'] = 'child-gender-ovulation';
+            $pageViewData['calculationDate'] = $calculationDate;
+            $pageViewData['ovulationCalculationData'] = $ovulationCalculationData;
+            $pageViewData['conceptionCalendar'] = WomanCalendars::conceptionCalendar(
+                $ovulationCalculationData['ovulationCalculationMenstrualLength'],
+                $ovulationCalculationData['ovulationCalculationCycleLength'],
+                $ovulationCalculationData['calculationDate']);
+            $pageViewData['allCalendarsData'] = [
+                'nameOfMonthsInYear' => WomanCalendars::nameOfMonthsInYear($calculationDate),
+                'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
+            ];
+
+            return $this->render($renderPage, $pageViewData);
+        }
+
 
         //29 due-date-menstrual
         if (($pages->id == 29)) {
@@ -549,8 +647,23 @@ class PagesController extends Controller
                 $pregnancyCalculationData['pregnancyCalculationMethod'],
                 $calculationDate);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
+
+
+        //51 due-date-pregnancy-week
+        if (($pages->id == 51)) {
+            //echo 'мы тут';
+            $pageViewData['currentPageName'] = 'due-date-pregnancy-week';
+            $pageViewData['dueDateByPregnancyWeekData'] = $dueDateByPregnancyWeekData;
+            $pageViewData['dueDateByPregnancyWeekCalculation'] = WomanCalculators::dueDateByPregnancyWeekCalculation(
+                $dueDateByPregnancyWeekData['dueDatePregnancyWeek']);
+
+            return $this->render($renderPage, $pageViewData);
+        }
+
+
+
 
         //30 due-date-conception-date
         if (($pages->id == 30)) {
@@ -561,7 +674,7 @@ class PagesController extends Controller
                 $pregnancyCalculationData['pregnancyCalculationMethod'],
                 $calculationDate);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //31 pregnancy-calculator-weight
@@ -575,7 +688,7 @@ class PagesController extends Controller
                 $pregnancyWeightCalculationData['pregnancyWeightCalculationWeightAfterPregnancy'],
                 $pregnancyWeightCalculationData['pregnancyWeightCalculationPregnancyWeek']);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //33 calendar-safe-days
@@ -593,7 +706,7 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //34 pregnancy-calculator-uzi
@@ -605,7 +718,7 @@ class PagesController extends Controller
             $pageViewData['pregnancyUziCalculation'] = WomanCalculators::pregnancyUziCalculation(
                 $pregnancyUziCalculationData['pregnancyUziCalculationFetalLength']);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
 
@@ -619,7 +732,7 @@ class PagesController extends Controller
                 $childWeightHeightCalculationData['childAgeYears'],
                 $childWeightHeightCalculationData['childAgeMonths']);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
 
@@ -633,7 +746,7 @@ class PagesController extends Controller
                 $childHeightFutureCalculationData['motherHeight'],
                 $childHeightFutureCalculationData['fatherHeight']);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
 
@@ -646,14 +759,15 @@ class PagesController extends Controller
                 $childEyesColorCalculationData['motherEyesColor'],
                 $childEyesColorCalculationData['fatherEyesColor']);
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
 
         //41 cms-donation
         //42 cms-cookie
         //43 cms-policy
         //44 cms-translation
-        //44 cms-contact
+        //45 cms-contact
+        //47 cms-contact
         if (($pages->id == 41) or
             ($pages->id == 42) or
             ($pages->id == 43) or
@@ -671,6 +785,8 @@ class PagesController extends Controller
                 $pageViewData['currentPageName'] = 'cms-translation';
             if ($pages->id == 45)
                 $pageViewData['currentPageName'] = 'cms-contact';
+            //if ($pages->id == 47)
+            //    $pageViewData['currentPageName'] = 'cms-embed';
 
             $model = new Mail();
             $pageViewData['model'] = $model;
@@ -687,8 +803,32 @@ class PagesController extends Controller
                 
             }
 
-            return $this->render('one-page', $pageViewData);
+            return $this->render($renderPage, $pageViewData);
         }
+
+
+
+        //53 calendar-child-gender
+        if (($pages->id == 53)) {
+            //echo 'мы тут';
+            $pageViewData['currentPageName'] = 'calendar-child-gender';
+            $pageViewData['calculationDate'] = $calculationDate;
+            $pageViewData['ovulationCalculationData'] = $ovulationCalculationData;
+            $pageViewData['conceptionCalendar'] = WomanCalendars::conceptionCalendar(
+                $ovulationCalculationData['ovulationCalculationMenstrualLength'],
+                $ovulationCalculationData['ovulationCalculationCycleLength'],
+                $ovulationCalculationData['calculationDate']);
+            $pageViewData['allCalendarsData'] = [
+                'nameOfMonthsInYear' => WomanCalendars::nameOfMonthsInYear($calculationDate),
+                'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
+            ];
+
+            return $this->render($renderPage, $pageViewData);
+        }
+
+
+
+
 
        throw new NotFoundHttpException('404');
 
@@ -831,7 +971,7 @@ class PagesController extends Controller
                 'nameOfDaysInWeek' => WomanCalendars::nameOfDaysInWeek(),
             ];
 
-            $this->layout = '/print.php';
+
             return $this->render('/pages/calendar-parts/print.php',$pageViewData);
 
         }

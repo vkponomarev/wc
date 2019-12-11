@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Греческий
     // Common -----------------
     'Woman' => 'Γυναίκα',
     'Calculator' => 'Αριθμομηχανή',
@@ -134,6 +134,13 @@ return [
     'from' => 'από',
     'to' => 'πριν',
 
+
+    //new
+    'Choose your due date:' => 'Επιλέξτε την ημερομηνία λήξης:',
+    'Gestational age:' => 'Ηλικία κύησης:',
+    'Estimated date of conception:' => 'Εκτιμώμενη ημερομηνία σύλληψης:',
+    'Fertile day' => 'Γόνιμη μέρα',
+    'Choose a week of pregnancy:' => 'Επιλέξτε μια εβδομάδα της εγκυμοσύνης:',
 
     // measures
     'kilogram' => 'χιλιόγραμμο',

@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Румынский
     // Common -----------------
     'Woman' => 'Femeie',
     'Calculator' => 'Calculator',
@@ -134,6 +134,13 @@ return [
     'from' => 'din',
     'to' => 'la',
 
+
+    //new
+    'Choose your due date:' => 'Alegeți data de scadență:',
+    'Gestational age:' => 'Vârsta gestațională:',
+    'Estimated date of conception:' => 'Data estimată a concepției:',
+    'Fertile day' => 'Ziua fertilă',
+    'Choose a week of pregnancy:' => 'Alegeți o săptămână de sarcină:',
 
     // measures
     'kilogram' => 'kilogram',

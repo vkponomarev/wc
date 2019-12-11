@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Японский
     // Common -----------------
     'Woman' => '女性',
     'Calculator' => '電卓',
@@ -134,6 +134,13 @@ return [
     'from' => 'から',
     'to' => 'に',
 
+
+    //new
+    'Choose your due date:' => '期日を選択してください:',
+    'Gestational age:' => '妊娠期間:',
+    'Estimated date of conception:' => '受胎予定日:',
+    'Fertile day' => '肥沃な日',
+    'Choose a week of pregnancy:' => '妊娠の週を選択してください:',
 
     // measures
     'kilogram' => 'キログラム',

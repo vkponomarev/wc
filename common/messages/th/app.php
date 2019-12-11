@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Тайский
     // Common -----------------
     'Woman' => 'หญิง',
     'Calculator' => 'เครื่องคิดเลข',
@@ -133,6 +133,13 @@ return [
     'According to the Smirnov formula' => 'ตามสูตร Smirnov',
     'from' => 'จาก',
     'to' => 'ไปยัง',
+
+    //new
+    'Choose your due date:' => 'เลือกวันที่ครบกำหนดของคุณ:',
+    'Gestational age:' => 'อายุครรภ์:',
+    'Estimated date of conception:' => 'วันที่ความคิดโดยประมาณ:',
+    'Fertile day' => 'วันที่อุดมสมบูรณ์',
+    'Choose a week of pregnancy:' => 'เลือกหนึ่งสัปดาห์ของการตั้งครรภ์:',
 
 
     // measures

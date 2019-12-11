@@ -35,6 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'active',
             'menu_active',
             'main_page_active',
+            'sort',
         ],
     ]) ?>
 

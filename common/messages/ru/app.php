@@ -132,7 +132,12 @@ return [
     'from' => 'от',
     'to' => 'до',
 
-
+    //new
+    'Choose your due date:' => 'Выберите дату родов:',
+    'Gestational age:' => 'Гестационный возраст:',
+    'Estimated date of conception:' => 'Предполагаемая дата зачатия:',
+    'Fertile day' => 'Фертильный день',
+    'Choose a week of pregnancy:' => 'Выберите неделю беременности:',
 
     // measures
     'kilogram' => 'килограмм',

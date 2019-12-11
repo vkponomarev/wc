@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Чешский
     // Common -----------------
     'Woman' => 'Žena',
     'Calculator' => 'Kalkulačka',
@@ -134,6 +134,13 @@ return [
     'from' => 'z',
     'to' => 'na',
 
+
+    //new
+    'Choose your due date:' => 'Zvolte své datum splatnosti:',
+    'Gestational age:' => 'Gestační věk:',
+    'Estimated date of conception:' => 'Předpokládané datum početí:',
+    'Fertile day' => 'Úrodný den',
+    'Choose a week of pregnancy:' => 'Vyberte si týden těhotenství:',
 
     // measures
     'kilogram' => 'kilogram',

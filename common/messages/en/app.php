@@ -31,7 +31,6 @@ return [
     'Calculate ovulation' => 'Calculate ovulation',
     'Calculate conception' => 'Calculate conception',
 
-
     // Result
     'Result' => 'Result',
     'Your gestational age:' => 'Your gestational age:',
@@ -133,6 +132,14 @@ return [
     'According to the Smirnov formula' => 'According to the Smirnov formula',
     'from' => 'from',
     'to' => 'to',
+
+
+    //new
+    'Choose your due date:' => 'Choose your due date:',
+    'Gestational age:' => 'Gestational age:',
+    'Estimated date of conception:' => 'Estimated date of conception:',
+    'Fertile day' => 'Fertile day',
+    'Choose a week of pregnancy:' => 'Choose a week of pregnancy:',
 
 
     // measures

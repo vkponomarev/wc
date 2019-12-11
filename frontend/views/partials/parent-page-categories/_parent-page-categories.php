@@ -6,7 +6,7 @@
 
 ?>
 
-
+<?php if (!$this->params['isEmbed']): ?>
 <?php foreach ($this->params['parentPageCategories']['mainPageItems'] as $item): ?>
 
     <?php //echo print_r($item);?>
@@ -31,4 +31,5 @@
 
     </div>
 
-<?php endforeach ?>
+<?php endforeach; ?>
+<?php endif;?>

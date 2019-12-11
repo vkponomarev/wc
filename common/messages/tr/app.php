@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Турецкий
     // Common -----------------
     'Woman' => 'Kadın',
     'Calculator' => 'Hesap makinesi',
@@ -134,6 +134,13 @@ return [
     'from' => 'itibaren',
     'to' => 'için',
 
+
+    //new
+    'Choose your due date:' => 'Bitiş tarihinizi seçin:',
+    'Gestational age:' => 'Gebelik yaşı:',
+    'Estimated date of conception:' => 'Tahmini doğum tarihi:',
+    'Fertile day' => 'Bereketli gün',
+    'Choose a week of pregnancy:' => 'Hamilelik haftasını seçin:',
 
     // measures
     'kilogram' => 'kilogram',

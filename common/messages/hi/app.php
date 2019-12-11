@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Хинди
     // Common -----------------
     'Woman' => 'महिला',
     'Calculator' => 'कैलकुलेटर',
@@ -134,6 +134,13 @@ return [
     'from' => 'से',
     'to' => 'सेवा मेरे',
 
+
+    //new
+    'Choose your due date:' => 'अपनी नियत तारीख चुनें:',
+    'Gestational age:' => 'गर्भधारण की उम्र:',
+    'Estimated date of conception:' => 'गर्भाधान की अनुमानित तिथि:',
+    'Fertile day' => 'उपजाऊ दिन',
+    'Choose a week of pregnancy:' => 'गर्भावस्था का एक सप्ताह चुनें:',
 
     // measures
     'kilogram' => 'किलोग्राम',

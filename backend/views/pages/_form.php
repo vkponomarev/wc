@@ -54,6 +54,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'main_page_active')->dropDownList(\common\models\Pages::getStatusList()) ?>
 
+    <?= $form->field($model, 'sort')->textInput(['maxlength' => true]); ?>
     <?php /*= $form->field($model, 'pages')->widget(\kartik\select2\Select2::classname(), [
         'data' => \yii\helpers\ArrayHelper::map(\common\models\PagesText::find()->all(),'id','name'),
 

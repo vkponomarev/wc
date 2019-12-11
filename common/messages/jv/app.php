@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Яванский индонезия
     // Common -----------------
     'Woman' => 'Wadon',
     'Calculator' => 'Kalkulator',
@@ -133,6 +133,15 @@ return [
     'According to the Smirnov formula' => 'Miturut rumus Smirnov',
     'from' => 'saka',
     'to' => 'menyang',
+
+
+
+    //new
+    'Choose your due date:' => 'Pilih tanggal sing cocog karo sampeyan:',
+    'Gestational age:' => 'Umur gestasional:',
+    'Estimated date of conception:' => 'Tanggal tanggal konsepsi:',
+    'Fertile day' => 'Dina rereged',
+    'Choose a week of pregnancy:' => 'Pilih minggu meteng:',
 
 
     // measures

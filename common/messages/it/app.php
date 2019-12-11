@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Итальянский
     // Common -----------------
     'Woman' => 'Donna',
     'Calculator' => 'Calcolatrice',
@@ -134,6 +134,13 @@ return [
     'from' => 'a partire dal',
     'to' => 'a',
 
+
+    //new
+    'Choose your due date:' => 'Scegli la data di scadenza:',
+    'Gestational age:' => 'Età gestazionale:',
+    'Estimated date of conception:' => 'Data prevista di concepimento:',
+    'Fertile day' => 'Giorno fertile',
+    'Choose a week of pregnancy:' => 'Scegli una settimana di gravidanza:',
 
     // measures
     'kilogram' => 'chilogrammo',

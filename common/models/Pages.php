@@ -52,7 +52,7 @@ class Pages extends \yii\db\ActiveRecord
             [['url'],'unique'],
             [['menu_active'], 'integer'],
             [['main_page_active'], 'integer'],
-
+            [['sort'], 'integer'],
         ];
     }
 
@@ -69,6 +69,7 @@ class Pages extends \yii\db\ActiveRecord
             'active' => 'Active',
             'menu_active' => 'Menu active',
             'main_page_active' => 'Main active',
+            'sort' => 'Sort',
         ];
     }
 
@@ -183,6 +184,17 @@ class Pages extends \yii\db\ActiveRecord
 
 
         return $canonical;
+
+    }
+
+
+    public function embedUrl($url, $currentLanguages){
+
+        $relativeHomeUrl = \yii\helpers\Url::home(true);
+
+        $embedUrl = $relativeHomeUrl . $currentLanguages->url . '/' . $url . '/?embed=1';
+
+        return $embedUrl;
 
     }
 
@@ -439,7 +451,7 @@ class Pages extends \yii\db\ActiveRecord
     public function allPages()
     {
 
-        $allPages = Pages::find()->andWhere(['active'=>1])->all();
+        $allPages = Pages::find()->andWhere(['active'=>1])->orderBy('sort')->all();
 
         return $allPages;
 

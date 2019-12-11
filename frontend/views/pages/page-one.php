@@ -37,11 +37,12 @@ $this->params['calculationDate'] = $calculationDate;
 $this->params['model'] = $model;
 $this->params['alternate'] = $alternate;
 $this->params['canonical'] = $canonical;
-
+$this->params['isEmbed'] = $isEmbed;
+$this->params['embedUrl'] = $embedUrl;
 
 ?>
 
-<div class="container container-no-top-padding-extended">
+<div class="container container-no-top-padding-extended" height="100%">
 
     <div class="h1-main">
         <img src="/files/category-icons/<?=$allPagesData['pages']->id?>.png"
@@ -113,6 +114,7 @@ $this->params['canonical'] = $canonical;
             <?php
 
             echo  $this->render($currentPageName, [
+                'isEmbed' => $isEmbed,
                 'model' => $model,
                 'allCalendarsData' => $allCalendarsData,
                 'allAdvertising' => $allAdvertising,
@@ -147,6 +149,10 @@ $this->params['canonical'] = $canonical;
                 'childHeightFutureCalculation' => $childHeightFutureCalculation,
                 'childEyesColorCalculationData' => $childEyesColorCalculationData,
                 'childEyesColorCalculation' => $childEyesColorCalculation,
+                'dueDateByPregnancyWeekData' => $dueDateByPregnancyWeekData,
+                'dueDateByPregnancyWeekCalculation' => $dueDateByPregnancyWeekCalculation,
+                'conceptionDateByDueDateData' => $conceptionDateByDueDateData,
+                'conceptionDateByDueDateCalculation' => $conceptionDateByDueDateCalculation,
 
                  ])  ?>
 

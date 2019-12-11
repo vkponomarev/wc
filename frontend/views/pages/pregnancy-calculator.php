@@ -19,15 +19,13 @@ use kartik\date\DatePicker;
 
 ?>
 
-
-
-
-
-
-
         <div class="form-left">
 
             <form action="./#result">
+
+                <?php if ($this->params['isEmbed']): ?>
+                    <input type="hidden" name="embed" value="<?=$this->params['isEmbed']?>">
+                <?php endif; ?>
 
                 <div class="col-xs-12 col-sm-6 align-mid">
 
@@ -169,15 +167,6 @@ use kartik\date\DatePicker;
         <?=$this->render('/partials/share-social/_share-social.php',['currentLanguages' => $currentLanguages]);?>
 
         <?=$this->render('/partials/parent-page-categories/_parent-page-categories.php');?>
-
-
-
-
-
-
-
-
-
 
 
 

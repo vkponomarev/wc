@@ -24,6 +24,10 @@ use kartik\date\DatePicker;
 
         <form action="./#result">
 
+            <?php if ($this->params['isEmbed']): ?>
+                <input type="hidden" name="embed" value="<?=$this->params['isEmbed']?>">
+            <?php endif; ?>
+
             <div class="col-xs-12 col-sm-6 align-mid">
 
                 <div class="form-element-title">
@@ -247,7 +251,14 @@ use kartik\date\DatePicker;
 
 
 
-
+<script>
+    window.onload = function() {
+        var h = Math.ceil(document.body.scrollHeight / 30) * 30;
+        var ie = 0 /*@cc_on + @_jscript_version @*/;
+        if (!ie) window.name = "h" + h;
+        else top.location.replace("https://womancalc.loc/#h" + h);
+    }
+</script>
 
 
 

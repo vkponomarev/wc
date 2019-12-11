@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Корейский
     // Common -----------------
     'Woman' => '여자',
     'Calculator' => '계산자',
@@ -134,6 +134,12 @@ return [
     'from' => '에서',
     'to' => '에',
 
+    //new
+    'Choose your due date:' => '마감일을 선택하십시오:',
+    'Gestational age:' => '임신 적령기:',
+    'Estimated date of conception:' => '예상 임신 날짜:',
+    'Fertile day' => '비옥 한 날',
+    'Choose a week of pregnancy:' => '임신 주를 선택하십시오:',
 
     // measures
     'kilogram' => '킬로그램',

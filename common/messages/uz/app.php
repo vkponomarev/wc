@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    // Узбекский
     // Common -----------------
     'Woman' => 'Ayol',
     'Calculator' => 'Kalkulyator',
@@ -133,6 +133,13 @@ return [
     'According to the Smirnov formula' => 'Smirnov formulasiga muvofiq',
     'from' => 'dan',
     'to' => 'ga',
+
+    //new
+    'Choose your due date:' => 'Tugash sanasini tanlang:',
+    'Gestational age:' => 'Homiladorlik davri:',
+    'Estimated date of conception:' => 'Bashorat qilingan sana:',
+    'Fertile day' => 'Foydali kun',
+    'Choose a week of pregnancy:' => 'Homiladorlik haftasini tanlang:',
 
 
     // measures
