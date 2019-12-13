@@ -29,11 +29,19 @@
 
 }
 
-iframe
+/*iframe
 {
     background-color: transparent;
     border: none;
+}*/
+
+.background-transparent{
+
+    background-color: transparent;
+
 }
+
+
 /* Формы кальуляторов беременности */
 
 .pregnancy-calculator-form-extended{

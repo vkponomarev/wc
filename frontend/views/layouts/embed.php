@@ -29,7 +29,7 @@ AppAssetEmbed::register($this);
     <?php $this->head() ?>
 
 </head>
-<body>
+<body class="background-transparent">
 <?php $this->beginBody() ?>
 
 
