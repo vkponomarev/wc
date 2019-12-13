@@ -207,12 +207,16 @@ AppAsset::register($this);
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <ul class="contact">
                     <span><?=Yii::t('app','Read')?></span>
+                    <?php /*
                     <li>
                         <a href="/<?= Yii::$app->language ?>/embed/" rel="nofollow"><?=Yii::t('app','Embed calculator')?></a>
                     </li>
-                    <li>
+
+                     <li>
                          <br>
                     </li>
+                    */?>
+
                     <li>
                         <a href="/<?= Yii::$app->language ?>/cookie/" rel="nofollow"><?=Yii::t('app','Cookie info')?></a>
                     </li>

@@ -72,7 +72,6 @@ class Pages extends \yii\db\ActiveRecord
             'menu_active' => 'Menu active',
             'main_page_active' => 'Main active',
             'sort' => 'Sort',
-
             'embed' => 'Embed',
         ];
     }

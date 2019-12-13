@@ -5,7 +5,7 @@
 
 
 ?>
-
+<?php /*
 <?php if (!$this->params['isEmbed']): ?>
     <div class="embed-link" >
 
@@ -17,3 +17,5 @@
 
     </div>
 <?php endif; ?>
+*/
+?>
