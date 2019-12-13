@@ -7,27 +7,15 @@
 
 }
 
-.embed-code{
+.label-link{
 
-    padding-left: 20px;
-    background: #dcdcdc59;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    border-radius: 10px;
+    text-align: center;
+    margin: 2px 2px;
 
 }
 
-.form-embed{
 
-    text-align: -webkit-center;
-    text-align: -moz-center;
-}
 
-.select-extended-embed{
-
-    width:400px;
-
-}
 
 
 /* Формы кальуляторов беременности */
@@ -285,6 +273,8 @@
 
         display:block;
         border-top: 1px solid burlywood;
+        margin: 5px 0px;
+
     }
 
     .xs-align-mid{
@@ -308,7 +298,7 @@
 
     /*border:1px solid #0a73bb;
     width:100%;*/
-    padding-top:20px;
+    padding-top:5px;
     background-color: antiquewhite;
     border-top: 2px solid burlywood;
     border-top-left-radius: 10px;
@@ -327,7 +317,7 @@
 .form-left-title{
 
     font-size: 16px;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 
 }
 
@@ -336,7 +326,7 @@
 
     font-weight: normal;
     font-size: 13px;
-
+    margin-bottom:0px!important;
 }
 
 
@@ -374,6 +364,7 @@
     width: 233px;
     background-color: #fff;
     margin-top: 5px;
+    margin-bottom: 0px;
 
 }
 
@@ -409,8 +400,8 @@
     /*display: inline-flex;*/
     text-align: -moz-center;
     text-align: -webkit-center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 27px;
+    padding-bottom: 27px;
     background-color: darkseagreen;
     color: white;
     border-top: 3px solid #7f3d3d;
@@ -449,7 +440,7 @@
 
 .result-main-text{
 
-    font-size: 27px;
+    font-size: 17px;
 
 }
 

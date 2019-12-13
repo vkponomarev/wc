@@ -142,6 +142,10 @@ return [
     'Fertile day' => 'Úrodný den',
     'Choose a week of pregnancy:' => 'Vyberte si týden těhotenství:',
 
+    'Embed calculator' => 'Vložit kalkulačku',
+    'Embed on your website' => 'Vložte na svůj web',
+    'Choose calculator:' => 'Vyberte kalkulačku:',
+
     // measures
     'kilogram' => 'kilogram',
     'kg' => 'kg',

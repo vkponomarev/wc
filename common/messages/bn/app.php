@@ -141,6 +141,10 @@ return [
     'Fertile day' => 'উর্বর দিন',
     'Choose a week of pregnancy:' => 'গর্ভাবস্থার এক সপ্তাহ চয়ন করুন:',
 
+    'Embed calculator' => 'এম্বেড ক্যালকুলেটর',
+    'Embed on your website' => 'আপনার ওয়েবসাইটে এম্বেড করুন',
+    'Choose calculator:' => 'ক্যালকুলেটর চয়ন করুন:',
+
 
     // measures
     'kilogram' => 'কিলোগ্রাম',

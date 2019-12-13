@@ -143,6 +143,10 @@ return [
     'Fertile day' => 'Dina rereged',
     'Choose a week of pregnancy:' => 'Pilih minggu meteng:',
 
+    'Embed calculator' => 'Kalkulator nampilake',
+    'Embed on your website' => 'Embed',
+    'Choose calculator:' => 'Pilih kalkulator:',
+
 
     // measures
     'kilogram' => 'kilogram',

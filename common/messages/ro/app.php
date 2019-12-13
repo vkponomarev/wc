@@ -142,6 +142,10 @@ return [
     'Fertile day' => 'Ziua fertilă',
     'Choose a week of pregnancy:' => 'Alegeți o săptămână de sarcină:',
 
+    'Embed calculator' => 'Încorporați calculatorul',
+    'Embed on your website' => 'Încorporați pe site-ul dvs. web',
+    'Choose calculator:' => 'Alegeți calculatorul:',
+
     // measures
     'kilogram' => 'kilogram',
     'kg' => 'kg',

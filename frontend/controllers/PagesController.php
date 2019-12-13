@@ -79,7 +79,7 @@ class PagesController extends Controller
 
         $isEmbed = Yii::$app->request->get('embed');
 
-        // Если мы выводим встроенный калькулятор на стороннем сайте то используем соответсвующий шаблон
+
 
 
         $currentLanguages = Pages::currentLanguages();
@@ -89,8 +89,10 @@ class PagesController extends Controller
         $languagesSwitcher = Pages::languagesSwitcher();
         $alternate = Pages::alternate($url,$languagesSwitcher,$currentLanguages);
         $canonical = Pages::canonical($url,$currentLanguages);
-        $embedUrl = Pages::embedUrl($url,$currentLanguages);
 
+        //$embedUrl = Pages::embedUrl($url,$currentLanguages);
+
+        // Если мы выводим встроенный калькулятор на стороннем сайте то используем соответсвующий шаблон
         $renderPage = 'page-one';
 
         if ($isEmbed){
@@ -179,11 +181,15 @@ class PagesController extends Controller
             'dueDatePregnancyWeek' => Yii::$app->request->get('pregnancy-week'),
         ];
 
+        $embedUrl = Yii::$app->request->get('embed-url');
 
         $pageViewData = [
 
             'embedUrl' => $embedUrl,
             'isEmbed' => $isEmbed,
+            'embedIframeSize' => '0',
+            'embedPageTranslations' => '0',
+            'embedPagesSelect' => '0',
             'currentLanguages' => $currentLanguages,
             'currentPageName' => 0,
             'allPagesData' => $allPagesData,
@@ -767,12 +773,13 @@ class PagesController extends Controller
         //43 cms-policy
         //44 cms-translation
         //45 cms-contact
-        //47 cms-contact
+        //47 cms-embed
         if (($pages->id == 41) or
             ($pages->id == 42) or
             ($pages->id == 43) or
             ($pages->id == 44) or
             ($pages->id == 45)
+            or ($pages->id == 47)
         ) {
             //echo 'мы тут';
             if ($pages->id == 41)
@@ -785,8 +792,24 @@ class PagesController extends Controller
                 $pageViewData['currentPageName'] = 'cms-translation';
             if ($pages->id == 45)
                 $pageViewData['currentPageName'] = 'cms-contact';
-            //if ($pages->id == 47)
-            //    $pageViewData['currentPageName'] = 'cms-embed';
+            if ($pages->id == 47) {
+                $pageViewData['currentPageName'] = 'cms-embed';
+
+
+                if ($embedUrl) {
+                    if(!Pages::find()->andWhere(['url' => $embedUrl])->andWhere(['embed' => 1])->one()){
+                        throw new NotFoundHttpException('404');
+                    }
+                    $pageViewData['embedPageTranslations'] = Pages::onePagesTranslations($currentLanguages->id, $embedUrl);
+                    $pageViewData['embedIframeSize'] = WomanCalculators::embedIframeSize($embedUrl);
+
+                }
+
+                $pageViewData['embedPagesSelect'] = Pages::embedPagesSelect($allPages,$allPagesTranslations);
+
+            }
+
+
 
             $model = new Mail();
             $pageViewData['model'] = $model;

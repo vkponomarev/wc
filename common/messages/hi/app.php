@@ -142,6 +142,11 @@ return [
     'Fertile day' => 'उपजाऊ दिन',
     'Choose a week of pregnancy:' => 'गर्भावस्था का एक सप्ताह चुनें:',
 
+    'Embed calculator' => 'एंबेड कैलकुलेटर',
+    'Embed on your website' => 'अपनी वेबसाइट पर एम्बेड करें',
+    'Choose calculator:' => 'कैलकुलेटर चुनें:',
+
+
     // measures
     'kilogram' => 'किलोग्राम',
     'kg' => 'किलोग्राम',

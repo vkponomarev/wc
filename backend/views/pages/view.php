@@ -36,6 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'menu_active',
             'main_page_active',
             'sort',
+            'embed',
         ],
     ]) ?>
 

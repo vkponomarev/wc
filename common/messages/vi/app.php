@@ -142,6 +142,10 @@ return [
     'Choose a week of pregnancy:' => 'Chọn một tuần mang thai:',
 
 
+    'Embed calculator' => 'Máy tính nhúng',
+    'Embed on your website' => 'Nhúng vào trang web của bạn',
+    'Choose calculator:' => 'Chọn máy tính:',
+
 
     // measures
     'kilogram' => 'kilôgam',

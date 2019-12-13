@@ -142,6 +142,11 @@ return [
     'Fertile day' => 'Giorno fertile',
     'Choose a week of pregnancy:' => 'Scegli una settimana di gravidanza:',
 
+    'Embed calculator' => 'Incorpora calcolatrice',
+    'Embed on your website' => 'Incorpora nel tuo sito web',
+    'Choose calculator:' => 'Scegli la calcolatrice:',
+
+
     // measures
     'kilogram' => 'chilogrammo',
     'kg' => 'chilo',

@@ -141,7 +141,9 @@ return [
     'Fertile day' => 'Płodny dzień',
     'Choose a week of pregnancy:' => 'Wybierz tydzień ciąży:',
 
-
+    'Embed calculator' => 'Osadź kalkulator',
+    'Embed on your website' => 'Umieść na swojej stronie',
+    'Choose calculator:' => 'Wybierz kalkulator:',
 
     // measures
     'kilogram' => 'kilogram',

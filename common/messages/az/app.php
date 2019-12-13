@@ -141,6 +141,10 @@ return [
     'Fertile day' => 'Bərəkətli gün',
     'Choose a week of pregnancy:' => 'Hamiləliyin bir həftəsini seçin:',
 
+    'Embed calculator' => 'Kalkulyatoru yerləşdirin',
+    'Embed on your website' => 'Veb saytınıza yerləşdirin',
+    'Choose calculator:' => 'Kalkulyator seçin:',
+
     // measures
     'kilogram' => 'kiloqramdır',
     'kg' => 'kq',

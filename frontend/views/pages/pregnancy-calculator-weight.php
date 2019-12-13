@@ -22,11 +22,11 @@ use dosamigos\datepicker\DatePicker;
 
     <div class="form-left">
 
-        <form action="./#result">
+        <?=$this->render('/partials/embed/_embed-label-link.php');?>
 
-            <?php if ($this->params['isEmbed']): ?>
-                <input type="hidden" name="embed" value="<?=$this->params['isEmbed']?>">
-            <?php endif; ?>
+        <form action="./<?php if (!$this->params['isEmbed']):?>#result<?php endif;?>">
+
+            <?=$this->render('/partials/embed/_embed-hidden-input.php');?>
 
             <div class="form-content">
                 <div class="col-xs-12 col-sm-6 align-mid">
@@ -101,7 +101,7 @@ use dosamigos\datepicker\DatePicker;
 
 
 
-    <div class="<?php if ($pregnancyWeightCalculation['viewResult']==1):?>result-div-on<?php else: ?>result-div-off<?php endif ?>">
+    <div class="<?php if (($pregnancyWeightCalculation['viewResult']==1) or $this->params['isEmbed']):?>result-div-on<?php else: ?>result-div-off<?php endif ?>">
 
             <span class="form-result">
 
@@ -158,127 +158,6 @@ use dosamigos\datepicker\DatePicker;
                     <?php endif; ?>
 
 
-                    <?php
-                    //Yii::$app->formatter->baseUnits['UNIT_LENGTH']['UNIT_SYSTEM_IMPERIAL'] = 'inch';
-
-                    //Yii::$app->formatter->measureUnits['length']['metric'] = 10;
-
-                    //echo Yii::$app->formatter->asLength($pregnancyWeightCalculation['fetusChestDiameter']);
-                    //echo Yii::$app->formatter->asShortLength($pregnancyWeightCalculation['fetusChestDiameter']);
-
-                    //echo Yii::$app->formatter->baseUnits['length']['metric'] = 1;
-                    //echo Yii::$app->formatter->baseUnits['length']['metric'] = 10;
-                    //echo Yii::$app->formatter->baseUnits['length']['metric'] = 1000;
-                    /*Yii::$app->formatter->baseUnits['weight']['imperial'] = 1000;
-
-                    echo  '<br>';
-                    echo Yii::$app->formatter->asWeight(0) . '<br>';
-                    echo Yii::$app->formatter->asWeight(0.5) . '<br>';
-                    echo Yii::$app->formatter->asWeight(1) . '<br>';
-                    echo Yii::$app->formatter->asWeight(1.6) . '<br>';
-                    echo Yii::$app->formatter->asWeight(4000) . '<br>';*/
-
-                    /*Yii::$app->formatter->baseUnits['length']['metric'] = 1000;
-
-                    echo Yii::$app->formatter->asShortLength(0) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(0.5) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(1) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(1.6) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(4000) . '<br>';*/
-
-
-                   /* echo  '<br>';
-                    echo Yii::$app->formatter->baseUnits['length']['metric'] = 10;
-                    echo  '<br>';
-                    echo Yii::$app->formatter->asShortLength(0) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(1) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(10) . '<br>';
-
-
-                    echo Yii::$app->formatter->asLength(0) . '<br>';
-                    echo Yii::$app->formatter->asLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asLength(1) . '<br>';
-                    echo Yii::$app->formatter->asLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asLength(10) . '<br>';
-
-                    Yii::$app->formatter->baseUnits['length']['metric'] = 10;
-                    echo Yii::$app->formatter->asShortLength(0) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(1) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(10) . '<br>';
-
-                    Yii::$app->formatter->baseUnits['length']['metric'] = 10;
-                    echo Yii::$app->formatter->asLength(0) . '<br>';
-                    echo Yii::$app->formatter->asLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asLength(1) . '<br>';
-                    echo Yii::$app->formatter->asLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asLength(10) . '<br>';
-
-
-                    Yii::$app->formatter->baseUnits['length']['metric'] = 10;
-                    echo Yii::$app->formatter->asShortLength(0) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(1) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(10) . '<br>';
-
-                    Yii::$app->formatter->baseUnits['length']['metric'] = 10;
-                    echo Yii::$app->formatter->asLength(0) . '<br>';
-                    echo Yii::$app->formatter->asLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asLength(1) . '<br>';
-                    echo Yii::$app->formatter->asLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asLength(10) . '<br>';
-
-
-
-                    Yii::$app->formatter->baseUnits['length']['imperial'] = 12;
-                    echo Yii::$app->formatter->asShortLength(0) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(1) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(10) . '<br>';
-
-                    Yii::$app->formatter->baseUnits['length']['imperial'] = 7000;
-                    echo Yii::$app->formatter->asLength(0) . '<br>';
-                    echo Yii::$app->formatter->asLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asLength(1) . '<br>';
-                    echo Yii::$app->formatter->asLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asLength(10) . '<br>';
-
-
-                    Yii::$app->formatter->baseUnits['weight']['metric'] = 1000;
-                    echo Yii::$app->formatter->asShortLength(0) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(1) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asShortLength(10) . '<br>';
-
-                    Yii::$app->formatter->baseUnits['weight']['imperial'] = 437.5;
-                    echo Yii::$app->formatter->asLength(0) . '<br>';
-                    echo Yii::$app->formatter->asLength(0.55) . '<br>';
-                    echo Yii::$app->formatter->asLength(1) . '<br>';
-                    echo Yii::$app->formatter->asLength(2.7) . '<br>';
-                    echo Yii::$app->formatter->asLength(10) . '<br>';*/
-
-
-                    //Yii::$app->formatter->baseUnits['length']['metric'] = 1000000;
-                    //echo Yii::$app->formatter->asLength('22') . '<br>';
-                    //Yii::$app->formatter->baseUnits['length']['metric'] = 100;
-                    //Yii::$app->formatter->baseUnits['length']['metric'] = 1000000;
-                    //echo Yii::$app->formatter->asShortLength('22') . '<br>';
-                    //echo Yii::$app->formatter->asShortLength('0') . '<br>';
-                    //echo Yii::$app->formatter->asLength('0.5') . '<br>';
-                    //echo Yii::$app->formatter->asShortLength('1') . '<br>';
-                    //echo Yii::$app->formatter->asShortLength('2') . '<br>';
-                    //echo Yii::$app->formatter->asShortLength('2.7') . '<br>';
-
-                    ?>
-
-
-
                 </span>
 
 
@@ -288,13 +167,15 @@ use dosamigos\datepicker\DatePicker;
 
     </div>
 
+    <?=$this->render('/partials/embed/_embed-link-to-embed.php');?>
+
     <?=$this->render('/partials/share-social/_share-social.php',['currentLanguages' => $currentLanguages]);?>
 
 
 
 
 <?php
-//$childGenderBloodRenewal
+
 ?>
 
 

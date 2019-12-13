@@ -7451,4 +7451,15 @@ class WomanCalculatorsDataArrays {
 
     }
 
+    public function embedSize($url){
+
+        $embedSize['pregnancy-calculator']['large'] = [800,400];
+        $embedSize['pregnancy-calculator']['middle'] = [600,460];
+        $embedSize['pregnancy-calculator']['small'] = [280,540];
+
+        return $embedSize[$url];
+
+    }
+
+
 }

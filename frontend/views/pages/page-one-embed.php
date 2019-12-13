@@ -84,6 +84,10 @@ $this->params['embedUrl'] = $embedUrl;
                 'childHeightFutureCalculation' => $childHeightFutureCalculation,
                 'childEyesColorCalculationData' => $childEyesColorCalculationData,
                 'childEyesColorCalculation' => $childEyesColorCalculation,
+                'dueDateByPregnancyWeekData' => $dueDateByPregnancyWeekData,
+                'dueDateByPregnancyWeekCalculation' => $dueDateByPregnancyWeekCalculation,
+                'conceptionDateByDueDateData' => $conceptionDateByDueDateData,
+                'conceptionDateByDueDateCalculation' => $conceptionDateByDueDateCalculation,
 
                  ])  ?>
 </div>

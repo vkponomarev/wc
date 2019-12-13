@@ -141,6 +141,9 @@ return [
     'Fertile day' => 'วันที่อุดมสมบูรณ์',
     'Choose a week of pregnancy:' => 'เลือกหนึ่งสัปดาห์ของการตั้งครรภ์:',
 
+    'Embed calculator' => 'เครื่องคิดเลขฝัง',
+    'Embed on your website' => 'ฝังบนเว็บไซต์ของคุณ',
+    'Choose calculator:' => 'เลือกเครื่องคิดเลข:',
 
     // measures
     'kilogram' => 'กิโลกรัม',

@@ -142,6 +142,10 @@ return [
     'Fertile day' => '肥沃な日',
     'Choose a week of pregnancy:' => '妊娠の週を選択してください:',
 
+    'Embed calculator' => '埋め込み電卓',
+    'Embed on your website' => 'ウェブサイトに埋め込む',
+    'Choose calculator:' => '計算機を選択:',
+
     // measures
     'kilogram' => 'キログラム',
     'kg' => 'kg',

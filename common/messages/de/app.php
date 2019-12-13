@@ -141,6 +141,9 @@ return [
     'Fertile day' => 'Fruchtbarer Tag',
     'Choose a week of pregnancy:' => 'Wählen Sie eine Schwangerschaftswoche:',
 
+    'Embed calculator' => 'Rechner einbinden',
+    'Embed on your website' => 'Betten Sie auf Ihrer Website ein',
+    'Choose calculator:' => 'Rechner auswählen:',
 
     // measures
     'kilogram' => 'Kilogramm',

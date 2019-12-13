@@ -141,6 +141,11 @@ return [
     'Fertile day' => '비옥 한 날',
     'Choose a week of pregnancy:' => '임신 주를 선택하십시오:',
 
+    'Embed calculator' => '내장 계산기',
+    'Embed on your website' => '귀하의 웹 사이트에 포함',
+    'Choose calculator:' => '계산기를 선택하십시오:',
+
+
     // measures
     'kilogram' => '킬로그램',
     'kg' => '킬로그램',

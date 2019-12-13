@@ -6,6 +6,7 @@ use Faker\Provider\tr_TR\DateTime;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\web\NotFoundHttpException;
 
 /**
  * This is the model class for table "pages".
@@ -53,6 +54,7 @@ class Pages extends \yii\db\ActiveRecord
             [['menu_active'], 'integer'],
             [['main_page_active'], 'integer'],
             [['sort'], 'integer'],
+            [['embed'], 'integer'],
         ];
     }
 
@@ -70,6 +72,7 @@ class Pages extends \yii\db\ActiveRecord
             'menu_active' => 'Menu active',
             'main_page_active' => 'Main active',
             'sort' => 'Sort',
+            'embed' => 'Embed',
         ];
     }
 
@@ -580,7 +583,14 @@ class Pages extends \yii\db\ActiveRecord
     public function onePagesTranslations($languagesId,$url)
     {
 
-        $pages = Pages::find()->andWhere(['url' => $url])->one();
+       if($pages = Pages::find()->andWhere(['url' => $url])->one()){
+
+        } else {
+
+            throw new NotFoundHttpException('404');
+
+        }
+
         $pagesTranslation = PagesText::find()->andWhere(['pages_id' => $pages->id])->andWhere(['languages_id' => $languagesId])->one();
        // echo print_r($pagesTranslation);
 
@@ -642,6 +652,36 @@ class Pages extends \yii\db\ActiveRecord
         return $text;
 
     }
+
+
+    public function embedPagesSelect($allPages,$allPagesTranslations)
+    {
+
+        $embedPagesSelectCount = 0;
+        $embedPagesSelect = 0;
+
+        $embedPagesSelect = array();
+
+
+        foreach ($allPages as $one) {
+
+            if ($one->embed) {
+
+
+                $key = array_search($one->id, array_column($allPagesTranslations, 'pages_id'));
+
+                $embedPagesSelect[$embedPagesSelectCount]['plates_title'] = $allPagesTranslations[$key]['plates_title'];
+                $embedPagesSelect[$embedPagesSelectCount]['url'] = $one->url;
+
+                $embedPagesSelectCount++;
+
+
+            }
+        }
+        return $embedPagesSelect;
+    }
+
+
 
 
 

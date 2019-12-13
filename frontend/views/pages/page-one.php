@@ -42,7 +42,7 @@ $this->params['embedUrl'] = $embedUrl;
 
 ?>
 
-<div class="container container-no-top-padding-extended" height="100%">
+<div class="container container-no-top-padding-extended">
 
     <div class="h1-main">
         <img src="/files/category-icons/<?=$allPagesData['pages']->id?>.png"
@@ -115,6 +115,9 @@ $this->params['embedUrl'] = $embedUrl;
 
             echo  $this->render($currentPageName, [
                 'isEmbed' => $isEmbed,
+                'embedIframeSize' => $embedIframeSize,
+                'embedPageTranslations' => $embedPageTranslations,
+                'embedPagesSelect' => $embedPagesSelect,
                 'model' => $model,
                 'allCalendarsData' => $allCalendarsData,
                 'allAdvertising' => $allAdvertising,
@@ -161,6 +164,7 @@ $this->params['embedUrl'] = $embedUrl;
                 and ($allPagesData['pages']->id<>43)
                 and ($allPagesData['pages']->id<>44)
                 and ($allPagesData['pages']->id<>45)
+                and ($allPagesData['pages']->id<>47)
             ):?>
                 <?php if ($this->params['currentLanguages']->url=='ru'):?>
                     <?= $this->render('/partials/comments/_vk-comments.php')?>

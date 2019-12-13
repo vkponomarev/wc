@@ -2,12 +2,12 @@
 
 namespace common\models\components;
 
+use common\models\components\WomanCalculatorsDataArrays;
 use common\models\Pages;
 use Faker\Provider\tr_TR\DateTime;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use common\models\components\WomanCalculatorsDataArrays;
 /**
  * This is the model class for table "pages".
  *
@@ -212,6 +212,7 @@ class WomanCalculators extends Pages
         if (!$pregnancyCalculationMethod) {
 
             $pregnancyCalculationDivShow = false;
+            $daysToDueDate = 280;
 
         } else {
 
@@ -644,9 +645,9 @@ class WomanCalculators extends Pages
     public function childWeightHeightCalculation($childGender,$childAgeYears,$childAgeMonths){
         $viewResult = 1;
         if (!$childGender){
-            $childGender = 0;
-            $childAgeYears = 0;
-            $childAgeMonths = 0;
+            $childGender = 1;
+            $childAgeYears = 1;
+            $childAgeMonths = 1;
             $viewResult = 0;
         }
 
@@ -737,9 +738,9 @@ class WomanCalculators extends Pages
         $viewResult = 1;
 
         if (!$childGender){
-            $childGender = 0;
-            $motherHeight = 0;
-            $fatherHeight = 0;
+            $childGender = 1;
+            $motherHeight = 155;
+            $fatherHeight = 165;
             $viewResult = 0;
         }
 
@@ -782,12 +783,11 @@ class WomanCalculators extends Pages
         $viewResult = 1;
 
         if (!$motherEyesColor){
-            $motherEyesColor = 0;
-            $fatherEyesColor = 0;
+            $motherEyesColor = 1;
+            $fatherEyesColor = 1;
             $viewResult = 0;
             $childEyesColor = 0;
-        } else {
-
+        }
             $eyesColor[1]='brown';
             $eyesColor[2]='green';
             $eyesColor[3]='blue';
@@ -799,7 +799,7 @@ class WomanCalculators extends Pages
          $womanCalculatorsDataArrays = new WomanCalculatorsDataArrays();
          $childEyesColor = $womanCalculatorsDataArrays->childEyesColor($motherEyesColor,$fatherEyesColor);
 
-        }
+
         if ($childEyesColor<>0) {
             return [
                 'childEyesColorBrown' => $childEyesColor['childEyesColorBrown'],
@@ -810,9 +810,9 @@ class WomanCalculators extends Pages
         } else {
 
             return [
-                'childEyesColorBrown' => 0,
-                'childEyesColorGreen' => 0,
-                'childEyesColorBlue' => 0,
+                'childEyesColorBrown' => $childEyesColor['childEyesColorBrown'],
+                'childEyesColorGreen' => $childEyesColor['childEyesColorGreen'],
+                'childEyesColorBlue' => $childEyesColor['childEyesColorBlue'],
                 'viewResult' => $viewResult,
             ];
 
@@ -892,6 +892,20 @@ class WomanCalculators extends Pages
 
     }
 
+
+    public function embedIframeSize($url){
+
+        if ($url) {
+            $embedIframeSize = new WomanCalculatorsEmbedDataArrays();
+            $embedIframeSize = $embedIframeSize->embedIframeSize($url);
+        } else {
+            $embedIframeSize = 0;
+        }
+
+
+        return $embedIframeSize;
+
+    }
 
 
 

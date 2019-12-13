@@ -65,6 +65,7 @@ $test = '';
             ['attribute'=>'menu_active','filter'=>\common\models\Pages::getStatusList(),'value'=>'statusNameMenu'],
             ['attribute'=>'main_page_active','filter'=>\common\models\Pages::getStatusList(),'value'=>'statusNameMainPage'],
             'sort',
+            'embed',
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>

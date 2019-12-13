@@ -142,6 +142,10 @@ return [
     'Fertile day' => 'Родючий день',
     'Choose a week of pregnancy:' => 'Виберіть тиждень вагітності:',
 
+    'Embed calculator' => 'Вбудувати калькулятор',
+    'Embed on your website' => 'Вставити на свій веб-сайт',
+    'Choose calculator:' => 'Виберіть калькулятор:',
+
 
     // measures
     'kilogram' => 'кілограм',

@@ -142,6 +142,10 @@ return [
     'Fertile day' => '肥沃的一天',
     'Choose a week of pregnancy:' => '選擇懷孕一周:',
 
+    'Embed calculator' => '嵌入計算器',
+    'Embed on your website' => '嵌入您的網站',
+    'Choose calculator:' => '選擇計算器:',
+
     // measures
     'kilogram' => '公斤',
     'kg' => '公斤',

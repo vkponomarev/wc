@@ -20,11 +20,11 @@ use dosamigos\datepicker\DatePicker;
 
     <div class="form-left">
 
-        <form action="./#result">
+        <?=$this->render('/partials/embed/_embed-label-link.php');?>
 
-            <?php if ($this->params['isEmbed']): ?>
-                <input type="hidden" name="embed" value="<?=$this->params['isEmbed']?>">
-            <?php endif; ?>
+        <form action="./<?php if (!$this->params['isEmbed']):?>#result<?php endif;?>">
+
+            <?=$this->render('/partials/embed/_embed-hidden-input.php');?>
 
             <div class="form-content">
                 <div class="col-xs-12 col-sm-6 align-mid">
@@ -71,7 +71,7 @@ use dosamigos\datepicker\DatePicker;
 
 
 
-    <div class="<?php if ($pregnancyUziCalculation['viewResult']==1):?>result-div-on<?php else: ?>result-div-off<?php endif ?>">
+    <div class="<?php if (($pregnancyUziCalculation['viewResult']==1) or $this->params['isEmbed']):?>result-div-on<?php else: ?>result-div-off<?php endif ?>">
 
             <span class="form-result">
 
@@ -102,6 +102,8 @@ use dosamigos\datepicker\DatePicker;
         </div>
 
     </div>
+
+    <?=$this->render('/partials/embed/_embed-link-to-embed.php');?>
 
     <?=$this->render('/partials/share-social/_share-social.php',['currentLanguages' => $currentLanguages]);?>
 

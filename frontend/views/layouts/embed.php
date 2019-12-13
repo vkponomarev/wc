@@ -7,10 +7,12 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\AppAsset;
+use frontend\assets\AppAssetEmbed;
 use common\widgets\Alert;
 
-AppAsset::register($this);
+//AppAsset::register($this);
+
+AppAssetEmbed::register($this);
 //echo $this->params['title'];
 ?>
 <?php $this->beginPage() ?>
@@ -30,11 +32,11 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-<div class="wrap">
+
 
         <?= $content ?>
 
-</div>
+
 
 
 <?php $this->endBody() ?>

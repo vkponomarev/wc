@@ -139,6 +139,10 @@ return [
     'Fertile day' => 'Фертильный день',
     'Choose a week of pregnancy:' => 'Выберите неделю беременности:',
 
+    'Embed calculator' => 'Встроить калькулятор',
+    'Embed on your website' => 'Встроить на свой сайт',
+    'Choose calculator:' => 'Выберите калькулятор:',
+
     // measures
     'kilogram' => 'килограмм',
     'kg' => 'кг',

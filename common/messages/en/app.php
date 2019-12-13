@@ -141,6 +141,12 @@ return [
     'Fertile day' => 'Fertile day',
     'Choose a week of pregnancy:' => 'Choose a week of pregnancy:',
 
+    'Embed calculator' => 'Embed calculator',
+    'Embed on your website' => 'Embed on your website',
+    'Choose calculator:' => 'Choose calculator:',
+
+
+
 
     // measures
     'kilogram' => 'kilogram',

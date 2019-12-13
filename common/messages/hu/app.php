@@ -143,6 +143,9 @@ return [
     'Fertile day' => 'Termékeny nap',
     'Choose a week of pregnancy:' => 'Válasszon egy terhességi hetet:',
 
+    'Embed calculator' => 'Számológép beágyazása',
+    'Embed on your website' => 'Beágyazása webhelyére',
+    'Choose calculator:' => 'Válasszon számológépet:',
 
     // measures
     'kilogram' => 'kilogramm',

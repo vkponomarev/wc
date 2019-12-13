@@ -141,6 +141,9 @@ return [
     'Fertile day' => 'Foydali kun',
     'Choose a week of pregnancy:' => 'Homiladorlik haftasini tanlang:',
 
+    'Embed calculator' => 'Ichki kalkulyator',
+    'Embed on your website' => 'Veb-saytingizga joylashtiring',
+    'Choose calculator:' => 'Kalkulyatorni tanlang:',
 
     // measures
     'kilogram' => 'kilogrammni',

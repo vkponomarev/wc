@@ -142,6 +142,10 @@ return [
     'Fertile day' => 'Γόνιμη μέρα',
     'Choose a week of pregnancy:' => 'Επιλέξτε μια εβδομάδα της εγκυμοσύνης:',
 
+    'Embed calculator' => 'Ενσωμάτωση αριθμομηχανή',
+    'Embed on your website' => 'Ενσωματώστε στον ιστότοπό σας',
+    'Choose calculator:' => 'Επιλέξτε αριθμομηχανή:',
+
     // measures
     'kilogram' => 'χιλιόγραμμο',
     'kg' => 'κιλό',
