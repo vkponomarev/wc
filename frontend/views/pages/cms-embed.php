@@ -60,8 +60,6 @@
         allowfullscreen>
 </iframe>
 
-<br>
-<br>
 
 
 <br><br>
@@ -90,8 +88,6 @@
         allowfullscreen>
 </iframe>
 
-<br>
-<br>
 
 
 <br><br>
@@ -119,8 +115,7 @@
         scrolling="no"
         allowfullscreen>
 </iframe>
-<br>
-<br>
+
 
 
 
