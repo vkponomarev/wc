@@ -29,7 +29,11 @@
 
 }
 
-
+iframe
+{
+    background-color: transparent;
+    border: none;
+}
 /* Формы кальуляторов беременности */
 
 .pregnancy-calculator-form-extended{
