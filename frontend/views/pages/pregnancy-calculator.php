@@ -17,6 +17,7 @@
 
         <div class="form-left">
 
+
             <?=$this->render('/partials/embed/_embed-label-link.php');?>
 
             <form action="./<?php if (!$this->params['isEmbed']):?>#result<?php endif;?>">

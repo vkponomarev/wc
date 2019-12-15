@@ -143,6 +143,8 @@ return [
     'Embed on your website' => 'Встроить на свой сайт',
     'Choose calculator:' => 'Выберите калькулятор:',
 
+    'Calculator title' => 'Заголовок калькулятора',
+
     // measures
     'kilogram' => 'килограмм',
     'kg' => 'кг',

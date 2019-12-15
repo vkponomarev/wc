@@ -146,6 +146,7 @@ return [
     'Embed on your website' => 'Insertar en tu sitio web',
     'Choose calculator:' => 'Elige calculadora:',
 
+    'Calculator title' => 'Título de la calculadora',
 
     // measures
     'kilogram' => 'kilogramo',

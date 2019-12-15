@@ -146,6 +146,8 @@ return [
     'Embed on your website' => 'ウェブサイトに埋め込む',
     'Choose calculator:' => '計算機を選択:',
 
+    'Calculator title' => '計算機のタイトル',
+
     // measures
     'kilogram' => 'キログラム',
     'kg' => 'kg',

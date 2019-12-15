@@ -182,11 +182,12 @@ class PagesController extends Controller
         ];
 
         $embedUrl = Yii::$app->request->get('embed-url');
-
+        $embedTitle = Yii::$app->request->get('title');
         $pageViewData = [
 
             'embedUrl' => $embedUrl,
             'isEmbed' => $isEmbed,
+            'embedTitle' => $embedTitle,
             'embedIframeSize' => '0',
             'embedPageTranslations' => '0',
             'embedPagesSelect' => '0',

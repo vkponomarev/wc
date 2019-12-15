@@ -146,6 +146,8 @@ return [
     'Embed on your website' => 'Ενσωματώστε στον ιστότοπό σας',
     'Choose calculator:' => 'Επιλέξτε αριθμομηχανή:',
 
+    'Calculator title' => 'Τίτλος αριθμομηχανής',
+
     // measures
     'kilogram' => 'χιλιόγραμμο',
     'kg' => 'κιλό',

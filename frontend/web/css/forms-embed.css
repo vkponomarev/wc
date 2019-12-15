@@ -27,6 +27,18 @@ iframe
 
 }
 
+.embed-title {
+    text-align: center;
+    font-size: 17px;
+    background-color: burlywood;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+
 
 
 
@@ -310,7 +322,7 @@ iframe
 
     /*border:1px solid #0a73bb;
     width:100%;*/
-    padding-top:5px;
+    padding-top:0px;
     background-color: antiquewhite;
     border-top: 2px solid burlywood;
     border-top-left-radius: 10px;
@@ -328,7 +340,7 @@ iframe
 
 .form-left-title{
 
-    font-size: 16px;
+    font-size: 14px;
     /*margin-bottom: 10px;*/
 
 }
@@ -366,7 +378,7 @@ iframe
 
 .form-choose-date-text-1{
 
-    font-size: 16px;
+    font-size: 14px;
 
 }
 

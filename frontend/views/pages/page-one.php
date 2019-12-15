@@ -39,7 +39,7 @@ $this->params['alternate'] = $alternate;
 $this->params['canonical'] = $canonical;
 $this->params['isEmbed'] = $isEmbed;
 $this->params['embedUrl'] = $embedUrl;
-
+$this->params['embedTitle'] = $embedTitle;
 ?>
 
 <div class="container container-no-top-padding-extended">
@@ -118,6 +118,7 @@ $this->params['embedUrl'] = $embedUrl;
                 'embedIframeSize' => $embedIframeSize,
                 'embedPageTranslations' => $embedPageTranslations,
                 'embedPagesSelect' => $embedPagesSelect,
+                'embedTitle' => $embedTitle,
                 'model' => $model,
                 'allCalendarsData' => $allCalendarsData,
                 'allAdvertising' => $allAdvertising,

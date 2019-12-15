@@ -39,7 +39,7 @@ $this->params['alternate'] = $alternate;
 $this->params['canonical'] = $canonical;
 $this->params['isEmbed'] = $isEmbed;
 $this->params['embedUrl'] = $embedUrl;
-
+$this->params['embedTitle'] = $embedTitle;
 
 ?>
 
@@ -50,6 +50,7 @@ $this->params['embedUrl'] = $embedUrl;
 
             echo  $this->render($currentPageName, [
                 'isEmbed' => $isEmbed,
+                'embedTitle' => $embedTitle,
                 'model' => $model,
                 'allCalendarsData' => $allCalendarsData,
                 'allAdvertising' => $allAdvertising,

@@ -145,6 +145,7 @@ return [
     'Embed on your website' => '귀하의 웹 사이트에 포함',
     'Choose calculator:' => '계산기를 선택하십시오:',
 
+    'Calculator title' => '계산기 제목',
 
     // measures
     'kilogram' => '킬로그램',

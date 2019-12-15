@@ -147,6 +147,8 @@ return [
     'Embed on your website' => 'Beágyazása webhelyére',
     'Choose calculator:' => 'Válasszon számológépet:',
 
+    'Calculator title' => 'Számológép címe',
+
     // measures
     'kilogram' => 'kilogramm',
     'kg' => 'kg',

@@ -145,6 +145,7 @@ return [
     'Embed on your website' => 'আপনার ওয়েবসাইটে এম্বেড করুন',
     'Choose calculator:' => 'ক্যালকুলেটর চয়ন করুন:',
 
+    'Calculator title' => 'ক্যালকুলেটর শিরোনাম',
 
     // measures
     'kilogram' => 'কিলোগ্রাম',

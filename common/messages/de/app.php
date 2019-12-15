@@ -145,6 +145,8 @@ return [
     'Embed on your website' => 'Betten Sie auf Ihrer Website ein',
     'Choose calculator:' => 'Rechner auswählen:',
 
+    'Calculator title' => 'Rechnertitel',
+
     // measures
     'kilogram' => 'Kilogramm',
     'kg' => 'kg',

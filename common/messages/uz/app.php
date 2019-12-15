@@ -145,6 +145,8 @@ return [
     'Embed on your website' => 'Veb-saytingizga joylashtiring',
     'Choose calculator:' => 'Kalkulyatorni tanlang:',
 
+    'Calculator title' => 'Kalkulyator sarlavhasi',
+
     // measures
     'kilogram' => 'kilogrammni',
     'kg' => 'kg',

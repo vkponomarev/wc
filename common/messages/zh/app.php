@@ -146,6 +146,8 @@ return [
     'Embed on your website' => '嵌入您的網站',
     'Choose calculator:' => '選擇計算器:',
 
+    'Calculator title' => '計算器標題',
+
     // measures
     'kilogram' => '公斤',
     'kg' => '公斤',

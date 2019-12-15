@@ -146,6 +146,8 @@ return [
     'Embed on your website' => 'Web sitene yerleştir',
     'Choose calculator:' => 'Hesap makinesini seç:',
 
+    'Calculator title' => 'Hesap makinesi başlığı',
+
     // measures
     'kilogram' => 'kilogram',
     'kg' => 'kg',

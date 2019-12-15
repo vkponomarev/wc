@@ -145,6 +145,8 @@ return [
     'Embed on your website' => 'Veb saytınıza yerləşdirin',
     'Choose calculator:' => 'Kalkulyator seçin:',
 
+    'Calculator title' => 'Kalkulyator başlığı',
+
     // measures
     'kilogram' => 'kiloqramdır',
     'kg' => 'kq',

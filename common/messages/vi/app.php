@@ -146,6 +146,7 @@ return [
     'Embed on your website' => 'Nhúng vào trang web của bạn',
     'Choose calculator:' => 'Chọn máy tính:',
 
+    'Calculator title' => 'Tiêu đề máy tính',
 
     // measures
     'kilogram' => 'kilôgam',

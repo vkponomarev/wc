@@ -146,6 +146,7 @@ return [
     'Embed on your website' => 'Вставити на свій веб-сайт',
     'Choose calculator:' => 'Виберіть калькулятор:',
 
+    'Calculator title' => 'Назва калькулятора',
 
     // measures
     'kilogram' => 'кілограм',

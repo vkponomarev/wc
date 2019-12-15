@@ -146,6 +146,8 @@ return [
     'Embed on your website' => 'Încorporați pe site-ul dvs. web',
     'Choose calculator:' => 'Alegeți calculatorul:',
 
+    'Calculator title' => 'Titlul calculatorului',
+
     // measures
     'kilogram' => 'kilogram',
     'kg' => 'kg',

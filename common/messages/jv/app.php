@@ -147,6 +147,7 @@ return [
     'Embed on your website' => 'Embed',
     'Choose calculator:' => 'Pilih kalkulator:',
 
+    'Calculator title' => 'Judhul kalkulator',
 
     // measures
     'kilogram' => 'kilogram',

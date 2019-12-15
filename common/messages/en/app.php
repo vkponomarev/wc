@@ -145,6 +145,7 @@ return [
     'Embed on your website' => 'Embed on your website',
     'Choose calculator:' => 'Choose calculator:',
 
+    'Calculator title' => 'Calculator title',
 
 
 

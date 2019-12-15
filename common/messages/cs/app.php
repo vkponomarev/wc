@@ -146,6 +146,8 @@ return [
     'Embed on your website' => 'Vložte na svůj web',
     'Choose calculator:' => 'Vyberte kalkulačku:',
 
+    'Calculator title' => 'Název kalkulačky',
+
     // measures
     'kilogram' => 'kilogram',
     'kg' => 'kg',
