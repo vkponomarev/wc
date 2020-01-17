@@ -74,6 +74,8 @@ AppAsset::register($this);
     </script>
     <meta name="yandex-verification" content="40aa82a8394e6c36" />
 
+    <script data-ad-client="ca-pub-6533211636627045" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 
 </head>
 <body role="document">
