@@ -5,8 +5,10 @@
 
 
 //Страницы перед текстом 2
+if (!$this->params['isEmbed']) {
 
-echo \common\models\Advertising::showAdvertising(3,$allAdvertising);
+    echo \common\models\Advertising::showAdvertising(3,$allAdvertising);
 
+}
 ?>
 
