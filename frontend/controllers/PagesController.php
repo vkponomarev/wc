@@ -46,6 +46,7 @@ class PagesController extends Controller
             'allAdvertising' => Advertising::allAdvertising(),
             'alternate' => $alternate,
             'canonical' => $canonical,
+            'isEmbed' => 0,
 
         ]);
 
