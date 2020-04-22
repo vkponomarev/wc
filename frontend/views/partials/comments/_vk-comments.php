@@ -13,7 +13,7 @@ use yii\widgets\Pjax;
 
 
 ?>
-<?php Pjax::begin(); ?>
+
 <?php if (!Yii::$app->params['embed']): ?>
 <p><br></p>
 <div id="vk_comments"></div>
@@ -22,4 +22,4 @@ use yii\widgets\Pjax;
 </script>
 <p><br><br></p>
 <?php endif;?>
-<?php Pjax::end(); ?>
+
