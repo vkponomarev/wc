@@ -86,7 +86,10 @@ class ParentCategories
         }
 
         //создаем основной файл для крошек
-        $template = '<?=$this->render(\'/partials/view/parent-categories/\' . $pageID . \'/_\' . Yii::$app->language);?>';
+        $template = '<div>
+<?=$this->render(\'/partials/view/parent-categories/\' . $pageID . \'/_\' . Yii::$app->language);?>
+</div>
+<div class="clearfix"></div>';
         $fp = fopen($path . '/' . $partialsConfig['getParam'] . '.php', "w");
         // записываем в файл текст
         fwrite($fp, $template);

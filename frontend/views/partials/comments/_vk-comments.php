@@ -15,11 +15,11 @@ use yii\widgets\Pjax;
 ?>
 
 <?php if (!Yii::$app->params['embed']): ?>
-<p><br></p>
+<p><br>
 <div id="vk_comments"></div>
 <script type="text/javascript">
     VK.Widgets.Comments("vk_comments", {limit: 15, attach: "*"});
 </script>
-<p><br><br></p>
+<br><br></p>
 <?php endif;?>
 
