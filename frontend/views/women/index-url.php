@@ -129,7 +129,19 @@ $position = 1;
             ]);?>
 
 
-
+            <?php if (($pageID<>41)
+                and ($pageID<>42)
+                and ($pageID<>43)
+                and ($pageID<>44)
+                and ($pageID<>45)
+                and ($pageID<>47)
+            ):?>
+                <?php if (Yii::$app->language == 'ru'):?>
+                    <?= $this->render('/partials/comments/_vk-comments.php')?>
+                <?php else:?>
+                    <?= $this->render('/partials/comments/_fb-comments.php')?>
+                <?php endif;?>
+            <?php endif;?>
 
         </div>
 
