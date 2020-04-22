@@ -1,0 +1,4 @@
+
+        
+O‘zbek tili
+

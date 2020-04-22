@@ -6,16 +6,11 @@
 
 ?>
 
-<?php if ($this->params['isEmbed']): ?>
-    <?php if ($this->params['embedTitle']): ?>
+<?php if (Yii::$app->params['embed']): ?>
 
-        <div class="embed-title">
-            <?=$this->params['pagesTranslations']->plates_title?>
-        </div>
-    <?php endif; ?>
     <div class="label-link" >
 
-        <a href="https://womencalc.com/<?=$this->params['currentLanguages']->url;?>/" target="_blank">WomenCalc.com</a>
+        <a href="https://womencalc.com/<?= Yii::$app->language ?>/" target="_blank">womencalc.com</a>
 
     </div>
 <?php endif; ?>

@@ -52,21 +52,31 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'enableStrictParsing' => true,
+            'enableStrictParsing' => false,
             'class' => 'codemix\localeurls\UrlManager',
             'languages' => ['en','ru','es','pt','ja','de','ko','fr','jv','vi','it','tr','uk','th','pl','az','ro','uz','hu','el','cs','zh','hi','bn'],
             'enableDefaultLanguageUrlCode' => true,
             'rules' => [
-                '/' => 'pages/index',
-                '/<url>' => 'pages/one',
-                '/print/<url>' => 'pages/print',
-                '<action:(contact|login|logout|language|about|signup)>' => 'site/<action>',
+                '/' => 'main-page/index',
+                '/embed' => 'embed/index',
+                '/cookie' => 'cms/cookie',
+                '/policy' => 'cms/policy',
+                '/translation' => 'cms/translation',
+                '/donation' => 'cms/donation',
+                '/contact' => 'cms/contact',
+                '/script/artists-show' => 'scripts/artists-show',
+                '/<url>' => 'women/url',
+
+                //'/' => 'pages/index',
+                //'/<url>' => 'pages/one',
+                //'/print/<url>' => 'pages/print',
+
+
+                //'<action:(contact|login|logout|language|about|signup)>' => 'site/<action>',
                 //'blog/<url>' => 'blog/one',
                 //'blog' => 'blog/index',
 
-
             ],
-
             'suffix' => '/',
             'normalizer' => [
                 'class' => 'yii\web\UrlNormalizer',

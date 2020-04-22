@@ -1,6 +1,9 @@
 <?php
 
 /* @var $this \yii\web\View */
+
+use yii\widgets\Pjax;
+
 /* @var $content string */
 
 
@@ -10,8 +13,8 @@
 
 
 ?>
-
-<?php if (!$this->params['isEmbed']): ?>
+<?php Pjax::begin(); ?>
+<?php if (!Yii::$app->params['embed']): ?>
 <p><br></p>
 <div id="vk_comments"></div>
 <script type="text/javascript">
@@ -19,3 +22,4 @@
 </script>
 <p><br><br></p>
 <?php endif;?>
+<?php Pjax::end(); ?>

@@ -10,7 +10,7 @@
 
 use kartik\date\DatePicker;
 ?>
-<?php if (!$this->params['isEmbed']): ?>
+<?php if (!Yii::$app->params['embed']): ?>
 <div class="well well-sm form-date-picker-extended xs-align-mid">
     <?= DatePicker::widget([
         'name' => 'date',

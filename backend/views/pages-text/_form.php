@@ -51,34 +51,35 @@ use yii\widgets\ActiveForm;
     <div>
         <?php if ($model->menu_name):?>
             <?=$model->menu_name;?>
+            <br>
         <?php endif; ?>
-        <br>
-        <br>
+
+
         <?php if ($model->title):?>
             <?=$model->title;?>
+            <br>
         <?php endif; ?>
-        <br>
-        <br>
+
         <?php if ($model->plates_title):?>
             <?=$model->plates_title;?>
+            <br>
         <?php endif; ?>
-        <br>
-        <br>
+
         <?php if ($model->h1):?>
             <?=$model->h1;?>
+            <br>
         <?php endif; ?>
-        <br>
-        <br>
+
         <?php if ($model->description):?>
             <?=$model->description;?>
+            <br>
         <?php endif; ?>
-        <br>
-        <br>
+
         <?php if ($model->text1):?>
             <?=$model->text1;?>
+            <br>
         <?php endif; ?>
-        <br>
-        <br>
+
 
     </div>
 

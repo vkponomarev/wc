@@ -10,6 +10,8 @@
 
 ?>
 
-<?php foreach ($this->params['alternate'] as $one): ?>
-    <link rel="alternate" hreflang="<?= $one['language'] ?>" href="<?= $one['url'] ?>"/>
+<?php foreach (Yii::$app->params['language']['selection'] as $one): ?>
+<?php if ($one['url'] <> Yii::$app->language):?>
+    <link rel="alternate" hreflang="<?= $one['url'] ?>" href="<?= \yii\helpers\Url::home(true) . $one['url'] . '/' . Yii::$app->params['alternate'] ?>"/>
+<?php endif;?>
 <?php endforeach; ?>

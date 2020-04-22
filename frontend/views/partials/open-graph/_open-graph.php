@@ -11,10 +11,8 @@ $relativeHomeUrl = \yii\helpers\Url::home(true);
 
 
 ?>
-<?php if ($pages):?>
-<meta property="og:title" content="<?=$pagesTranslations->title?>" />
+    <meta property="og:title" content="<?= Yii::$app->params['page']['title'] ?>" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="<?=$relativeHomeUrl?><?=Yii::$app->language?>/<?=$pages->url?>/" />
-    <meta property="og:image" content="<?=$relativeHomeUrl?>files/category-icons/<?=$pages->id?>.png" />
-    <meta property="og:description" content="<?=$pagesTranslations->description?>" />
-<?php endif;?>
+    <meta property="og:url" content="<?=$relativeHomeUrl?><?=Yii::$app->language?>/<?=$getUrls['url']?>/" />
+    <meta property="og:image" content="<?=$relativeHomeUrl?>files/category-icons/<?=$icon?>" />
+    <meta property="og:description" content="<?= Yii::$app->params['page']['description'] ?>" />

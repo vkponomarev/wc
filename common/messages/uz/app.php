@@ -163,7 +163,207 @@ return [
     'Send' => 'Yuborish',
 
 
+//child age
+    'Choose your baby’s birthday:' => 'Kichkintoyingizning tug\'ilgan kunini tanlang:',
+    'Child age:' => 'Bola yoshi:',
 
+    '{n,plural, one{# second} few{# seconds} other{# seconds}}' => '{n,plural, one{# ikkinchi} few{# soniya} other{# soniya}}',
+    '{n,plural, one{# minute} few{# minutes} other{# minutes}}' => '{n,plural, one{# daqiqa} few{# daqiqa} other{# daqiqa}}',
+    '{n,plural, one{# hour} few{# hours} other{# hours}}' => '{n,plural, one{# soat} few{# soat} other{# soat}}',
+    '{n,plural, one{# year} few{# years} other{# year}}' => '{n,plural, one{# yil} few{# yillar} other{# yillar}}',
+
+
+//child body area
+    'Height (centimeters):' => 'Balandligi (santimetr):',
+    'Weight (kilograms):' => 'Vazni (kilogramm):',
+    'The surface area of the child’s body:' => 'Bola tanasining sirt maydoni:',
+
+
+//child body mass index
+    'Body mass index of a child:' => 'Bolaning tana massasi ko\'rsatkichi:',
+    'kilogram / meter' => 'kilogramm / metr',
+
+//child food
+
+    '3-4 days' => '3-4 kun',
+    '1 week' => '1 hafta',
+    '2 weeks' => '2 hafta',
+    '1 month' => '1 oy',
+    '2 months' => '2 oy',
+    '3 months' => '3 oy',
+    '4 months' => '4 oy',
+    '5 months' => '5 oy',
+    '6 months' => '6 oy',
+    '7 months' => '7 oy',
+    '8 months' => '8 oy',
+    '9 months' => '9 oy',
+    '10 months' => '10 oy',
+    '11 months' => '11 oy',
+    '12 months' => '12 oy',
+
+    'Amount of mixture / milk for 1 feeding (milliliters):' => '1 ta oziqlantirish uchun aralashma / sut miqdori (mililitr):',
+    'Amount of mixture / milk per day (milliliters):' => 'Bir sutkada aralash / sut miqdori (millilitr):',
+
+//child hair color
+    'Mom\'s hair color:' => 'Onamning soch rangi:',
+    'Dad\'s hair color:' => 'Dadamning soch rangi:',
+    'Dark' => 'Qorong\'i',
+    'Light' => 'Yorug\'lik',
+    'Redhead' => 'Redhead',
+
+    'With a high probability the child will have dark hair' => 'Ehtimol, bolada quyuq sochlar bo\'ladi',
+    'With a high degree of probability the child will have dark or brown hair' => 'Katta ehtimollik bilan bolada quyuq yoki jigarrang sochlar bo\'ladi',
+    'With a high probability the child will be blond or with light brown hair' => 'Katta ehtimollik bilan bola sarg\'ish yoki ochiq jigarrang sochli bo\'ladi',
+    'With a high probability the child will have red hair' => 'Katta ehtimollik bilan bolada qizil sochlar bo\'ladi',
+    'With a high degree of probability the child will have light blond or red hair' => 'Katta ehtimollik bilan bolada engil och sariq yoki qizil sochlar bo\'ladi',
+
+
+//child sleep
+    'Daytime sleep:' => 'Kunduzgi uxlash:',
+    'number of daytime dreams:' => 'kunduzgi orzular soni:',
+    'Night sleep:' => 'Tungi uyqu:',
+    'Total Dream:' => 'Umumiy tush:',
+
+//children number by date of birth
+    'Estimated number of children in the family:' => 'Oiladagi bolalarning taxminiy soni:',
+
+//probability
+    'The probability of having a baby with green eyes:' => 'Yashil ko\'zli bola tug\'ilish ehtimoli:',
+    'Chance of having a blue-eyed baby:' => 'Ko\'k ko\'zli bolani ko\'rish imkoniyati:',
+    'The probability of the birth of a brown-eyed child:' => 'Jigarrang ko\'zli bola tug\'ilishi ehtimoli:',
+
+
+    'The probability of having a baby of a certain gender:' => 'Ma\'lum bir jinsdagi bolali bo\'lish ehtimoli:',
+    'Russia:' => 'Rossiya:',
+    'Ukraine:' => 'Ukraina:',
+    'Kazakhstan:' => 'Qozog\'iston:',
+    'USA:' => 'AQSH:',
+    'Iceland:' => 'Islandiya:',
+
+    'Mother age (20-49):' => 'Onaning yoshi (20-49):',
+    'The possibility of giving birth to children with down syndrome:' => 'Tug\'ma sindromli bolalarni tug\'ish imkoniyati:',
+    'one of' => 'bittasi',
+    'The possibility of having children with a chromosomal disease:' => 'Xromosoma kasalligi bo\'lgan bolalarni tug\'ilish ehtimoli:',
+
+    'Mother:' => 'Ona:',
+    'Dad:' => 'Dadam:',
+    'Normal vision' => 'Oddiy ko\'rish',
+    'Color blindness' => 'Rangning ko\'rligi',
+    'The table of probability of color blindness of the child:' => 'Bolaning rang ko\'rligi ehtimoli jadvali:',
+    'Carrier' => 'Tashuvchi',
+    'Girls:' => 'Qizlar:',
+    'Boys:' => 'O\'g\'il bolalar:',
+
+
+    'Dark heterozygous' => 'To\'q rangli heterozigot',
+    'Dark homozygous' => 'To\'q rangli homozigot',
+    'Chance of having a dark-haired baby:' => 'Qora sochli bolani ko\'rish imkoniyati:',
+    'The probability of having a fair-haired baby:' => 'Oddiy sochli bolaga ega bo\'lish ehtimoli:',
+
+    'Choose how many children you want to give birth to:' => 'Siz qancha farzand tug\'ishni xohlayotganingizni tanlang:',
+    '1 girl' => '1 qiz',
+    '2 girls' => '2 qiz',
+    '3 girls' => '3 qiz',
+    '4 girls' => '4 qiz',
+    '1 boy' => '1 bola',
+    '2 boys' => '2 o\'g\'il',
+    '3 boys' => '3 o\'g\'il',
+    '4 boys' => '4 o\'g\'il',
+    '1 girl, 1 boy' => '1 qiz, 1 o\'g\'il',
+    '1 girl, 2 boys' => '1 qiz, 2 o\'g\'il',
+    '2 girls, 1 boy' => '2 qiz, 1 o\'g\'il',
+    '2 girls, 2 boys' => '2 qiz, 2 o\'g\'il',
+    '3 girls, 1 boy' => '3 qiz, 1 o\'g\'il',
+    '3 girls, 2 boys' => '3 qiz, 2 o\'g\'il',
+    '3 girls, 3 boys' => '3 qiz, 3 o\'g\'il',
+    '1 girl, 3 boys' => '1 qiz, 3 o\'g\'il',
+    '2 girls, 3 boys' => '2 qiz, 3 o\'g\'il',
+    'The probability of the selected option:' => 'Tanlangan tanlovning ehtimoli:',
+
+    'Age (18 - 50):' => 'Yoshingiz (18-50):',
+    'The probability of an ectopic pregnancy relative to age:' => 'Ektopik homiladorlikning yoshga nisbatan ehtimolligi:',
+    'The total frequency of ectopic pregnancy per 1000 pregnant women:' => '1000 homilador ayolga ektopik homiladorlikning umumiy chastotasi:',
+    'Risk factors for ectopic pregnancy:' => 'Ektopik homiladorlik uchun xavf omillari:',
+    'Operations on the fallopian tubes:' => 'Fallop naychalarida operatsiyalar:',
+    'History of WB:' => 'Jahon Bankining tarixi:',
+    'Anamnesis of salpingitis:' => 'Salpingitning anamnezi:',
+    'Infertility treatment:' => 'Bolalikni davolash:',
+    'Age less than 25 years:' => '25 yoshdan kichiklar:',
+    'Anamnesis of infertility:' => 'Bepushtlik anamnezi:',
+    'Smoking:' => 'Chekish:',
+    'Vaginal douching:' => 'Vaginal yuvish:',
+
+    'Age (18 - 44):' => 'Yoshingiz (18 - 44):',
+    'Chance of getting pregnant with IVF procedure:' => 'IVF protsedurasi bilan homilador bo\'lish imkoniyati:',
+
+    'Method of contraception:' => 'Kontratseptsiya usuli:',
+    'Unprotected intercourse' => 'Himoyalanmagan aloqalar',
+    'Unprotected intercourse during menstruation' => 'Hayz paytida himoyalanmagan aloqa',
+    'Unprotected intercourse the day before menstruation' => 'Hayz ko\'rishdan bir kun oldin himoyalanmagan aloqa',
+    'Unprotected intercourse after menstruation' => 'Hayzdan keyin himoyalanmagan aloqa',
+    'Unprotected intercourse on the day of ovulation' => 'Ovulyatsiya kunida himoyalanmagan aloqalar',
+    'Interrupted sexual intercourse' => 'Jinsiy aloqani uzish',
+    'Calendar method' => 'Taqvim usuli',
+    'Spermicides' => 'Spermitsidlar',
+    'Condom (female)' => 'Prezervativ (ayol)',
+    'Condom (male)' => 'Prezervativ (erkak)',
+    'Cervical caps (giving birth)' => 'Bachadon bo\'yni (tug\'ish)',
+    'Cervical caps (nulliparous)' => 'Bachadon bo\'yni (nullipar)',
+    'Vaginal diaphragm' => 'Vaginal diafragma',
+    'Intrauterine device' => 'Intrauterin qurilma',
+    'Complex hormonal' => 'Kompleks gormonal',
+    'Progestogen contraceptives' => 'Progestogen kontratseptivlar',
+    'Symptothermal method of recognition of fertility' => 'Urug\'lanishni tan olishning simptomatik usuli',
+    'Sterilization (female)' => 'Sterilizatsiya (ayol)',
+    'Sterilization (male)' => 'Sterilizatsiya (erkak)',
+    'Likelihood of a miscarriage:' => 'Bachadon tushish ehtimoli:',
+    'The probability of becoming pregnant depending on age:' => 'Yoshiga qarab homilador bo\'lish ehtimoli:',
+    'for 1 month:' => '1 oy mobaynida:',
+    'for 6 months:' => '6 oy mobaynida:',
+    'for 1 year:' => '1 yil uchun:',
+    'for 2 years:' => '2 yil mobaynida',
+    'The likelihood of becoming pregnant, depending on the contraception chosen:' => 'Tanlangan kontratseptsiya vositalariga qarab homilador bo\'lish ehtimoli:',
+    'Pearl Index:' => 'Pearl indeksi:',
+    'probability:' => 'ehtimol:',
+
+
+    'The average probability of a missed pregnancy:' => 'O\'tkazib yuborilgan homiladorlikning o\'rtacha ehtimoli:',
+    'The average probability of a missed pregnancy, depending on age:' => 'O\'tkazib yuborilgan homiladorlikning o\'rtacha ehtimoli, yoshiga qarab:',
+
+    'The average accuracy of a pregnancy test:' => 'Homiladorlik testining o\'rtacha aniqligi:',
+    'The average accuracy of a pregnancy test (strip):' => 'Homiladorlik testining o\'rtacha aniqligi (chizig\'i):',
+    'The average accuracy of a pregnancy test (tablet devices):' => 'Homiladorlik testining o\'rtacha aniqligi (planshetlar):',
+    'The average accuracy of a pregnancy test (inkjet device):' => 'Homiladorlik testining o\'rtacha aniqligi (inkjet moslamasi):',
+    'The average accuracy of a pregnancy test (digital devices):' => 'Homiladorlik testining o\'rtacha aniqligi (raqamli qurilmalar):',
+
+
+//blood type of the child
+    'Mom\'s blood type:' => 'Onamning qon turi:',
+    'Dad\'s blood type:' => 'Dadamning qon tarkibi:',
+    'Table of probable blood type of a child:' => 'Bolada mumkin bo\'lgan qon turlarining jadvali:',
+
+//child hemophillia
+    'No hemophilia' => 'Gemofiliya yo\'q',
+    'Hemophilia is present' => 'Gemofiliya mavjud',
+    'Probability table for hemophilia in a child:' => 'Boladagi gemofiliya ehtimolligi jadvali:',
+
+
+//child left right handed
+    'Right-handed' => 'O\'ng qo\'l',
+    'Left-handed' => 'Chapaqay',
+    'Probability table of a right-handed or left-handed child:' => 'O\'ng qo\'lli yoki chap qo\'lli bolaning ehtimoli jadvali:',
+    'Right-handed:' => 'O\'ng qo\'l:',
+    'Left-handed:' => 'Chapaqay:',
+
+//child migraine
+    'No migraine' => 'Migren yo\'q',
+    'Migraine is present' => 'O\'chokli mavjud',
+    'Probability table for migraine in a child:' => 'Boladagi migrenning ehtimolligi jadvali:',
+
+//child rhesus factor
+    'Rhesus factor mom:' => 'Rhesus omil onasi:',
+    'Rhesus factor dad:' => 'Rhesus omil dad:',
+    'Table of probable rhesus factor of the child:' => 'Bolaning mumkin bo\'lgan rezus omillari jadvali:',
 
 ];
 

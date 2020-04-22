@@ -6,9 +6,9 @@
 
 ?>
 
-<?php if ($this->params['isEmbed']): ?>
-    <input type="hidden" name="embed" value="<?=$this->params['isEmbed']?>">
+<?php if (Yii::$app->params['embed']): ?>
+    <input type="hidden" name="embed" value="1">
 <?php endif; ?>
-<?php if ($this->params['embedTitle']): ?>
-    <input type="hidden" name="title" value="<?=$this->params['embedTitle']?>">
+<?php if (Yii::$app->params['embedTitle']): ?>
+    <input type="hidden" name="title" value="2">
 <?php endif; ?>

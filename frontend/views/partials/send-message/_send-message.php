@@ -27,7 +27,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($this->params['model'], 'text')->textarea(['rows' => 10, 'cols' => 2])->label(Yii::t('app','Text')); ?>
 
-    <?= $form->field($this->params['model'], 'language')->hiddenInput(['value' => $this->params['currentLanguages']->url])->label(false) ?>
+    <?= $form->field($this->params['model'], 'language')->hiddenInput(['value' => Yii::$app->language])->label(false) ?>
 
     <?= $form->field($this->params['model'], 'date')->hiddenInput(['value' => date('Y-m-d')])->label(false) ?>
 

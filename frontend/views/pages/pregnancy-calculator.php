@@ -20,7 +20,7 @@
 
             <?=$this->render('/partials/embed/_embed-label-link.php');?>
 
-            <form action="./<?php if (!$this->params['isEmbed']):?>#result<?php endif;?>">
+            <form action="./<?php if (!Yii::$app->params['embed']):?>#result<?php endif;?>">
 
                 <?=$this->render('/partials/embed/_embed-hidden-input.php');?>
 
@@ -85,9 +85,8 @@
                 <div class="form-ad col-12">
                     <a name="result"></a>
 
-                <?= $this->render('/partials/ads/_ads_5', [
-                    'allAdvertising' => $allAdvertising])
-                ?>
+                <?= $this->render('/partials/ads/_ads_5')
+                        ?>
 
 
 
@@ -107,7 +106,7 @@
         </div>
 
 
-        <div class="<?php if (($pregnancyCalculation['pregnancyCalculationDivShow']) or $this->params['isEmbed']):?>result-div-on<?php else: ?>result-div-off<?php endif ?>">
+        <div class="<?php if (($pregnancyCalculation['pregnancyCalculationDivShow']) or Yii::$app->params['embed']):?>result-div-on<?php else: ?>result-div-off<?php endif ?>">
 
             <span class="form-result">
 
@@ -165,7 +164,7 @@
 
         <?=$this->render('/partials/embed/_embed-link-to-embed.php');?>
 
-        <?=$this->render('/partials/share-social/_share-social.php',['currentLanguages' => $currentLanguages]);?>
+        <?=$this->render('/partials/share-social/_share-social.php');?>
 
         <?=$this->render('/partials/parent-page-categories/_parent-page-categories.php');?>
 

@@ -189,17 +189,18 @@ class WomanCalculators extends Pages
          * 22 недели или 154 дня если второй ребенок
          */
 
-    public function pregnancyCalculation($pregnancyCalculationMethod,$pregnancyCalculationDate){
+    public function pregnancyCalculation($pregnancyCalculationMethod,$pregnancyCalculationDate)
+    {
 
-        if ($pregnancyCalculationMethod==1){
+        if ($pregnancyCalculationMethod == 1) {
 
             $daysToDueDate = 280;
 
-        } elseif ($pregnancyCalculationMethod==2){
+        } elseif ($pregnancyCalculationMethod == 2) {
 
             $daysToDueDate = 266;
 
-        } elseif ($pregnancyCalculationMethod==3){
+        } elseif ($pregnancyCalculationMethod == 3) {
 
             $daysToDueDate = 140;
 
@@ -226,7 +227,6 @@ class WomanCalculators extends Pages
         $dueDate->add(new \DateInterval('P' . $daysToDueDate . 'D'));
 
 
-
         $todayDate = new \DateTime();
         $now = time();
         $pregnancyBeginDate = new \DateTime($pregnancyCalculationDateInverse);
@@ -234,7 +234,7 @@ class WomanCalculators extends Pages
         $pregnancyWeeks = 0;
 
 
-        if ($pregnancyCalculationMethod==1) {
+        if ($pregnancyCalculationMethod == 1) {
 
             $pregnancyCalculationStartDate = new \DateTime($pregnancyCalculationDateInverse);
             //echo 'Выбранная дата ' . $pregnancyCalculationStartDate->format('Y-m-d') . '<br>';
@@ -243,7 +243,7 @@ class WomanCalculators extends Pages
             $datediff = ($datediff / (60 * 60 * 24));
             //echo 'в днях между сейчас и выбранной датой ' . $datediff . '<br>';
 
-            if ($datediff<0){
+            if ($datediff < 0) {
                 // Если мы указали будущую дату завтра допустим или еще дальше то мы планируем беременность
                 $pregnancyCalculationException = 'echoPlanning';
 
@@ -254,7 +254,7 @@ class WomanCalculators extends Pages
                 //echo 'Количество недель ' . ($pregnancyDaysMethodOne / 7) . '<br>';
                 $pregnancyWeeksMethodOne = ceil($pregnancyDaysMethodOne / 7);
                 //echo 'Количество целых недель ' . $pregnancyWeeksMethodOne . '<br>';
-                $pregnancyWeeks =  $pregnancyWeeksMethodOne;
+                $pregnancyWeeks = $pregnancyWeeksMethodOne;
                 //echo 'Количество целых недель ' . $pregnancyWeeks . '<br>';
 
                 if ($pregnancyWeeks > 40) {
@@ -265,7 +265,7 @@ class WomanCalculators extends Pages
 
         }
 
-        if ($pregnancyCalculationMethod==2) {
+        if ($pregnancyCalculationMethod == 2) {
 
             $pregnancyDaysMethodTwo = 14;
 
@@ -276,7 +276,7 @@ class WomanCalculators extends Pages
             $datediff = ($datediff / (60 * 60 * 24));
             //echo 'в днях между сейчас и выбранной датой ' . $datediff . '<br>';
 
-            if ($datediff<0){
+            if ($datediff < 0) {
                 // Если мы указали будущую дату завтра допустим или еще дальше то
                 // у нас есть 2 недели запас то есть в методе 2 беременность отсчитывается
                 // + 2 недели к выбранной дате зачатия
@@ -287,7 +287,7 @@ class WomanCalculators extends Pages
                 //echo 'Количество дней разницы  ' . $datediff . '<br>';
 
 
-                if ($datediff>14){
+                if ($datediff > 14) {
 
                     $pregnancyCalculationException = 'echoPlanning';
 
@@ -297,7 +297,7 @@ class WomanCalculators extends Pages
                     //echo 'Срок беременности  ' . $pregnancyDaysMethodTwo . '<br>';
                     $pregnancyWeeksMethodTwo = ceil($pregnancyDaysMethodTwo / 7);
                     //echo 'Срок беременности недель  ' . $pregnancyWeeksMethodTwo . '<br>';
-                    $pregnancyWeeks =  $pregnancyWeeksMethodTwo;
+                    $pregnancyWeeks = $pregnancyWeeksMethodTwo;
                     if ($pregnancyWeeks > 40) {
                         $pregnancyCalculationException = 'echoHaveBaby';
                     }
@@ -305,12 +305,12 @@ class WomanCalculators extends Pages
 
             } else {
                 // Если мы указали дату предыдущего дня или неделей ранее или месяцем ранее то считаем сколько дней и недель беременность.
-                $pregnancyDaysMethodTwo = $pregnancyDaysMethodTwo + ceil($datediff)-1;
+                $pregnancyDaysMethodTwo = $pregnancyDaysMethodTwo + ceil($datediff) - 1;
                 //echo 'в днях между сейчас и выбранной датой округлено + 2 недели ' . $pregnancyDaysMethodTwo . '<br>';
                 //echo 'Количество недель ' . ($pregnancyDaysMethodTwo / 7) . '<br>';
                 $pregnancyWeeksMethodTwo = ceil($pregnancyDaysMethodTwo / 7);
                 // echo 'Количество целых недель ' . $pregnancyWeeksMethodTwo . '<br>';
-                $pregnancyWeeks =  $pregnancyWeeksMethodTwo;
+                $pregnancyWeeks = $pregnancyWeeksMethodTwo;
                 if ($pregnancyWeeks > 40) {
                     $pregnancyCalculationException = 'echoHaveBaby';
                 }
@@ -319,8 +319,7 @@ class WomanCalculators extends Pages
         }
 
 
-
-         // текущее время (метка времени)
+        // текущее время (метка времени)
         $your_date = strtotime($pregnancyCalculationDateInverse); // какая-то дата в строке (1 января 2017 года)
 
         $pregnancyDays = $todayDate->diff($pregnancyBeginDate);
@@ -423,9 +422,7 @@ class WomanCalculators extends Pages
             'pregnancyCalculationExceptionMonth' => $pregnancyCalculationExceptionMonth,
 
         ];
-
     }
-
 
     /*
      * Длительность обновления крови матери 3 года

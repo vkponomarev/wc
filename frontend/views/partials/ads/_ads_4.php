@@ -4,7 +4,7 @@
 /* @var $content string */
 
 //	Страницы после текста 2
-if (!$this->params['isEmbed']) {
+if (!Yii::$app->params['embed']) {
 
     echo \common\models\Advertising::showAdvertising(4, $allAdvertising);
 

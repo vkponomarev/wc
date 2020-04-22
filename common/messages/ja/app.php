@@ -163,7 +163,207 @@ return [
     'Text' => 'テキスト',
     'Send' => '送る',
 
+//child age
+    'Choose your baby’s birthday:' => '赤ちゃんの誕生日を選択してください：',
+    'Child age:' => '子供の年齢：',
 
+    '{n,plural, one{# second} few{# seconds} other{# seconds}}' => '{n,plural, one{# 二番目} few{# 秒} other{# 秒}}',
+    '{n,plural, one{# minute} few{# minutes} other{# minutes}}' => '{n,plural, one{# 分} few{# 分} other{# 分}}',
+    '{n,plural, one{# hour} few{# hours} other{# hours}}' => '{n,plural, one{# 時間} few{# 時間} other{# 時間}}',
+    '{n,plural, one{# year} few{# years} other{# year}}' => '{n,plural, one{# 年} few{# 年} other{# 年}}',
+
+
+//child body area
+    'Height (centimeters):' => '高さ（センチメートル）：',
+    'Weight (kilograms):' => '重量（キログラム）：',
+    'The surface area of the child’s body:' => '子供の体の表面積：',
+
+
+//child body mass index
+    'Body mass index of a child:' => '子供のボディマス指数：',
+    'kilogram / meter' => 'キログラム/メートル',
+
+//child food
+
+    '3-4 days' => '3〜4日',
+    '1 week' => '1週間',
+    '2 weeks' => '2週間',
+    '1 month' => '1ヶ月',
+    '2 months' => '2ヶ月',
+    '3 months' => '3ヶ月',
+    '4 months' => '4ヶ月',
+    '5 months' => '5ヶ月',
+    '6 months' => '6ヶ月',
+    '7 months' => '7ヶ月',
+    '8 months' => '8ヶ月',
+    '9 months' => '9ヶ月',
+    '10 months' => '10ヶ月',
+    '11 months' => '11ヶ月',
+    '12 months' => '12ヶ月',
+
+    'Amount of mixture / milk for 1 feeding (milliliters):' => '1回の給餌のための混合物/牛乳の量（ミリリットル）：',
+    'Amount of mixture / milk per day (milliliters):' => '1日あたりの混合量/牛乳（ミリリットル）：',
+
+//child hair color
+    'Mom\'s hair color:' => 'ママの髪の色：',
+    'Dad\'s hair color:' => 'お父さんの髪の色：',
+    'Dark' => '闇',
+    'Light' => '光',
+    'Redhead' => '赤毛',
+
+    'With a high probability the child will have dark hair' => '高い確率で子供は黒髪になります',
+    'With a high degree of probability the child will have dark or brown hair' => '高い確率で、子供は黒っぽいまたは茶色の髪になります',
+    'With a high probability the child will be blond or with light brown hair' => '高い確率で子供は金髪または薄茶色の髪になります',
+    'With a high probability the child will have red hair' => '高い確率で子供は赤髪になります',
+    'With a high degree of probability the child will have light blond or red hair' => '高い確率で、子供は明るいブロンドまたは赤い髪になります',
+
+
+//child sleep
+    'Daytime sleep:' => '昼間の睡眠：',
+    'number of daytime dreams:' => '日中の夢の数：',
+    'Night sleep:' => '夜の睡眠：',
+    'Total Dream:' => 'トータルドリーム：',
+
+//children number by date of birth
+    'Estimated number of children in the family:' => '家族の推定子供の数：',
+
+//probability
+    'The probability of having a baby with green eyes:' => '緑の目で赤ちゃんが生まれる確率：',
+    'Chance of having a blue-eyed baby:' => '青い目の赤ちゃんが生まれるチャンス：',
+    'The probability of the birth of a brown-eyed child:' => '茶色の目の子供の誕生の確率：',
+
+
+    'The probability of having a baby of a certain gender:' => '特定の性別の赤ちゃんが生まれる確率：',
+    'Russia:' => 'ロシア：',
+    'Ukraine:' => 'ウクライナ：',
+    'Kazakhstan:' => 'カザフスタン：',
+    'USA:' => '米国：',
+    'Iceland:' => 'アイスランド：',
+
+    'Mother age (20-49):' => '母の年齢（20-49）：',
+    'The possibility of giving birth to children with down syndrome:' => 'ダウン症の子供を産む可能性：',
+    'one of' => 'の一つ',
+    'The possibility of having children with a chromosomal disease:' => '染色体病の子供がいる可能性：',
+
+    'Mother:' => '母：',
+    'Dad:' => 'パパ：',
+    'Normal vision' => '正常な視力',
+    'Color blindness' => '色覚異常',
+    'The table of probability of color blindness of the child:' => '子供の色覚異常の確率の表：',
+    'Carrier' => 'キャリア',
+    'Girls:' => '女の子：',
+    'Boys:' => '男の子：',
+
+
+    'Dark heterozygous' => '暗いヘテロ接合',
+    'Dark homozygous' => '暗いホモ接合',
+    'Chance of having a dark-haired baby:' => '黒髪の赤ちゃんが生まれるチャンス：',
+    'The probability of having a fair-haired baby:' => '金髪の赤ちゃんが生まれる確率：',
+
+    'Choose how many children you want to give birth to:' => '出産したい子供の数を選択してください：',
+    '1 girl' => '1人の女の子',
+    '2 girls' => '2人の女の子',
+    '3 girls' => '3人の女の子',
+    '4 girls' => '4人の女の子',
+    '1 boy' => '1人の少年',
+    '2 boys' => '2人の男の子',
+    '3 boys' => '3人の男の子',
+    '4 boys' => '4人の男の子',
+    '1 girl, 1 boy' => '女の子1人、男の子1人',
+    '1 girl, 2 boys' => '1人の女の子、2人の男の子',
+    '2 girls, 1 boy' => '2人の女の子、1人の男の子',
+    '2 girls, 2 boys' => '2人の女の子、2人の男の子',
+    '3 girls, 1 boy' => '3人の女の子、1人の男の子',
+    '3 girls, 2 boys' => '3人の女の子、2人の男の子',
+    '3 girls, 3 boys' => '3人の女の子、3人の男の子',
+    '1 girl, 3 boys' => '女の子1人、男の子3人',
+    '2 girls, 3 boys' => '2人の女の子、3人の男の子',
+    'The probability of the selected option:' => '選択したオプションの確率：',
+
+    'Age (18 - 50):' => '年齢（18〜50歳）：',
+    'The probability of an ectopic pregnancy relative to age:' => '年齢に対する子宮外妊娠の確率：',
+    'The total frequency of ectopic pregnancy per 1000 pregnant women:' => '妊婦1000人あたりの子宮外妊娠の総頻度：',
+    'Risk factors for ectopic pregnancy:' => '子宮外妊娠の危険因子：',
+    'Operations on the fallopian tubes:' => '卵管の操作：',
+    'History of WB:' => 'WBの歴史：',
+    'Anamnesis of salpingitis:' => '卵管炎の既往症：',
+    'Infertility treatment:' => '不妊治療：',
+    'Age less than 25 years:' => '25歳未満：',
+    'Anamnesis of infertility:' => '不妊の既往症：',
+    'Smoking:' => '喫煙：',
+    'Vaginal douching:' => '膣洗浄：',
+
+    'Age (18 - 44):' => '年齢（18〜44歳）：',
+    'Chance of getting pregnant with IVF procedure:' => 'IVF手順を妊娠するチャンス：',
+
+    'Method of contraception:' => '避妊の方法：',
+    'Unprotected intercourse' => '無防備な性交',
+    'Unprotected intercourse during menstruation' => '月経中の無防備な性交',
+    'Unprotected intercourse the day before menstruation' => '月経の前日の無防備な性交',
+    'Unprotected intercourse after menstruation' => '月経後の無防備な性交',
+    'Unprotected intercourse on the day of ovulation' => '排卵の日に無防備な性交',
+    'Interrupted sexual intercourse' => '性交の中断',
+    'Calendar method' => 'カレンダー方式',
+    'Spermicides' => '殺精子剤',
+    'Condom (female)' => 'コンドーム（女性）',
+    'Condom (male)' => 'コンドーム（男性）',
+    'Cervical caps (giving birth)' => '子宮頸部キャップ（出産）',
+    'Cervical caps (nulliparous)' => '子宮頸部キャップ（無脂肪）',
+    'Vaginal diaphragm' => '膣横隔膜',
+    'Intrauterine device' => '子宮内避妊器具',
+    'Complex hormonal' => '複雑なホルモン',
+    'Progestogen contraceptives' => 'プロゲストゲン避妊薬',
+    'Symptothermal method of recognition of fertility' => '生殖能力の認識の症候性方法',
+    'Sterilization (female)' => '滅菌（メス）',
+    'Sterilization (male)' => '滅菌（男性）',
+    'Likelihood of a miscarriage:' => '流産の可能性：',
+    'The probability of becoming pregnant depending on age:' => '年齢に応じて妊娠する確率：',
+    'for 1 month:' => '1か月間：',
+    'for 6 months:' => '6か月間：',
+    'for 1 year:' => '1年間：',
+    'for 2 years:' => '2年間：',
+    'The likelihood of becoming pregnant, depending on the contraception chosen:' => '選択した避妊具に応じて、妊娠する可能性：',
+    'Pearl Index:' => 'パールインデックス：',
+    'probability:' => '確率：',
+
+
+    'The average probability of a missed pregnancy:' => '見逃された妊娠の平均確率：',
+    'The average probability of a missed pregnancy, depending on age:' => '年齢に応じた、見逃された妊娠の平均確率：',
+
+    'The average accuracy of a pregnancy test:' => '妊娠検査の平均精度：',
+    'The average accuracy of a pregnancy test (strip):' => '妊娠検査（ストリップ）の平均精度：',
+    'The average accuracy of a pregnancy test (tablet devices):' => '妊娠検査の平均精度（タブレットデバイス）：',
+    'The average accuracy of a pregnancy test (inkjet device):' => '妊娠検査の平均精度（インクジェットデバイス）：',
+    'The average accuracy of a pregnancy test (digital devices):' => '妊娠検査の平均精度（デジタルデバイス）：',
+
+
+//blood type of the child
+    'Mom\'s blood type:' => 'ママの血液型：',
+    'Dad\'s blood type:' => 'お父さんの血液型：',
+    'Table of probable blood type of a child:' => '子供の推定血液型の表：',
+
+//child hemophillia
+    'No hemophilia' => '血友病なし',
+    'Hemophilia is present' => '血友病は存在しています',
+    'Probability table for hemophilia in a child:' => '子供の血友病の確率表：',
+
+
+//child left right handed
+    'Right-handed' => '右利き',
+    'Left-handed' => '左利き',
+    'Probability table of a right-handed or left-handed child:' => '右利きまたは左利きの子供の確率表：',
+    'Right-handed:' => '右利き：',
+    'Left-handed:' => '左利き：',
+
+//child migraine
+    'No migraine' => '片頭痛なし',
+    'Migraine is present' => '片頭痛が存在する',
+    'Probability table for migraine in a child:' => '子供の片頭痛の確率表：',
+
+//child rhesus factor
+    'Rhesus factor mom:' => 'アカゲザルのお母さん：',
+    'Rhesus factor dad:' => 'アカゲザルのお父さん：',
+    'Table of probable rhesus factor of the child:' => '子供の考えられるアカゲザル因子の表：',
 
 
 ];

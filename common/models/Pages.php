@@ -205,6 +205,7 @@ class Pages extends \yii\db\ActiveRecord
 
     public function currentLanguages()
     {
+
         $languages = Languages::find()->andWhere(['url' => Yii::$app->language])->one();
 
         return $languages;

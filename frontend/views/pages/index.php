@@ -21,7 +21,7 @@ $this->params['allAdvertising'] = $allAdvertising;
 $this->params['pages'] = $pages;
 $this->params['alternate'] = $alternate;
 $this->params['canonical'] = $canonical;
-$this->params['isEmbed'] = $isEmbed;
+Yii::$app->params['embed'] = $isEmbed;
 
 
 ?>

@@ -71,7 +71,9 @@ class Advertising extends \yii\db\ActiveRecord
 
     }
 
-    public function showAdvertising($placement,$allAdvertising){
+    public function showAdvertising($placement){
+
+        $allAdvertising = Advertising::find()->asArray()->all();
 
         $key = array_search($placement, array_column($allAdvertising, 'placement'));
 

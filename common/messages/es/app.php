@@ -163,7 +163,207 @@ return [
     'Text' => 'Texto',
     'Send' => 'Enviar',
 
+//child age
+    'Choose your baby’s birthday:' => 'Elige el cumpleaños de tu bebé:',
+    'Child age:' => 'Edad del niño:',
 
+    '{n,plural, one{# second} few{# seconds} other{# seconds}}' => '{n,plural, one{# segundo} few{# segundos} other{# segundos}}',
+    '{n,plural, one{# minute} few{# minutes} other{# minutes}}' => '{n,plural, one{# minuto} few{# minutos} other{# minutos}}',
+    '{n,plural, one{# hour} few{# hours} other{# hours}}' => '{n,plural, one{# hora} few{# horas} other{# horas}}',
+    '{n,plural, one{# year} few{# years} other{# year}}' => '{n,plural, one{# año} few{# años} other{# años}}',
+
+
+//child body area
+    'Height (centimeters):' => 'Altura (centímetros):',
+    'Weight (kilograms):' => 'Peso (kilogramos):',
+    'The surface area of the child’s body:' => 'El área de superficie del cuerpo del niño:',
+
+
+//child body mass index
+    'Body mass index of a child:' => 'Índice de masa corporal de un niño:',
+    'kilogram / meter' => 'kilogramo / metro',
+
+//child food
+
+    '3-4 days' => '3-4 días',
+    '1 week' => '1 semana',
+    '2 weeks' => '2 semanas',
+    '1 month' => '1 mes',
+    '2 months' => '2 meses',
+    '3 months' => '3 meses',
+    '4 months' => '4 meses',
+    '5 months' => '5 meses',
+    '6 months' => '6 meses',
+    '7 months' => '7 meses',
+    '8 months' => '8 meses',
+    '9 months' => '9 meses',
+    '10 months' => '10 meses',
+    '11 months' => '11 meses',
+    '12 months' => '12 meses',
+
+    'Amount of mixture / milk for 1 feeding (milliliters):' => 'Cantidad de mezcla / leche para 1 alimentación (mililitros):',
+    'Amount of mixture / milk per day (milliliters):' => 'Cantidad de mezcla / leche por día (mililitros):',
+
+//child hair color
+    'Mom\'s hair color:' => 'Color de cabello de mamá:',
+    'Dad\'s hair color:' => 'Color de cabello de papá:',
+    'Dark' => 'Oscuro',
+    'Light' => 'Ligero',
+    'Redhead' => 'Pelirrojo',
+
+    'With a high probability the child will have dark hair' => 'Con una alta probabilidad, el niño tendrá cabello oscuro.',
+    'With a high degree of probability the child will have dark or brown hair' => 'Con un alto grado de probabilidad, el niño tendrá cabello oscuro o café',
+    'With a high probability the child will be blond or with light brown hair' => 'Con una alta probabilidad, el niño será rubio o con cabello castaño claro.',
+    'With a high probability the child will have red hair' => 'Con una alta probabilidad, el niño tendrá el pelo rojo.',
+    'With a high degree of probability the child will have light blond or red hair' => 'Con un alto grado de probabilidad, el niño tendrá cabello rubio claro o rojo',
+
+
+//child sleep
+    'Daytime sleep:' => 'Sueño diurno:',
+    'number of daytime dreams:' => 'cantidad de sueños diurnos:',
+    'Night sleep:' => 'Noche de sueño:',
+    'Total Dream:' => 'Sueño total:',
+
+//children number by date of birth
+    'Estimated number of children in the family:' => 'Número estimado de hijos en la familia:',
+
+//probability
+    'The probability of having a baby with green eyes:' => 'La probabilidad de tener un bebé con ojos verdes:',
+    'Chance of having a blue-eyed baby:' => 'Posibilidad de tener un bebé de ojos azules:',
+    'The probability of the birth of a brown-eyed child:' => 'La probabilidad del nacimiento de un niño de ojos marrones:',
+
+
+    'The probability of having a baby of a certain gender:' => 'La probabilidad de tener un bebé de cierto género:',
+    'Russia:' => 'Rusia:',
+    'Ukraine:' => 'Ucrania:',
+    'Kazakhstan:' => 'Kazajstán',
+    'USA:' => 'ESTADOS UNIDOS:',
+    'Iceland:' => 'Islandia:',
+
+    'Mother age (20-49):' => 'Edad de la madre (20-49):',
+    'The possibility of giving birth to children with down syndrome:' => 'La posibilidad de dar a luz a niños con síndrome de down:',
+    'one of' => 'uno de',
+    'The possibility of having children with a chromosomal disease:' => 'La posibilidad de tener hijos con una enfermedad cromosómica:',
+
+    'Mother:' => 'Madre:',
+    'Dad:' => 'Papá:',
+    'Normal vision' => 'Visión normal',
+    'Color blindness' => 'Daltonismo',
+    'The table of probability of color blindness of the child:' => 'La tabla de probabilidad de daltonismo del niño:',
+    'Carrier' => 'Portador',
+    'Girls:' => 'Muchachas:',
+    'Boys:' => 'Niños:',
+
+
+    'Dark heterozygous' => 'Heterocigoto oscuro',
+    'Dark homozygous' => 'Oscuro homocigoto',
+    'Chance of having a dark-haired baby:' => 'Posibilidad de tener un bebé de cabello oscuro:',
+    'The probability of having a fair-haired baby:' => 'La probabilidad de tener un bebé rubio:',
+
+    'Choose how many children you want to give birth to:' => 'Elija a cuántos niños quiere dar a luz:',
+    '1 girl' => '1 niña',
+    '2 girls' => '2 chicas',
+    '3 girls' => '3 chicas',
+    '4 girls' => '4 chicas',
+    '1 boy' => '1 niño',
+    '2 boys' => '2 niños',
+    '3 boys' => '3 niños',
+    '4 boys' => '4 niños',
+    '1 girl, 1 boy' => '1 niña, 1 niño',
+    '1 girl, 2 boys' => '1 niña, 2 niños',
+    '2 girls, 1 boy' => '2 niñas, 1 niño',
+    '2 girls, 2 boys' => '2 niñas, 2 niños',
+    '3 girls, 1 boy' => '3 niñas, 1 niño',
+    '3 girls, 2 boys' => '3 niñas, 2 niños',
+    '3 girls, 3 boys' => '3 niñas, 3 niños',
+    '1 girl, 3 boys' => '1 niña, 3 niños',
+    '2 girls, 3 boys' => '2 niñas, 3 niños',
+    'The probability of the selected option:' => 'La probabilidad de la opción seleccionada:',
+
+    'Age (18 - 50):' => 'Edad (18-50):',
+    'The probability of an ectopic pregnancy relative to age:' => 'La probabilidad de un embarazo ectópico en relación con la edad:',
+    'The total frequency of ectopic pregnancy per 1000 pregnant women:' => 'La frecuencia total de embarazo ectópico por 1000 mujeres embarazadas:',
+    'Risk factors for ectopic pregnancy:' => 'Factores de riesgo para el embarazo ectópico:',
+    'Operations on the fallopian tubes:' => 'Operaciones en las trompas de Falopio:',
+    'History of WB:' => 'Historia de WB:',
+    'Anamnesis of salpingitis:' => 'Anamnesis de salpingitis:',
+    'Infertility treatment:' => 'Tratamiento de infertilidad:',
+    'Age less than 25 years:' => 'Edad menor de 25 años:',
+    'Anamnesis of infertility:' => 'Anamnesis de infertilidad:',
+    'Smoking:' => 'De fumar:',
+    'Vaginal douching:' => 'Duchas vaginales:',
+
+    'Age (18 - 44):' => 'Edad (18-44):',
+    'Chance of getting pregnant with IVF procedure:' => 'Posibilidad de quedar embarazada con un procedimiento de FIV:',
+
+    'Method of contraception:' => 'Método de anticoncepción:',
+    'Unprotected intercourse' => 'Relaciones sexuales sin protección',
+    'Unprotected intercourse during menstruation' => 'Coito sin protección durante la menstruación',
+    'Unprotected intercourse the day before menstruation' => 'Relaciones sexuales sin protección el día anterior a la menstruación.',
+    'Unprotected intercourse after menstruation' => 'Coito sin protección después de la menstruación',
+    'Unprotected intercourse on the day of ovulation' => 'Relaciones sexuales sin protección el día de la ovulación.',
+    'Interrupted sexual intercourse' => 'Relaciones sexuales interrumpidas',
+    'Calendar method' => 'Método de calendario',
+    'Spermicides' => 'Espermicidas',
+    'Condom (female)' => 'Condón (femenino)',
+    'Condom (male)' => 'Condón (masculino)',
+    'Cervical caps (giving birth)' => 'Tapones cervicales (dar a luz)',
+    'Cervical caps (nulliparous)' => 'Tapones cervicales (nulíparos)',
+    'Vaginal diaphragm' => 'Diafragma vaginal',
+    'Intrauterine device' => 'Dispositivo intrauterino',
+    'Complex hormonal' => 'Complejo hormonal',
+    'Progestogen contraceptives' => 'Anticonceptivos de progestágeno',
+    'Symptothermal method of recognition of fertility' => 'Método sintotérmico de reconocimiento de fertilidad.',
+    'Sterilization (female)' => 'Esterilización (hembra)',
+    'Sterilization (male)' => 'Esterilización (masculina)',
+    'Likelihood of a miscarriage:' => 'Probabilidad de un aborto espontáneo:',
+    'The probability of becoming pregnant depending on age:' => 'La probabilidad de quedar embarazada según la edad:',
+    'for 1 month:' => 'para 1 mes:',
+    'for 6 months:' => 'durante 6 meses:',
+    'for 1 year:' => 'por 1 año:',
+    'for 2 years:' => 'por 2 años:',
+    'The likelihood of becoming pregnant, depending on the contraception chosen:' => 'La probabilidad de quedar embarazada, dependiendo de la anticoncepción elegida:',
+    'Pearl Index:' => 'Índice de perlas:',
+    'probability:' => 'probabilidad:',
+
+
+    'The average probability of a missed pregnancy:' => 'La probabilidad promedio de un embarazo perdido:',
+    'The average probability of a missed pregnancy, depending on age:' => 'La probabilidad promedio de un embarazo perdido, según la edad:',
+
+    'The average accuracy of a pregnancy test:' => 'La precisión promedio de una prueba de embarazo:',
+    'The average accuracy of a pregnancy test (strip):' => 'La precisión promedio de una prueba de embarazo (tira):',
+    'The average accuracy of a pregnancy test (tablet devices):' => 'La precisión promedio de una prueba de embarazo (tabletas):',
+    'The average accuracy of a pregnancy test (inkjet device):' => 'La precisión promedio de una prueba de embarazo (dispositivo de inyección de tinta):',
+    'The average accuracy of a pregnancy test (digital devices):' => 'La precisión promedio de una prueba de embarazo (dispositivos digitales):',
+
+
+//blood type of the child
+    'Mom\'s blood type:' => 'Tipo de sangre de mamá:',
+    'Dad\'s blood type:' => 'Tipo de sangre de papá:',
+    'Table of probable blood type of a child:' => 'Tabla de probable tipo de sangre de un niño:',
+
+//child hemophillia
+    'No hemophilia' => 'Sin hemofilia',
+    'Hemophilia is present' => 'La hemofilia está presente',
+    'Probability table for hemophilia in a child:' => 'Tabla de probabilidad de hemofilia en un niño:',
+
+
+//child left right handed
+    'Right-handed' => 'Diestro',
+    'Left-handed' => 'Zurdo',
+    'Probability table of a right-handed or left-handed child:' => 'Tabla de probabilidad de un niño diestro o zurdo:',
+    'Right-handed:' => 'Diestro:',
+    'Left-handed:' => 'Zurdo:',
+
+//child migraine
+    'No migraine' => 'Sin migraña',
+    'Migraine is present' => 'La migraña está presente',
+    'Probability table for migraine in a child:' => 'Tabla de probabilidad de migraña en un niño:',
+
+//child rhesus factor
+    'Rhesus factor mom:' => 'Factor Rhesus mamá:',
+    'Rhesus factor dad:' => 'Factor Rhesus papá:',
+    'Table of probable rhesus factor of the child:' => 'Tabla de probable factor rhesus del niño:',
 
 
 ];

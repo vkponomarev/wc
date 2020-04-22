@@ -11,7 +11,9 @@ use Yii;
  * @property int $pages_id
  * @property int $languages_id
  * @property string $menu_name
+ * @property string $index_name
  * @property string $title
+ * @property string $plates_title
  * @property string $h1
  * @property string $description
  * @property string $keywords

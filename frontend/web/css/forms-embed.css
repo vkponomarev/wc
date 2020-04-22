@@ -9,8 +9,8 @@
 
 .label-link{
 
-    text-align: center;
-    margin: 2px 2px;
+    text-align: right;
+    padding: 10px 10px;
 
 }
 
@@ -33,9 +33,10 @@ iframe
     background-color: burlywood;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     color: black;
+    margin-bottom: 10px;
+    padding: 5px;
+
 }
 
 

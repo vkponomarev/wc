@@ -37,7 +37,7 @@ $this->params['calculationDate'] = $calculationDate;
 $this->params['model'] = $model;
 $this->params['alternate'] = $alternate;
 $this->params['canonical'] = $canonical;
-$this->params['isEmbed'] = $isEmbed;
+Yii::$app->params['embed'] = $isEmbed;
 $this->params['embedUrl'] = $embedUrl;
 $this->params['embedTitle'] = $embedTitle;
 ?>

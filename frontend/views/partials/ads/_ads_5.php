@@ -4,9 +4,9 @@
 /* @var $content string */
 
 //Страницы внутри формы калькулятора
-if (!$this->params['isEmbed']){
+if (!Yii::$app->params['embed']){
 
-    echo \common\models\Advertising::showAdvertising(5,$allAdvertising);
+    echo \common\components\mainPagesData\MainPagesDataAdvertising::showAdvertising(5);
 
 }
 

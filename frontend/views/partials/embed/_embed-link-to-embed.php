@@ -6,10 +6,10 @@
 
 ?>
 
-<?php if (!$this->params['isEmbed']): ?>
+<?php if (!Yii::$app->params['embed']): ?>
     <div class="embed-link" >
 
-        <a href="/<?=$this->params['currentLanguages']->url;?>/embed/?embed-url=<?=$this->params['pages']->url?>" rel="nofollow">
+        <a href="/<?= Yii::$app->language ?>/embed/?embed-url=<?= $this->params['getUrls']['url'] ?>&title=1" rel="nofollow">
 
             <?=Yii::t('app','Embed on your website')?>
 

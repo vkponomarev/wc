@@ -22,7 +22,7 @@ use dosamigos\datepicker\DatePicker;
 
         <?=$this->render('/partials/embed/_embed-label-link.php');?>
 
-        <form action="./<?php if (!$this->params['isEmbed']):?>#result<?php endif;?>">
+        <form action="./<?php if (!Yii::$app->params['embed']):?>#result<?php endif;?>">
 
             <?=$this->render('/partials/embed/_embed-hidden-input.php');?>
 
@@ -85,8 +85,7 @@ use dosamigos\datepicker\DatePicker;
                     <div class="form-ad col-12">
                         <a name="result"></a>
 
-                        <?= $this->render('/partials/ads/_ads_5', [
-                            'allAdvertising' => $allAdvertising])
+                        <?= $this->render('/partials/ads/_ads_5')
                         ?>
 
 
@@ -113,7 +112,7 @@ use dosamigos\datepicker\DatePicker;
 
 
 
-    <div class="<?php if (($childGenderRhFactor<>'n') or $this->params['isEmbed']):?>result-div-on<?php else: ?>result-div-off<?php endif ?>">
+    <div class="<?php if (($childGenderRhFactor<>'n') or Yii::$app->params['embed']):?>result-div-on<?php else: ?>result-div-off<?php endif ?>">
 
         <span class="form-result">
             <?=Yii::t('app','Result')?>
@@ -136,7 +135,7 @@ use dosamigos\datepicker\DatePicker;
 
     <?=$this->render('/partials/embed/_embed-link-to-embed.php');?>
 
-    <?=$this->render('/partials/share-social/_share-social.php',['currentLanguages' => $currentLanguages]);?>
+    <?=$this->render('/partials/share-social/_share-social.php');?>
 
 
 

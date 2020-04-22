@@ -70,7 +70,9 @@
 
 .dropdown-menu-hover:hover {
 
-    background-color: #f8f6f6;
+    background-color: #eaeaea;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
 
@@ -111,11 +113,11 @@ img.brand-image{
 .nav-shadow{
     border-top: 1px solid #f4f4f4;
     padding-top: 10px;
-    background-color: #fff;
+
     border-bottom: 1px solid #f4f4f4;
-    /* box-shadow: 0 3px 6px 0 rgba(50,50,50,.3); */
+    box-shadow: 0 1px 6px 0 rgba(10,10,10,.28);
     height: 92px;
-/* background: linear-gradient(to right, #f2e1ff, #fffaf9 );*/
+    background: #f0f0f087;
 }
 
 .nav-bar-padding{

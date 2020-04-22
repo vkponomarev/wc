@@ -9,12 +9,16 @@
 //echo $this->params['title'];
 
 
+use yii\widgets\Pjax;
 
 ?>
-<?php if (!$this->params['isEmbed']): ?>
+
+<?php Pjax::begin(); ?>
+
+<?php if (!Yii::$app->params['embed']): ?>
 <br>
 <div class="social-center">
-<?php if ($currentLanguages->url=='ru'):?>
+<?php if (Yii::$app->language == 'ru'):?>
 
 
     <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,twitter"></div>
@@ -25,3 +29,5 @@
 </div>
 <?php endif;?>
 <br>
+
+<?php Pjax::end(); ?>

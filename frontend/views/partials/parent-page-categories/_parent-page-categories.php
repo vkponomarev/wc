@@ -6,7 +6,7 @@
 
 ?>
 
-<?php if (!$this->params['isEmbed']): ?>
+<?php if (!Yii::$app->params['embed']): ?>
 <?php foreach ($this->params['parentPageCategories']['mainPageItems'] as $item): ?>
 
     <?php //echo print_r($item);?>

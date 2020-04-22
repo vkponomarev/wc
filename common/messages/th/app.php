@@ -162,7 +162,207 @@ return [
     'Text' => 'ข้อความ',
     'Send' => 'ส่ง',
 
+//child age
+    'Choose your baby’s birthday:' => 'เลือกวันเกิดของลูกน้อย:',
+    'Child age:' => 'อายุเด็ก:',
 
+    '{n,plural, one{# second} few{# seconds} other{# seconds}}' => '{n,plural, one{# ที่สอง} few{# วินาที} other{# วินาที}}',
+    '{n,plural, one{# minute} few{# minutes} other{# minutes}}' => '{n,plural, one{# นาที} few{# นาที} other{# นาที}}',
+    '{n,plural, one{# hour} few{# hours} other{# hours}}' => '{n,plural, one{# ชั่วโมง} few{# ชั่วโมง} other{# ชั่วโมง}}',
+    '{n,plural, one{# year} few{# years} other{# year}}' => '{n,plural, one{# ปี} few{# ปี} other{# ปี}}',
+
+
+//child body area
+    'Height (centimeters):' => 'ความสูง (เซนติเมตร):',
+    'Weight (kilograms):' => 'น้ำหนัก (กิโลกรัม):',
+    'The surface area of the child’s body:' => 'พื้นที่ผิวของร่างกายเด็ก:',
+
+
+//child body mass index
+    'Body mass index of a child:' => 'ดัชนีมวลกายของเด็ก:',
+    'kilogram / meter' => 'กิโลกรัม / เมตร',
+
+//child food
+
+    '3-4 days' => '3-4 วัน',
+    '1 week' => '1 สัปดาห์',
+    '2 weeks' => '2 สัปดาห์',
+    '1 month' => '1 เดือน',
+    '2 months' => '2 เดือน',
+    '3 months' => '3 เดือน',
+    '4 months' => '4 เดือน',
+    '5 months' => '5 เดือน',
+    '6 months' => '6 เดือน',
+    '7 months' => '7 เดือน',
+    '8 months' => '8 เดือน',
+    '9 months' => '9 เดือน',
+    '10 months' => '10 เดือน',
+    '11 months' => '11 เดือน',
+    '12 months' => '12 เดือน',
+
+    'Amount of mixture / milk for 1 feeding (milliliters):' => 'ปริมาณของการผสม / นมสำหรับการให้อาหาร 1 ครั้ง (มิลลิลิตร):',
+    'Amount of mixture / milk per day (milliliters):' => 'ปริมาณของการผสม / นมต่อวัน (มิลลิลิตร):',
+
+//child hair color
+    'Mom\'s hair color:' => 'สีผมของแม่:',
+    'Dad\'s hair color:' => 'สีผมของพ่อ:',
+    'Dark' => 'มืด',
+    'Light' => 'เบา',
+    'Redhead' => 'หัวแดง',
+
+    'With a high probability the child will have dark hair' => 'มีโอกาสสูงที่เด็กจะมีผมสีเข้ม',
+    'With a high degree of probability the child will have dark or brown hair' => 'ด้วยความน่าจะเป็นสูงเด็กจะมีผมสีดำหรือสีน้ำตาล',
+    'With a high probability the child will be blond or with light brown hair' => 'มีโอกาสสูงที่เด็กจะเป็นสีบลอนด์หรือผมสีน้ำตาลอ่อน',
+    'With a high probability the child will have red hair' => 'มีโอกาสสูงที่เด็กจะมีผมสีแดง',
+    'With a high degree of probability the child will have light blond or red hair' => 'ด้วยความน่าจะเป็นสูงเด็กจะมีผมสีบลอนด์อ่อนหรือผมแดง',
+
+
+//child sleep
+    'Daytime sleep:' => 'นอนกลางวัน:',
+    'number of daytime dreams:' => 'จำนวนความฝันในเวลากลางวัน:',
+    'Night sleep:' => 'นอนหลับตอนกลางคืน:',
+    'Total Dream:' => 'ความฝันทั้งหมด:',
+
+//children number by date of birth
+    'Estimated number of children in the family:' => 'จำนวนเด็กโดยประมาณในครอบครัว:',
+
+//probability
+    'The probability of having a baby with green eyes:' => 'ความน่าจะเป็นที่จะมีลูกด้วยตาสีเขียว:',
+    'Chance of having a blue-eyed baby:' => 'โอกาสที่จะมีลูกตาสีฟ้า:',
+    'The probability of the birth of a brown-eyed child:' => 'ความน่าจะเป็นที่เกิดเด็กตาสีน้ำตาล:',
+
+
+    'The probability of having a baby of a certain gender:' => 'ความน่าจะเป็นที่จะมีลูกเพศที่แน่นอน:',
+    'Russia:' => 'รัสเซีย:',
+    'Ukraine:' => 'ยูเครน:',
+    'Kazakhstan:' => 'คาซัคสถาน:',
+    'USA:' => 'สหรัฐอเมริกา:',
+    'Iceland:' => 'ไอซ์แลนด์:',
+
+    'Mother age (20-49):' => 'อายุแม่ (20-49):',
+    'The possibility of giving birth to children with down syndrome:' => 'ความเป็นไปได้ของการให้กำเนิดเด็กที่มีอาการดาวน์:',
+    'one of' => 'หนึ่งใน',
+    'The possibility of having children with a chromosomal disease:' => 'ความเป็นไปได้ของการมีลูกด้วยโรคโครโมโซม:',
+
+    'Mother:' => 'แม่:',
+    'Dad:' => 'พ่อ:',
+    'Normal vision' => 'การมองเห็นปกติ',
+    'Color blindness' => 'ตาบอดสี',
+    'The table of probability of color blindness of the child:' => 'ตารางความน่าจะเป็นของการตาบอดสีของเด็ก:',
+    'Carrier' => 'ผู้ให้บริการ',
+    'Girls:' => 'หญิง:',
+    'Boys:' => 'บอย:',
+
+
+    'Dark heterozygous' => 'heterozygous มืด',
+    'Dark homozygous' => 'มืด homozygous',
+    'Chance of having a dark-haired baby:' => 'โอกาสที่จะมีลูกมีผมสีเข้ม:',
+    'The probability of having a fair-haired baby:' => 'ความน่าจะเป็นที่จะมีลูกที่มีผมสีขาว:',
+
+    'Choose how many children you want to give birth to:' => 'เลือกจำนวนเด็กที่คุณต้องการให้กำเนิด:',
+    '1 girl' => 'ผู้หญิง 1 คน',
+    '2 girls' => '2 สาว ๆ',
+    '3 girls' => '3 สาว',
+    '4 girls' => '4 สาว ๆ',
+    '1 boy' => 'เด็กชาย 1 คน',
+    '2 boys' => 'เด็กชาย 2 คน',
+    '3 boys' => 'เด็กชาย 3 คน',
+    '4 boys' => 'เด็กชาย 4 คน',
+    '1 girl, 1 boy' => '1 เด็กหญิง 1 เด็กชาย',
+    '1 girl, 2 boys' => '1 เด็กหญิง 2 เด็กชาย',
+    '2 girls, 1 boy' => '2 เด็กหญิง 1 เด็กชาย',
+    '2 girls, 2 boys' => '2 เด็กหญิง 2 เด็กชาย',
+    '3 girls, 1 boy' => '3 เด็กหญิง 1 เด็กชาย',
+    '3 girls, 2 boys' => '3 เด็กหญิง 2 เด็กชาย',
+    '3 girls, 3 boys' => '3 เด็กหญิง 3 เด็กชาย',
+    '1 girl, 3 boys' => '1 เด็กหญิง 3 เด็กชาย',
+    '2 girls, 3 boys' => '2 เด็กหญิง 3 เด็กชาย',
+    'The probability of the selected option:' => 'ความน่าจะเป็นของตัวเลือกที่เลือก:',
+
+    'Age (18 - 50):' => 'อายุ (18 - 50):',
+    'The probability of an ectopic pregnancy relative to age:' => 'ความน่าจะเป็นของการตั้งครรภ์นอกมดลูกเมื่อเทียบกับอายุ:',
+    'The total frequency of ectopic pregnancy per 1000 pregnant women:' => 'ความถี่รวมของการตั้งครรภ์นอกมดลูกต่อสตรีมีครรภ์ 1,000 คน:',
+    'Risk factors for ectopic pregnancy:' => 'ปัจจัยเสี่ยงต่อการตั้งครรภ์นอกมดลูก:',
+    'Operations on the fallopian tubes:' => 'การดำเนินงานเกี่ยวกับท่อนำไข่:',
+    'History of WB:' => 'ประวัติ WB:',
+    'Anamnesis of salpingitis:' => 'ของปีกมดลูกอักเสบ:',
+    'Infertility treatment:' => 'การรักษาภาวะมีบุตรยาก:',
+    'Age less than 25 years:' => 'อายุน้อยกว่า 25 ปี:',
+    'Anamnesis of infertility:' => 'ของภาวะมีบุตรยาก:',
+    'Smoking:' => 'การสูบบุหรี่:',
+    'Vaginal douching:' => 'การสวนล้างช่องคลอด:',
+
+    'Age (18 - 44):' => 'อายุ (18 - 44):',
+    'Chance of getting pregnant with IVF procedure:' => 'โอกาสที่จะตั้งครรภ์ด้วยวิธี IVF:',
+
+    'Method of contraception:' => 'วิธีการคุมกำเนิด:',
+    'Unprotected intercourse' => 'การมีเพศสัมพันธ์ที่ไม่มีการป้องกัน',
+    'Unprotected intercourse during menstruation' => 'การมีเพศสัมพันธ์ที่ไม่มีการป้องกันในระหว่างมีประจำเดือน',
+    'Unprotected intercourse the day before menstruation' => 'การมีเพศสัมพันธ์ที่ไม่มีการป้องกันวันก่อนมีประจำเดือน',
+    'Unprotected intercourse after menstruation' => 'การมีเพศสัมพันธ์ที่ไม่มีการป้องกันหลังจากมีประจำเดือน',
+    'Unprotected intercourse on the day of ovulation' => 'การมีเพศสัมพันธ์ที่ไม่มีการป้องกันในวันตกไข่',
+    'Interrupted sexual intercourse' => 'การมีเพศสัมพันธ์ถูกขัดจังหวะ',
+    'Calendar method' => 'วิธีการปฏิทิน',
+    'Spermicides' => 'spermicides',
+    'Condom (female)' => 'ถุงยางอนามัย (หญิง)',
+    'Condom (male)' => 'ถุงยางอนามัย (ชาย)',
+    'Cervical caps (giving birth)' => 'หมวกปากมดลูก (ให้กำเนิด)',
+    'Cervical caps (nulliparous)' => 'หมวกปากมดลูก (nulliparous)',
+    'Vaginal diaphragm' => 'ไดอะแฟรมช่องคลอด',
+    'Intrauterine device' => 'อุปกรณ์สำหรับมดลูก',
+    'Complex hormonal' => 'ฮอร์โมนคอมเพล็กซ์',
+    'Progestogen contraceptives' => 'ยาคุมกำเนิด Progestogen',
+    'Symptothermal method of recognition of fertility' => 'วิธีการรับรู้ภาวะเจริญพันธุ์',
+    'Sterilization (female)' => 'การทำหมัน (เพศหญิง)',
+    'Sterilization (male)' => 'การฆ่าเชื้อ (ชาย)',
+    'Likelihood of a miscarriage:' => 'โอกาสเกิดแท้ง:',
+    'The probability of becoming pregnant depending on age:' => 'ความน่าจะเป็นที่จะตั้งครรภ์ขึ้นอยู่กับอายุ:',
+    'for 1 month:' => 'เป็นเวลา 1 เดือน:',
+    'for 6 months:' => '6 เดือน:',
+    'for 1 year:' => 'เป็นเวลา 1 ปี:',
+    'for 2 years:' => 'เป็นเวลา 2 ปี:',
+    'The likelihood of becoming pregnant, depending on the contraception chosen:' => 'โอกาสในการตั้งครรภ์ขึ้นอยู่กับการคุมกำเนิดที่เลือก:',
+    'Pearl Index:' => 'ดัชนีมุก:',
+    'probability:' => 'ความน่าจะเป็น:',
+
+
+    'The average probability of a missed pregnancy:' => 'ความน่าจะเป็นโดยเฉลี่ยของการตั้งครรภ์ที่ไม่ได้รับ:',
+    'The average probability of a missed pregnancy, depending on age:' => 'ความน่าจะเป็นโดยเฉลี่ยของการตั้งครรภ์ที่ไม่ได้รับขึ้นอยู่กับอายุ:',
+
+    'The average accuracy of a pregnancy test:' => 'ความแม่นยำเฉลี่ยของการทดสอบการตั้งครรภ์:',
+    'The average accuracy of a pregnancy test (strip):' => 'ความแม่นยำโดยเฉลี่ยของการทดสอบการตั้งครรภ์ (แถบ):',
+    'The average accuracy of a pregnancy test (tablet devices):' => 'ความแม่นยำโดยเฉลี่ยของการทดสอบการตั้งครรภ์ (อุปกรณ์แท็บเล็ต):',
+    'The average accuracy of a pregnancy test (inkjet device):' => 'ความแม่นยำเฉลี่ยของการทดสอบการตั้งครรภ์ (อุปกรณ์อิงค์เจ็ท):',
+    'The average accuracy of a pregnancy test (digital devices):' => 'ความแม่นยำเฉลี่ยของการทดสอบการตั้งครรภ์ (อุปกรณ์ดิจิตอล):',
+
+
+//blood type of the child
+    'Mom\'s blood type:' => 'กรุ๊ปเลือดของแม่:',
+    'Dad\'s blood type:' => 'กรุ๊ปเลือดของพ่อ:',
+    'Table of probable blood type of a child:' => 'ตารางกรุ๊ปเลือดที่เป็นไปได้ของเด็ก:',
+
+//child hemophillia
+    'No hemophilia' => 'ไม่มีฮีโมฟีเลีย',
+    'Hemophilia is present' => 'มีฮีโมฟีเลีย',
+    'Probability table for hemophilia in a child:' => 'ตารางความน่าจะเป็นสำหรับฮีโมฟีเลียในเด็ก:',
+
+
+//child left right handed
+    'Right-handed' => 'มือขวา',
+    'Left-handed' => 'มือซ้าย',
+    'Probability table of a right-handed or left-handed child:' => 'ตารางความน่าจะเป็นของเด็กที่ถนัดขวาหรือมือซ้าย:',
+    'Right-handed:' => 'มือขวา:',
+    'Left-handed:' => 'มือซ้าย:',
+
+//child migraine
+    'No migraine' => 'ไม่มีไมเกรน',
+    'Migraine is present' => 'ไมเกรนเป็นปัจจุบัน',
+    'Probability table for migraine in a child:' => 'ตารางความน่าจะเป็นสำหรับไมเกรนในเด็ก:',
+
+//child rhesus factor
+    'Rhesus factor mom:' => 'แม่ปัจจัยจำพวก:',
+    'Rhesus factor dad:' => 'ปัจจัยจำพวกพ่อ:',
+    'Table of probable rhesus factor of the child:' => 'ตารางปัจจัยจำพวกจำพวกน่าจะเป็นของเด็ก:',
 
 
 ];
