@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 
 
-?>
+use yii\widgets\Pjax; ?>
 <div class="container  container-no-top-padding-extended">
 
     <div class="h1-main">
@@ -70,6 +70,7 @@
 
 
             <?php if (Yii::$app->language == 'ru'):?>
+                <?php Pjax::begin(); ?>
                 <br>
                 <div class="mail-index">
                     <div id="vk_comments_browse"></div>
@@ -81,6 +82,7 @@
                     </script>
                 </div>
                 <br>
+                <?php Pjax::end(); ?>
             <?php endif;?>
 
 
