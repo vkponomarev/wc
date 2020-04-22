@@ -67,8 +67,16 @@
                     </div>
                 <?php endif; ?>
             <?php endforeach;?>
-
-
+            <br>
+            <div class="mail-index">
+                <div id="vk_comments_browse"></div>
+                <script type="text/javascript">
+                    window.onload = function () {
+                        VK.init({apiId: 7213089, onlyWidgets: true});
+                        VK.Widgets.CommentsBrowse('vk_comments_browse', {width: 500, limit: 15, mini: 0});
+                    }
+                </script>
+            </div>
 
         </div>
 
