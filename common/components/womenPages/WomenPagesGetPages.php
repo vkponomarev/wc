@@ -3,6 +3,8 @@
 namespace common\components\womenPages;
 
 
+use Yii;
+
 class WomenPagesGetPages
 {
 
@@ -14,6 +16,10 @@ class WomenPagesGetPages
             'getParam' => 'pregnancyCalculator',
             'specify' => 'none',
             'icon' => '2.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/pregnant-daily-vitamin-d-intake-528/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
+
         ];
 
         $getPages[5] = [
@@ -21,6 +27,9 @@ class WomenPagesGetPages
             'getParam' => 'pregnancyCalculator',
             'specify' => 'none',
             'icon' => '5.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/pregnant-daily-folic-acid-intake-549/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
 
         $getPages[6] = [
@@ -28,6 +37,9 @@ class WomenPagesGetPages
             'getParam' => 'pregnancyCalculator',
             'specify' => 'none',
             'icon' => '6.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/pregnant-heart-rate-82/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
 
         $getPages[8] = [
@@ -35,6 +47,9 @@ class WomenPagesGetPages
             'getParam' => 'pregnancyCalculationByFetalMovement',
             'specify' => 'none',
             'icon' => '8.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/pregnant-blood-pressure-550/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
 
         $getPages[9] = [
@@ -42,6 +57,9 @@ class WomenPagesGetPages
             'getParam' => 'pregnancyCalculatorWeeks',
             'specify' => 'none',
             'icon' => '9.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/pregnant-temperature-rate-116/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
 
         $getPages[23] = [
@@ -49,6 +67,8 @@ class WomenPagesGetPages
             'getParam' => 'pregnancyCalculatorWeeks',
             'specify' => 'none',
             'icon' => '23.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/how-much-water-should-pregnant-drink-128/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
         ];
 
         $getPages[31] = [
@@ -98,6 +118,9 @@ class WomenPagesGetPages
             'getParam' => 'calendarOvulation',
             'specify' => 'none',
             'icon' => '12.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/how-much-blood-in-period-122/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
 
         $getPages[13] = [
@@ -224,6 +247,8 @@ class WomenPagesGetPages
             'getParam' => 'calendarConception',
             'specify' => 'none',
             'icon' => '28.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/human-biorhythms-140/?embed=1&title=1" 
+                        width="280" height="1200" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
         ];
 
         $getPages[35] = [
@@ -231,6 +256,8 @@ class WomenPagesGetPages
             'getParam' => 'childHeightWeight',
             'specify' => 'none',
             'icon' => '35.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/children-temperature-rate-113/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
         ];
 
         $getPages[37] = [
@@ -238,6 +265,8 @@ class WomenPagesGetPages
             'getParam' => 'childEyesColor',
             'specify' => 'none',
             'icon' => '37.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/how-much-blood-in-child-121/?embed=1&title=1" 
+                        width="280" height="970" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
         ];
 
         $getPages[40] = [
@@ -245,6 +274,8 @@ class WomenPagesGetPages
             'getParam' => 'childHeightFuture',
             'specify' => 'none',
             'icon' => '40.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/how-much-water-should-children-drink-126/?embed=1&title=1" 
+                        width="280" height="770" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
         ];
 
         $getPages[48] = [
@@ -399,6 +430,9 @@ class WomenPagesGetPages
             'getParam' => 'probabilityHavingHealthyChild',
             'specify' => 'none',
             'icon' => '66.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/smoking-index-146/?embed=1&title=1" 
+                        width="280" height="800" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
 
         $getPages[67] = [
@@ -441,6 +475,8 @@ class WomenPagesGetPages
             'getParam' => 'probabilityHavingHealthyChild',
             'specify' => 'none',
             'icon' => '72.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/alcohol-driver-calculator-5799/?embed=1&title=1" 
+                        width="280" height="1600" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
         ];
 
         $getPages[73] = [
@@ -1305,6 +1341,8 @@ class WomenPagesGetPages
             'getParam' => 'childSleep',
             'specify' => 'none',
             'icon' => '212.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/children-blood-pressure-89/?embed=1&title=1" 
+                        width="280" height="800" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
         ];
 
         $getPages[213] = [
@@ -1577,6 +1615,9 @@ class WomenPagesGetPages
             'getParam' => 'childFood',
             'specify' => 'none',
             'icon' => '36.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/childrens-daily-calorie-intake-505/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
 
         $getPages[261] = [
@@ -1584,6 +1625,9 @@ class WomenPagesGetPages
             'getParam' => 'childFood',
             'specify' => 1,
             'icon' => '36.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/childrens-daily-protein-intake-509/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
 
         $getPages[262] = [
@@ -1591,18 +1635,27 @@ class WomenPagesGetPages
             'getParam' => 'childFood',
             'specify' => 2,
             'icon' => '36.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/childrens-daily-fat-intake-513/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
         ];
         $getPages[263] = [
             'pageName' => 'child-food',
             'getParam' => 'childFood',
             'specify' => 3,
             'icon' => '36.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/childrens-daily-vitamin-c-intake-524/?embed=1&title=1" 
+                        width="280" height="670" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
         $getPages[264] = [
             'pageName' => 'child-food',
             'getParam' => 'childFood',
             'specify' => 4,
             'icon' => '36.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/childrens-daily-carbohydrates-intake-516/?embed=1&title=1" 
+                        width="280" height="870" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
+
         ];
         $getPages[265] = [
             'pageName' => 'child-food',
@@ -1675,6 +1728,9 @@ class WomenPagesGetPages
             'getParam' => 'childAge',
             'specify' => 'none',
             'icon' => '276.png',
+            'embed' => '<iframe src="https://ihealthcalc.com/'. Yii::$app->language . '/health/children-heart-rate-78/?embed=1&title=1" 
+                        width="280" height="800" frameborder="0" scrolling="no" allowfullscreen> </iframe>'
+
         ];
 
         $getPages[277] = [
