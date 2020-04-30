@@ -36,72 +36,6 @@ class ScriptsController extends Controller
     }
 
 
-    public function actionFirstLetter()
-    {
-
-        $mainPagesData = new MainPagesData('1',0, 0);
-
-        return $this->render('first-letter', [
-
-        ]);
-
-    }
-
-    public function actionGenres()
-    {
-
-        $mainPagesData = new MainPagesData('1',0, 0);
-
-        return $this->render('genres', [
-
-        ]);
-
-    }
-
-
-    public function actionYears()
-    {
-
-        $mainPagesData = new MainPagesData('1',0, 0);
-
-        return $this->render('years', [
-
-        ]);
-
-    }
-
-    public function actionAlbums()
-    {
-
-        $mainPagesData = new MainPagesData('1', 0, 0);
-
-        return $this->render('albums', [
-
-        ]);
-    }
-
-        public function actionArtists()
-    {
-
-        $mainPagesData = new MainPagesData('1',0, 0);
-
-        return $this->render('artists', [
-
-        ]);
-
-    }
-
-    public function actionArtistsShow()
-    {
-        $this->layout = 'embed.php';
-        //$mainPagesData = new MainPagesData('1',0, 0);
-
-        return $this->render('artists-show', [
-
-        ]);
-
-    }
-
     public function actionArtistsWork()
     {
 
@@ -114,6 +48,20 @@ class ScriptsController extends Controller
         ]);
 
     }
+
+    public function actionTranslateUz()
+    {
+
+        $this->layout = 'embed.php';
+
+        //$mainPagesData = new MainPagesData('1',0, 0);
+
+        return $this->render('translate-uz', [
+
+        ]);
+
+    }
+
 
 
 }

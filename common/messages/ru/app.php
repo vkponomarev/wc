@@ -45,14 +45,14 @@ return [
     //fetal
     'Is this your first pregnancy or not:' => 'Это ваша первая беременность или нет:',
     'First pregnancy' => 'Первая беременность',
-    'Second and more pregnancy' => 'Второая и более беременность',
+    'Second and more pregnancy' => 'Вторая и более беременность',
     'Select the date of the first fetal movement:' => 'Выберите дату первого шевеления плода:',
 
     //weight
     'Weight before pregnancy:' => 'Вес до беременности:',
     'Current weight:' => 'Текущий вес:',
     'Pregnancy week:' => 'Неделя беременности:',
-    'Weight which should be:' => 'Вес который должен быть:',
+    'Weight which should be:' => 'Вес, который должен быть:',
     'Weight difference:' => 'Разница в весе:',
     'Fetal length:' => 'Размер плода:',
     'Fetal weight:' => 'Вес плода:',
@@ -72,7 +72,7 @@ return [
 
     // Calendars
     'week of pregnancy' => 'неделя беременности',
-    'Present day' => 'Сегондняшний день',
+    'Present day' => 'Сегодняшний день',
     'Start of the second trimester' => 'Начало второго триместра',
     'Start of the third trimester' => 'Начало третьего триместра',
     'Estimated due date' => 'Предполагаемая дата родов',
@@ -162,7 +162,7 @@ return [
 
 
     //child age
-    'Choose your baby’s birthday:' => 'Choose your baby’s birthday:',
+    'Choose your baby’s birthday:' => 'Выберите дату рождения вашего ребенка:',
     'Child age:' => 'Возраст ребенка:',
 
     '{n,plural, one{# second} few{# seconds} other{# seconds}}' => '{n,plural, one{# секунда} few{# секунды} other{# секунд}}',
@@ -199,8 +199,8 @@ return [
     '11 months' => '11 месяцев',
     '12 months' => '12 месяцев',
 
-    'Amount of mixture / milk for 1 feeding (milliliters):' => 'Количество смеси / молока за 1 кормление (милилитры):',
-    'Amount of mixture / milk per day (milliliters):' => 'Количество смеси / молока за сутки (милилитры):',
+    'Amount of mixture / milk for 1 feeding (milliliters):' => 'Количество смеси / молока за 1 кормление (миллилитры):',
+    'Amount of mixture / milk per day (milliliters):' => 'Количество смеси / молока за сутки (миллилитры):',
 
     //child hair color
     'Mom\'s hair color:' => 'Цвет волос мамы:',
@@ -219,7 +219,7 @@ return [
     'Daytime sleep:' => 'Дневной сон:',
     'number of daytime dreams:' => 'количество дневных снов:',
     'Night sleep:' => 'Ночной сон:',
-    'Total Dream:' => 'Суммарынй сон:',
+    'Total Dream:' => 'Суммарный сон:',
 
     //children number by date of birth
     'Estimated number of children in the family:' => 'Предполагаемое количество детей в семье:',
@@ -239,7 +239,7 @@ return [
     'Mother age (20-49):' => 'Возраст мамы (20-49):',
     'The possibility of giving birth to children with down syndrome:' => 'Возможность рождения детей с синдромом дауна:',
     'one of' => 'один из ',
-    'The possibility of having children with a chromosomal disease:' => 'Возможность рождения детей каким либо хромосомным заболеванием:',
+    'The possibility of having children with a chromosomal disease:' => 'Возможность рождения детей каким-либо хромосомным заболеванием:',
 
     'Mother:' => 'Мама:',
     'Dad:' => 'Папа:',
@@ -276,11 +276,11 @@ return [
     'The probability of the selected option:' => 'Вероятность выбранной опции:',
 
     'Age (18 - 50):' => 'Возраст (18 - 50):',
-    'The probability of an ectopic pregnancy relative to age:' => 'Вероятность внематочной беременности отностиельно возраста:',
+    'The probability of an ectopic pregnancy relative to age:' => 'Вероятность внематочной беременности относительно возраста:',
     'The total frequency of ectopic pregnancy per 1000 pregnant women:' => 'Общая частота внематочной беременности на 1000 беременных:',
     'Risk factors for ectopic pregnancy:' => 'Факторы риска внематочной беременности:',
     'Operations on the fallopian tubes:' => 'Операции на маточных трубах:',
-    'History of WB:' => 'Анамнез ВБ:',
+    'History of WB:' => 'Анамнез внематочной беременности:',
     'Anamnesis of salpingitis:' => 'Анамнез сальпингита:',
     'Infertility treatment:' => 'Лечение бесплодия:',
     'Age less than 25 years:' => 'Возраст менее 25 лет:',
@@ -346,7 +346,7 @@ return [
     //child left right handed
     'Right-handed' => 'Правша',
     'Left-handed' => 'Левша',
-    'Probability table of a right-handed or left-handed child:' => 'Таблица вероятнотси правши или левши ребенка:',
+    'Probability table of a right-handed or left-handed child:' => 'Таблица вероятности правши или левши ребенка:',
     'Right-handed:' => 'Правша:',
     'Left-handed:' => 'Левша:',
 

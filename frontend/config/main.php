@@ -64,8 +64,10 @@ return [
                 '/translation' => 'cms/translation',
                 '/donation' => 'cms/donation',
                 '/contact' => 'cms/contact',
-                '/script/artists-show' => 'scripts/artists-show',
+                //'/script/translate-uz' => 'scripts/translate-uz',
+                //'/script/artists-show' => 'scripts/artists-show',
                 '/<url>' => 'women/url',
+
 
                 //'/' => 'pages/index',
                 //'/<url>' => 'pages/one',
