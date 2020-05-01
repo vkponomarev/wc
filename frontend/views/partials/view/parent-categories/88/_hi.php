@@ -10,67 +10,12 @@
                 </div>
             </a>
 
-            <a href="/hi/probability-of-pregnancy-during-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/hi/probability-of-ectopic-pregnancy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/78.png" alt="मासिक धर्म के दौरान गर्भावस्था की संभावना" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/87.png" alt="एक अस्थानिक गर्भावस्था की संभावना" width="50"></p>
 
-                    <p class="plates-title">मासिक धर्म के दौरान गर्भावस्था की संभावना
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/hi/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="मासिक धर्म से एक दिन पहले गर्भावस्था की संभावना" width="50"></p>
-
-                    <p class="plates-title">मासिक धर्म से एक दिन पहले गर्भावस्था की संभावना
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/hi/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="मासिक धर्म के बाद गर्भावस्था की संभावना" width="50"></p>
-
-                    <p class="plates-title">मासिक धर्म के बाद गर्भावस्था की संभावना
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/hi/probability-of-pregnancy-during-ovulation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/82.png" alt="ओवुलेशन के दौरान गर्भावस्था की संभावना" width="50"></p>
-
-                    <p class="plates-title">ओवुलेशन के दौरान गर्भावस्था की संभावना
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/hi/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="पहली बार गर्भधारण की संभावना" width="50"></p>
-
-                    <p class="plates-title">पहली बार गर्भधारण की संभावना
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/hi/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="गर्भपात की संभावना" width="50"></p>
-
-                    <p class="plates-title">गर्भपात की संभावना
+                    <p class="plates-title">एक अस्थानिक गर्भावस्था की संभावना
                     </p>
                     <p class="plates-under-title"></p>
                 </div>
@@ -87,12 +32,67 @@
                 </div>
             </a>
 
-            <a href="/hi/probability-of-ectopic-pregnancy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/hi/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/87.png" alt="एक अस्थानिक गर्भावस्था की संभावना" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="गर्भपात की संभावना" width="50"></p>
 
-                    <p class="plates-title">एक अस्थानिक गर्भावस्था की संभावना
+                    <p class="plates-title">गर्भपात की संभावना
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/hi/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="पहली बार गर्भधारण की संभावना" width="50"></p>
+
+                    <p class="plates-title">पहली बार गर्भधारण की संभावना
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/hi/probability-of-pregnancy-during-ovulation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/82.png" alt="ओवुलेशन के दौरान गर्भावस्था की संभावना" width="50"></p>
+
+                    <p class="plates-title">ओवुलेशन के दौरान गर्भावस्था की संभावना
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/hi/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="मासिक धर्म के बाद गर्भावस्था की संभावना" width="50"></p>
+
+                    <p class="plates-title">मासिक धर्म के बाद गर्भावस्था की संभावना
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/hi/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="मासिक धर्म से एक दिन पहले गर्भावस्था की संभावना" width="50"></p>
+
+                    <p class="plates-title">मासिक धर्म से एक दिन पहले गर्भावस्था की संभावना
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/hi/probability-of-pregnancy-during-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/78.png" alt="मासिक धर्म के दौरान गर्भावस्था की संभावना" width="50"></p>
+
+                    <p class="plates-title">मासिक धर्म के दौरान गर्भावस्था की संभावना
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

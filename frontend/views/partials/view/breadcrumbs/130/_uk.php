@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/uk/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Калькулятор ваги та росту дитини
+                        Калькулятор ваги дитини
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

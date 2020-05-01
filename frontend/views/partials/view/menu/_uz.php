@@ -25,43 +25,43 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/pregnancy-calculator-by-date-of-conception/"
                                                    class="dropdown-li-a-extended">
-                        Homiladorlik muddati kalkulyatori
+                        Bo'yida bo'lishlik sanasi bo'yicha homiladorlik kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/pregnancy-calculator-by-the-first-fetal-movements/"
                                                    class="dropdown-li-a-extended">
-                        Homilaning dastlabki harakatlari bo'yicha homiladorlik kalkulyatori
+                        Homilaning birinchi qimirlashi bo'yicha homiladorlikning kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/pregnancy-calculator-by-weeks/"
                                                    class="dropdown-li-a-extended">
-                        Homiladorlik kalkulyatori haftalar bo'yicha
+                        Haftalar bo'yicha homiladorlikning kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/pregnancy-calculator-by-months/"
                                                    class="dropdown-li-a-extended">
-                        Homiladorlik kalkulyatori oylar bo'yicha
+                        Oylar bo'yicha homiladorlik kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/pregnancy-calculator-by-ultrasound-scan/"
                                                    class="dropdown-li-a-extended">
-                        Ultratovush tekshiruvi yordamida homiladorlik kalkulyatori
+                        Ultratovush tekshiruvi bo'yicha homiladorlik kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/gestational-age-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Homiladorlik davri kalkulyatori
+                        Gestatsion muddat (homilaning yoshi) ning kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/conception-date-calculator-by-due-date/"
                                                    class="dropdown-li-a-extended">
-                        Muddati bo'yicha konsepsiya sana kalkulyatori
+                        Tug'ish sanasi bo'yicha bo'yida bo'lishlilikning kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
@@ -73,7 +73,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/pregnancy-weight-gain-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Homiladorlikning vaznini hisoblash kalkulyatori
+                        Homiladorlikda vazn to'plash kalkulyatori
                         </a></li>
                         
                 </ul>
@@ -105,13 +105,13 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/fertile-days-calendar/"
                                                    class="dropdown-li-a-extended">
-                        Hosildorlik kunlarining taqvimi
+                        Fertillik kunlarining taqvimi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/menstrual-period-calendar/"
                                                    class="dropdown-li-a-extended">
-                        Hayz ko'rish davri taqvimi
+                        Hayz ko'rish taqvimi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
@@ -129,37 +129,37 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/baby-gender-calendar/"
                                                    class="dropdown-li-a-extended">
-                        Chaqaloq jinsi taqvimi
+                        Bola jinsining taqvimi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/conception-calendar/"
                                                    class="dropdown-li-a-extended">
-                        Kontseptsiya taqvimi
+                        Homilador bo'lishlik taqvimi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/girl-conception-calendar/"
                                                    class="dropdown-li-a-extended">
-                        Qizlarning kontseptsiyasi taqvimi
+                        Qiz bolaga homilador bo'lishlikning taqvimi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/boy-conception-calendar/"
                                                    class="dropdown-li-a-extended">
-                        O'g'il bola kontseptsiyasi
+                        O'g'il  bolaga homilador bo'lishlikning taqvimi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/chinese-conception-calendar/"
                                                    class="dropdown-li-a-extended">
-                        Xitoy tushunchasi taqvimi
+                        Homilador bo'lishlik xitoy taqvimi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/japanese-conception-calendar/"
                                                    class="dropdown-li-a-extended">
-                        Yapon kontseptsiyasining taqvimi
+                        Homilador bo'lishlik yapon taqvimi
                         </a></li>
                         
                 </ul>
@@ -185,55 +185,55 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-gender-by-conception-date/"
                                                    class="dropdown-li-a-extended">
-                        Kontseptsiya sanasi bo'yicha bolalar jinsi
+                        Bo'yida bo'lishlikning sanasi bo'yicha bolaning jinsi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-gender-by-last-menstruation/"
                                                    class="dropdown-li-a-extended">
-                        So'nggi hayz ko'rish davrida bolaning jinsi
+                        So'nggi hayz davrining sanasi bo'yicha bolaning jinsi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-gender-by-ovulation/"
                                                    class="dropdown-li-a-extended">
-                        Ovulyatsiya orqali bolalar jinsi
+                        Ovulyatsiya bo'yicha bolaning jinsi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-gender-by-parents-age/"
                                                    class="dropdown-li-a-extended">
-                        Ota-onalar yoshi bo'yicha bolalar jinsi
+                        Ota-onalarning yoshi bo'yicha bolaning jinsi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-gender-by-blood-renewal/"
                                                    class="dropdown-li-a-extended">
-                        Qonni yangilash orqali bolalar jinsi
+                        Qon yangilanishi bo'yicha bolaning jinsi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-gender-by-blood-type/"
                                                    class="dropdown-li-a-extended">
-                        Qon turiga ko'ra bolalar jinsi
+                        Qon guruhi bo'yicha bolaning jinsi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-gender-by-rh-factor/"
                                                    class="dropdown-li-a-extended">
-                        Rezus-faktor bo'yicha bolalar jinsi
+                        Rezus-omil bo'yicha bolaning jinsi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-gender-by-chinese-calendar/"
                                                    class="dropdown-li-a-extended">
-                        Xitoy taqvimi bo'yicha bolalar jinsi
+                        Xitoy taqvimi bo'yicha bolaning jinsi
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-gender-by-japanese-calendar/"
                                                    class="dropdown-li-a-extended">
-                        Yaponiya taqvimi bo'yicha bolalar jinsi
+                        Yapon taqvimi bo'yicha bolaning jinsi
                         </a></li>
                         
                 </ul>
@@ -265,85 +265,85 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/probability-of-birth/"
                                                    class="dropdown-li-a-extended">
-                        Bola bo'lish ehtimoli
+                        Bolaning tug'ilish ehtimoli
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-age/"
                                                    class="dropdown-li-a-extended">
-                        Bolaning yoshini hisoblash
+                        Bola yoshining kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-sleep/"
                                                    class="dropdown-li-a-extended">
-                        Bolalar uyqu kalkulyatori
+                        Bola uyqusining kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Bolaning vazni va bo'yi kalkulyatori
+                        Bola vaznining kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-growth/"
                                                    class="dropdown-li-a-extended">
-                        Bola o'sishi kalkulyatori
+                        Bola o'sihining kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-future-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Bolaning kelajakdagi bo'yi kalkulyatori
+                        Tug'iladigan bola bo'yining kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-food/"
                                                    class="dropdown-li-a-extended">
-                        Bolalar uchun ovqat kalkulyatori
+                        Bola ovqatining kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/baby-eye-color-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Chaqaloq ko'z rangi kalkulyatori
+                        Bola ko'zlari rangining kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-hair-color/"
                                                    class="dropdown-li-a-extended">
-                        Bolalar uchun soch rangi kalkulyator
+                        Bola soch rangining kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/blood-type-of-the-child/"
                                                    class="dropdown-li-a-extended">
-                        Bolalar qoni turi kalkulyatori
+                        Bola qon guruhining kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-rhesus-factor/"
                                                    class="dropdown-li-a-extended">
-                        Bolalar rezusi omil kalkulyatori
+                        Bola rezus-omilning kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-left-handed-or-right-handed /"
                                                    class="dropdown-li-a-extended">
-                        Farzandingiz chap qo'li yoki o'ng qo'li kalkulyatori
+                        Bolangiz o'naqayligi yoki chapaqayligining kalkulyatori 
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-color-blindness/"
                                                    class="dropdown-li-a-extended">
-                        Bola rangi ko'rligi kalkulyatori
+                        Bolaning qizil rangni ko'rolmaslik kalkulyatori 
                         </a></li>
                         
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/child-migraine/"
                                                    class="dropdown-li-a-extended">
-                        Bolalar migreni kalkulyatori
+                        Boladagi migren kalkulyatori 
                         </a></li>
                         
                         <li class="dropdown-li-extended">
@@ -355,7 +355,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/uz/childrens-number-by-date-of-birth/"
                                                    class="dropdown-li-a-extended">
-                        Tug'ilgan sana bo'yicha bolalar sonini hisoblash
+                        Tug'ilish sanasi bo'yicha bolalar sonining kalkulyatori
                         </a></li>
                         
                 </ul>

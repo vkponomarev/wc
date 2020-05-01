@@ -1,8 +1,1 @@
-
-        
-
-
-      <?=$this->render('/partials/view/menu/_' . Yii::$app->language);?>
-
-        
-        
+<?=$this->render('/partials/view/menu/_' . Yii::$app->language);?>

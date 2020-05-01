@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/cs/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Kalkulačka hmotnosti a výšky dítěte
+                        Kalkulačka hmotnosti dítěte
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

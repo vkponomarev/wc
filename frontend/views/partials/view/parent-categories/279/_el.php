@@ -1,15 +1,4 @@
 
-            <a href="/el/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Προσδιορίστε την ηλικία του παιδιού σε χρόνια" width="50"></p>
-
-                    <p class="plates-title">Προσδιορίστε την ηλικία του παιδιού σε χρόνια
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/el/child-age-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -71,6 +60,17 @@
                     <p><img class="plates-img" src="/files/category-icons/283.png" alt="Προσδιορίστε την ηλικία του παιδιού σε μήνες" width="50"></p>
 
                     <p class="plates-title">Προσδιορίστε την ηλικία του παιδιού σε μήνες
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/el/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Προσδιορίστε την ηλικία του παιδιού σε χρόνια" width="50"></p>
+
+                    <p class="plates-title">Προσδιορίστε την ηλικία του παιδιού σε χρόνια
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

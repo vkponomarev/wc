@@ -289,7 +289,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/bn/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        শিশুর ওজন এবং উচ্চতার ক্যালকুলেটর
+                        শিশুর ওজন ক্যালকুলেটর
                         </a></li>
                         
                         <li class="dropdown-li-extended">

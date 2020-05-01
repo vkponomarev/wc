@@ -1,15 +1,4 @@
 
-            <a href="/ro/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Determinați vârsta copilului în ani" width="50"></p>
-
-                    <p class="plates-title">Determinați vârsta copilului în ani
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/ro/child-age-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -71,6 +60,17 @@
                     <p><img class="plates-img" src="/files/category-icons/283.png" alt="Determinați vârsta copilului în luni" width="50"></p>
 
                     <p class="plates-title">Determinați vârsta copilului în luni
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/ro/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Determinați vârsta copilului în ani" width="50"></p>
+
+                    <p class="plates-title">Determinați vârsta copilului în ani
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

@@ -1,4 +1,15 @@
 
+            <a href="/it/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="La probabilità della nascita di una ragazza" width="50"></p>
+
+                    <p class="plates-title">La probabilità della nascita di una ragazza
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
             <a href="/it/probability-of-birth-of-boy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -38,17 +49,6 @@
                     <p><img class="plates-img" src="/files/category-icons/94.png" alt="La probabilità della nascita di 3 ragazzi e 2 ragazze" width="50"></p>
 
                     <p class="plates-title">La probabilità della nascita di 3 ragazzi e 2 ragazze
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/it/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="La probabilità della nascita di una ragazza" width="50"></p>
-
-                    <p class="plates-title">La probabilità della nascita di una ragazza
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

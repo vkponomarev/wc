@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/uk/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Калькулятор ваги та росту дитини
+                        Калькулятор ваги дитини
                         </a></li>
                         
                         <li class="dropdown-li-extended">

@@ -59,15 +59,15 @@
                         </a></li>
                         
                         <li class="dropdown-li-extended">
-                                                <a href="/ru/conception-date-calculator-by-due-date/"
-                                                   class="dropdown-li-a-extended">
-                        Калькулятор даты зачатия по дате родов
-                        </a></li>
-                        
-                        <li class="dropdown-li-extended">
                                                 <a href="/ru/due-date-calculator/"
                                                    class="dropdown-li-a-extended">
                         Калькулятор даты родов
+                        </a></li>
+                        
+                        <li class="dropdown-li-extended">
+                                                <a href="/ru/conception-date-calculator-by-due-date/"
+                                                   class="dropdown-li-a-extended">
+                        Калькулятор даты зачатия по дате родов
                         </a></li>
                         
                         <li class="dropdown-li-extended">

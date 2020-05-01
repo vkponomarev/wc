@@ -1,15 +1,4 @@
 
-            <a href="/hi/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="वर्षों में बच्चे की उम्र निर्धारित करें" width="50"></p>
-
-                    <p class="plates-title">वर्षों में बच्चे की उम्र निर्धारित करें
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/hi/child-age-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -71,6 +60,17 @@
                     <p><img class="plates-img" src="/files/category-icons/282.png" alt="हफ्तों में बच्चे की उम्र निर्धारित करें" width="50"></p>
 
                     <p class="plates-title">हफ्तों में बच्चे की उम्र निर्धारित करें
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/hi/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="वर्षों में बच्चे की उम्र निर्धारित करें" width="50"></p>
+
+                    <p class="plates-title">वर्षों में बच्चे की उम्र निर्धारित करें
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

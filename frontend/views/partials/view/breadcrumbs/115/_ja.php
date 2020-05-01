@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/ja/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                         赤ちゃんの体重と身長の計算
+                        赤ちゃんの体重計算機
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

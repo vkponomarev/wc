@@ -3,6 +3,8 @@
 namespace common\components\gii\createViewPartials\menu;
 
 
+use Yii;
+
 class Menu
 {
 
@@ -87,9 +89,13 @@ class Menu
 
         }
 
-        //Создаем файлы вида
-        // Для этого нам нужо сделать перебор
-        //создаем language-selection.php
+        //создаем основной файл для меню
+        $template = '<?=$this->render(\'/partials/view/menu/_\' . Yii::$app->language);?>';
+        $fp = fopen($path . '/' . $partialsConfig['getParam'] . '.php', "w");
+        // записываем в файл текст
+        fwrite($fp, $template);
+        // закрываем
+        fclose($fp);
 
         $template = (new MenuTemplate())->template($path);
 

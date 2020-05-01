@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/jv/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Bobot bayi lan kalkulator dhuwur
+                        Kalkulator bobot bayi
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

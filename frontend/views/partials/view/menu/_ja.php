@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/ja/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        赤ちゃんの体重と身長の計算
+                        赤ちゃんの体重計算機
                         </a></li>
                         
                         <li class="dropdown-li-extended">

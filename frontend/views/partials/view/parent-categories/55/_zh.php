@@ -46,9 +46,9 @@
             <a href="/zh/baby-weight-and-height-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="嬰兒身高體重計算器" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="嬰兒體重計算器" width="50"></p>
 
-                    <p class="plates-title">嬰兒身高體重計算器
+                    <p class="plates-title">嬰兒體重計算器
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

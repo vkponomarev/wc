@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/az/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Körpə çəkisi və boy boyu kalkulyatoru
+                        Körpə çəkisi kalkulyatoru
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

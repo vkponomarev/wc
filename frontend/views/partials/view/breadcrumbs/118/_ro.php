@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/ro/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Calculatorul greutății și înălțimii bebelușului
+                        Calculatorul greutății bebelușului
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

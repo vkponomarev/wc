@@ -3,7 +3,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/uz/women-calendar/" itemprop="item">
                     <span itemprop="name">
-                        Ayollar taqvimi
+                        Ayol taqvimi
                     </span>
                             </a>
                             <meta itemprop="position" content="2" />

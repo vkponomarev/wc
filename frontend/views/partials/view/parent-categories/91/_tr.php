@@ -1,4 +1,15 @@
 
+            <a href="/tr/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="Bir kızın doğum olasılığı" width="50"></p>
+
+                    <p class="plates-title">Bir kızın doğum olasılığı
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
             <a href="/tr/probability-of-birth-of-girl-and-boy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -38,17 +49,6 @@
                     <p><img class="plates-img" src="/files/category-icons/95.png" alt="1 kız ve 2 erkek doğum olasılığı" width="50"></p>
 
                     <p class="plates-title">1 kız ve 2 erkek doğum olasılığı
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/tr/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="Bir kızın doğum olasılığı" width="50"></p>
-
-                    <p class="plates-title">Bir kızın doğum olasılığı
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

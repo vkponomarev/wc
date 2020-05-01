@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/uz/probability-of-pregnancy/" itemprop="item">
                     <span itemprop="name">
-                        Homiladorlik ehtimolligi kalkulyatori
+                        Homiladorlik ehtimolining kalkulyatori
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

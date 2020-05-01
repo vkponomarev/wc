@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/tr/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Bebek ağırlık ve boy hesap
+                        Bebek ağırlığı hesaplayıcısı
                         </a></li>
                         
                         <li class="dropdown-li-extended">

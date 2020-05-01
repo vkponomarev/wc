@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/uz/child-food/" itemprop="item">
                     <span itemprop="name">
-                        Bola qancha ovqat eyishi kerak
+                        Bola ovqatining kalkulyatori
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

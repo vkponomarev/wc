@@ -1,4 +1,15 @@
 
+            <a href="/zh/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="一個女孩出生的概率" width="50"></p>
+
+                    <p class="plates-title">一個女孩出生的概率
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
             <a href="/zh/probability-of-birth-of-boy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -38,17 +49,6 @@
                     <p><img class="plates-img" src="/files/category-icons/94.png" alt="3個男孩和2個女孩的出生概率" width="50"></p>
 
                     <p class="plates-title">3個男孩和2個女孩的出生概率
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/zh/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="一個女孩出生的概率" width="50"></p>
-
-                    <p class="plates-title">一個女孩出生的概率
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/th/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        เครื่องคิดเลขน้ำหนักและส่วนสูงของทารก
+                        เครื่องคิดเลขน้ำหนักทารก
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

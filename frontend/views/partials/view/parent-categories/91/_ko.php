@@ -1,4 +1,15 @@
 
+            <a href="/ko/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="소녀가 태어날 확률" width="50"></p>
+
+                    <p class="plates-title">소녀가 태어날 확률
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
             <a href="/ko/probability-of-birth-of-girl-and-boy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -38,17 +49,6 @@
                     <p><img class="plates-img" src="/files/category-icons/95.png" alt="소녀 1 명과 소년 2 명의 출생 확률" width="50"></p>
 
                     <p class="plates-title">소녀 1 명과 소년 2 명의 출생 확률
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/ko/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="소녀가 태어날 확률" width="50"></p>
-
-                    <p class="plates-title">소녀가 태어날 확률
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

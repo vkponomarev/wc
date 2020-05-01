@@ -65,23 +65,23 @@
                 </div>
             </a>
 
-            <a href="/it/conception-date-calculator-by-due-date/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/52.png" alt="Calcolatore della data di concepimento per data di scadenza" width="50"></p>
-
-                    <p class="plates-title">Calcolatore della data di concepimento per data di scadenza
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/it/due-date-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
                     <p><img class="plates-img" src="/files/category-icons/7.png" alt="Calcolatore della scadenza" width="50"></p>
 
                     <p class="plates-title">Calcolatore della scadenza
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/it/conception-date-calculator-by-due-date/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/52.png" alt="Calcolatore della data di concepimento per data di scadenza" width="50"></p>
+
+                    <p class="plates-title">Calcolatore della data di concepimento per data di scadenza
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

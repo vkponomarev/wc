@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/es/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Calculadora de peso y altura del bebé
+                        Calculadora de peso del bebé
                         </a></li>
                         
                         <li class="dropdown-li-extended">

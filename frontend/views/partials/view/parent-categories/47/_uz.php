@@ -24,9 +24,9 @@
             <a href="/uz/women-calendar/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/3.png" alt="Ayollar taqvimi" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/3.png" alt="Ayol taqvimi" width="50"></p>
 
-                    <p class="plates-title">Ayollar taqvimi
+                    <p class="plates-title">Ayol taqvimi
                     </p>
                     <p class="plates-under-title"></p>
                 </div>
@@ -35,9 +35,9 @@
             <a href="/uz/child/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/4.png" alt="Chaqaloq jinsi kalkulyatori" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/4.png" alt="Bola jinsining kalkulyatori " width="50"></p>
 
-                    <p class="plates-title">Chaqaloq jinsi kalkulyatori
+                    <p class="plates-title">Bola jinsining kalkulyatori 
                     </p>
                     <p class="plates-under-title"></p>
                 </div>
@@ -57,9 +57,9 @@
             <a href="/uz/donation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/41.png" alt="Bizni xayr-ehson qiling" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/41.png" alt="Xayriya" width="50"></p>
 
-                    <p class="plates-title">Bizni xayr-ehson qiling
+                    <p class="plates-title">Xayriya
                     </p>
                     <p class="plates-under-title"></p>
                 </div>
@@ -101,9 +101,9 @@
             <a href="/uz/contact/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/45.png" alt="Aloqalar" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/45.png" alt="Bog'lanish uchun ma'lumotlar" width="50"></p>
 
-                    <p class="plates-title">Aloqalar
+                    <p class="plates-title">Bog'lanish uchun ma'lumotlar
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

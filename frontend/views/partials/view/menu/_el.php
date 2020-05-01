@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/el/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Υπολογιστής βάρους και ύψους μωρού
+                        Υπολογιστής βάρους μωρού
                         </a></li>
                         
                         <li class="dropdown-li-extended">

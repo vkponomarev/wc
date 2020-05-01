@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/jv/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Bobot bayi lan kalkulator dhuwur
+                        Kalkulator bobot bayi
                         </a></li>
                         
                         <li class="dropdown-li-extended">

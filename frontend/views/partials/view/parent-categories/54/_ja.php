@@ -46,9 +46,9 @@
             <a href="/ja/baby-weight-and-height-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/35.png" alt=" 赤ちゃんの体重と身長の計算" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="赤ちゃんの体重計算機" width="50"></p>
 
-                    <p class="plates-title"> 赤ちゃんの体重と身長の計算
+                    <p class="plates-title">赤ちゃんの体重計算機
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/el/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Υπολογιστής βάρους και ύψους μωρού
+                        Υπολογιστής βάρους μωρού
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

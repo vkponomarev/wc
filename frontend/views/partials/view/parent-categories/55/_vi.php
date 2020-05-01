@@ -46,9 +46,9 @@
             <a href="/vi/baby-weight-and-height-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="Máy tính cân nặng và chiều cao" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="Máy tính cân nặng cho bé" width="50"></p>
 
-                    <p class="plates-title">Máy tính cân nặng và chiều cao
+                    <p class="plates-title">Máy tính cân nặng cho bé
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

@@ -10,67 +10,12 @@
                 </div>
             </a>
 
-            <a href="/cs/probability-of-pregnancy-during-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/cs/probability-of-ectopic-pregnancy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/78.png" alt="Pravděpodobnost těhotenství během menstruace" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/87.png" alt="Pravděpodobnost mimoděložního těhotenství" width="50"></p>
 
-                    <p class="plates-title">Pravděpodobnost těhotenství během menstruace
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/cs/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="Pravděpodobnost těhotenství den před menstruací" width="50"></p>
-
-                    <p class="plates-title">Pravděpodobnost těhotenství den před menstruací
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/cs/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="Pravděpodobnost těhotenství po menstruaci" width="50"></p>
-
-                    <p class="plates-title">Pravděpodobnost těhotenství po menstruaci
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/cs/probability-of-pregnancy-during-ovulation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/82.png" alt="Pravděpodobnost těhotenství během ovulace" width="50"></p>
-
-                    <p class="plates-title">Pravděpodobnost těhotenství během ovulace
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/cs/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="Pravděpodobnost těhotenství poprvé" width="50"></p>
-
-                    <p class="plates-title">Pravděpodobnost těhotenství poprvé
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/cs/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="Pravděpodobnost potratu" width="50"></p>
-
-                    <p class="plates-title">Pravděpodobnost potratu
+                    <p class="plates-title">Pravděpodobnost mimoděložního těhotenství
                     </p>
                     <p class="plates-under-title"></p>
                 </div>
@@ -87,12 +32,67 @@
                 </div>
             </a>
 
-            <a href="/cs/probability-of-ectopic-pregnancy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/cs/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/87.png" alt="Pravděpodobnost mimoděložního těhotenství" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="Pravděpodobnost potratu" width="50"></p>
 
-                    <p class="plates-title">Pravděpodobnost mimoděložního těhotenství
+                    <p class="plates-title">Pravděpodobnost potratu
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/cs/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="Pravděpodobnost těhotenství poprvé" width="50"></p>
+
+                    <p class="plates-title">Pravděpodobnost těhotenství poprvé
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/cs/probability-of-pregnancy-during-ovulation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/82.png" alt="Pravděpodobnost těhotenství během ovulace" width="50"></p>
+
+                    <p class="plates-title">Pravděpodobnost těhotenství během ovulace
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/cs/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="Pravděpodobnost těhotenství po menstruaci" width="50"></p>
+
+                    <p class="plates-title">Pravděpodobnost těhotenství po menstruaci
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/cs/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="Pravděpodobnost těhotenství den před menstruací" width="50"></p>
+
+                    <p class="plates-title">Pravděpodobnost těhotenství den před menstruací
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/cs/probability-of-pregnancy-during-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/78.png" alt="Pravděpodobnost těhotenství během menstruace" width="50"></p>
+
+                    <p class="plates-title">Pravděpodobnost těhotenství během menstruace
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

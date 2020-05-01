@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/cs/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Kalkulačka hmotnosti a výšky dítěte
+                        Kalkulačka hmotnosti dítěte
                         </a></li>
                         
                         <li class="dropdown-li-extended">

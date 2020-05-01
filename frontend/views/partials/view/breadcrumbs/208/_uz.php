@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/uz/child-growth/" itemprop="item">
                     <span itemprop="name">
-                        Bola o'sishi kalkulyatori
+                        Bola o'sihining kalkulyatori
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />
@@ -21,7 +21,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/uz/child-growth-in-2-year/" itemprop="item">
                     <span itemprop="name">
-                        Ikki yoshdagi bolaning o'sishi kalkulyator
+                        2-yilda bola o'sihining kalkulyatori
                     </span>
                             </a>
                             <meta itemprop="position" content="4" />

@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/hu/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Baba súly és magasság számológép
+                        Baba súlyszámológép
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

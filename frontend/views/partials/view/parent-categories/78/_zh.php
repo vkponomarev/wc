@@ -10,67 +10,12 @@
                 </div>
             </a>
 
-            <a href="/zh/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/zh/probability-of-pregnancy-test/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="月經前一天懷孕的概率" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/88.png" alt="驗孕的可能性" width="50"></p>
 
-                    <p class="plates-title">月經前一天懷孕的概率
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/zh/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="月經後懷孕的概率" width="50"></p>
-
-                    <p class="plates-title">月經後懷孕的概率
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/zh/probability-of-pregnancy-during-ovulation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/82.png" alt="排卵期間懷孕的可能性" width="50"></p>
-
-                    <p class="plates-title">排卵期間懷孕的可能性
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/zh/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="第一次懷孕的概率" width="50"></p>
-
-                    <p class="plates-title">第一次懷孕的概率
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/zh/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="流產的可能性" width="50"></p>
-
-                    <p class="plates-title">流產的可能性
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/zh/probability-of-missed-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/86.png" alt="錯過懷孕的可能性" width="50"></p>
-
-                    <p class="plates-title">錯過懷孕的可能性
+                    <p class="plates-title">驗孕的可能性
                     </p>
                     <p class="plates-under-title"></p>
                 </div>
@@ -87,12 +32,67 @@
                 </div>
             </a>
 
-            <a href="/zh/probability-of-pregnancy-test/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/zh/probability-of-missed-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/88.png" alt="驗孕的可能性" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/86.png" alt="錯過懷孕的可能性" width="50"></p>
 
-                    <p class="plates-title">驗孕的可能性
+                    <p class="plates-title">錯過懷孕的可能性
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/zh/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="流產的可能性" width="50"></p>
+
+                    <p class="plates-title">流產的可能性
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/zh/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="第一次懷孕的概率" width="50"></p>
+
+                    <p class="plates-title">第一次懷孕的概率
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/zh/probability-of-pregnancy-during-ovulation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/82.png" alt="排卵期間懷孕的可能性" width="50"></p>
+
+                    <p class="plates-title">排卵期間懷孕的可能性
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/zh/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="月經後懷孕的概率" width="50"></p>
+
+                    <p class="plates-title">月經後懷孕的概率
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/zh/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="月經前一天懷孕的概率" width="50"></p>
+
+                    <p class="plates-title">月經前一天懷孕的概率
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/en/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Baby weight and height calculator
+                        Baby weight calculator
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

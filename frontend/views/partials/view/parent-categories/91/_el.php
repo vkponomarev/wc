@@ -1,4 +1,15 @@
 
+            <a href="/el/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="Η πιθανότητα γέννησης ενός κοριτσιού" width="50"></p>
+
+                    <p class="plates-title">Η πιθανότητα γέννησης ενός κοριτσιού
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
             <a href="/el/probability-of-birth-of-girl-and-boy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -38,17 +49,6 @@
                     <p><img class="plates-img" src="/files/category-icons/95.png" alt="Η πιθανότητα γέννησης 1 κοριτσιού και 2 αγοριών" width="50"></p>
 
                     <p class="plates-title">Η πιθανότητα γέννησης 1 κοριτσιού και 2 αγοριών
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/el/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="Η πιθανότητα γέννησης ενός κοριτσιού" width="50"></p>
-
-                    <p class="plates-title">Η πιθανότητα γέννησης ενός κοριτσιού
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

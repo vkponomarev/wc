@@ -1,15 +1,4 @@
 
-            <a href="/bn/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="বছরের পর বছর বাচ্চার বয়স নির্ধারণ করুন" width="50"></p>
-
-                    <p class="plates-title">বছরের পর বছর বাচ্চার বয়স নির্ধারণ করুন
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/bn/child-age-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -71,6 +60,17 @@
                     <p><img class="plates-img" src="/files/category-icons/282.png" alt="সপ্তাহের মধ্যে সন্তানের বয়স নির্ধারণ করুন" width="50"></p>
 
                     <p class="plates-title">সপ্তাহের মধ্যে সন্তানের বয়স নির্ধারণ করুন
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/bn/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="বছরের পর বছর বাচ্চার বয়স নির্ধারণ করুন" width="50"></p>
+
+                    <p class="plates-title">বছরের পর বছর বাচ্চার বয়স নির্ধারণ করুন
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

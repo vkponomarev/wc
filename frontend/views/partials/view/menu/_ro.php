@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/ro/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Calculatorul greutății și înălțimii bebelușului
+                        Calculatorul greutății bebelușului
                         </a></li>
                         
                         <li class="dropdown-li-extended">

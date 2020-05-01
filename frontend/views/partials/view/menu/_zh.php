@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/zh/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        嬰兒身高體重計算器
+                        嬰兒體重計算器
                         </a></li>
                         
                         <li class="dropdown-li-extended">

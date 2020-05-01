@@ -1,15 +1,4 @@
 
-            <a href="/th/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="กำหนดอายุของเด็กในปี" width="50"></p>
-
-                    <p class="plates-title">กำหนดอายุของเด็กในปี
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/th/child-age-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -71,6 +60,17 @@
                     <p><img class="plates-img" src="/files/category-icons/282.png" alt="กำหนดอายุของเด็กในสัปดาห์" width="50"></p>
 
                     <p class="plates-title">กำหนดอายุของเด็กในสัปดาห์
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/th/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="กำหนดอายุของเด็กในปี" width="50"></p>
+
+                    <p class="plates-title">กำหนดอายุของเด็กในปี
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

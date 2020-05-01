@@ -76,23 +76,23 @@
                 </div>
             </a>
 
-            <a href="/cs/conception-date-calculator-by-due-date/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/52.png" alt="Kalkulačka data početí podle data splatnosti" width="50"></p>
-
-                    <p class="plates-title">Kalkulačka data početí podle data splatnosti
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/cs/due-date-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
                     <p><img class="plates-img" src="/files/category-icons/7.png" alt="Kalkulačka splatnosti" width="50"></p>
 
                     <p class="plates-title">Kalkulačka splatnosti
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/cs/conception-date-calculator-by-due-date/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/52.png" alt="Kalkulačka data početí podle data splatnosti" width="50"></p>
+
+                    <p class="plates-title">Kalkulačka data početí podle data splatnosti
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

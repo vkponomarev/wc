@@ -46,9 +46,9 @@
             <a href="/hi/baby-weight-and-height-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="बच्चे का वजन और ऊंचाई कैलकुलेटर" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="बच्चे का वजन कैलकुलेटर" width="50"></p>
 
-                    <p class="plates-title">बच्चे का वजन और ऊंचाई कैलकुलेटर
+                    <p class="plates-title">बच्चे का वजन कैलकुलेटर
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/es/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Calculadora de peso y altura del bebé
+                        Calculadora de peso del bebé
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

@@ -46,9 +46,9 @@
             <a href="/it/baby-weight-and-height-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="Calcolatore di peso e altezza del bambino" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="Calcolatore del peso del bambino" width="50"></p>
 
-                    <p class="plates-title">Calcolatore di peso e altezza del bambino
+                    <p class="plates-title">Calcolatore del peso del bambino
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

@@ -1,15 +1,4 @@
 
-            <a href="/es/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Determinar la edad del niño en años." width="50"></p>
-
-                    <p class="plates-title">Determinar la edad del niño en años.
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/es/child-age-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -71,6 +60,17 @@
                     <p><img class="plates-img" src="/files/category-icons/282.png" alt="Determinar la edad del niño en semanas." width="50"></p>
 
                     <p class="plates-title">Determinar la edad del niño en semanas.
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/es/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Determinar la edad del niño en años." width="50"></p>
+
+                    <p class="plates-title">Determinar la edad del niño en años.
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

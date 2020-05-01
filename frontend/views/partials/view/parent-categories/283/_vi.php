@@ -1,15 +1,4 @@
 
-            <a href="/vi/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Xác định tuổi của trẻ theo năm" width="50"></p>
-
-                    <p class="plates-title">Xác định tuổi của trẻ theo năm
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/vi/child-age-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -71,6 +60,17 @@
                     <p><img class="plates-img" src="/files/category-icons/282.png" alt="Xác định tuổi của trẻ theo tuần" width="50"></p>
 
                     <p class="plates-title">Xác định tuổi của trẻ theo tuần
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/vi/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Xác định tuổi của trẻ theo năm" width="50"></p>
+
+                    <p class="plates-title">Xác định tuổi của trẻ theo năm
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

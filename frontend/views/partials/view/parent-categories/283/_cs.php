@@ -1,15 +1,4 @@
 
-            <a href="/cs/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Zjistěte věk dítěte v letech" width="50"></p>
-
-                    <p class="plates-title">Zjistěte věk dítěte v letech
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/cs/child-age-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -71,6 +60,17 @@
                     <p><img class="plates-img" src="/files/category-icons/282.png" alt="Zjistěte věk dítěte v týdnech" width="50"></p>
 
                     <p class="plates-title">Zjistěte věk dítěte v týdnech
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/cs/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Zjistěte věk dítěte v letech" width="50"></p>
+
+                    <p class="plates-title">Zjistěte věk dítěte v letech
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

@@ -1,15 +1,4 @@
 
-            <a href="/tr/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Çocuğun yaşını yıl olarak belirle" width="50"></p>
-
-                    <p class="plates-title">Çocuğun yaşını yıl olarak belirle
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/tr/child-age-seconds/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -71,6 +60,17 @@
                     <p><img class="plates-img" src="/files/category-icons/283.png" alt="Çocuğun yaşını ay cinsinden belirleyin" width="50"></p>
 
                     <p class="plates-title">Çocuğun yaşını ay cinsinden belirleyin
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/tr/child-age-years/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/284.png" alt="Çocuğun yaşını yıl olarak belirle" width="50"></p>
+
+                    <p class="plates-title">Çocuğun yaşını yıl olarak belirle
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

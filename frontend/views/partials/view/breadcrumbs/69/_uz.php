@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/uz/probability-of-birth/" itemprop="item">
                     <span itemprop="name">
-                        Bola bo'lish ehtimoli
+                        Bolaning tug'ilish ehtimoli
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

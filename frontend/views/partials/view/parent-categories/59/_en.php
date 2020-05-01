@@ -46,9 +46,9 @@
             <a href="/en/baby-weight-and-height-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="Baby weight and height calculator" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="Baby weight calculator" width="50"></p>
 
-                    <p class="plates-title">Baby weight and height calculator
+                    <p class="plates-title">Baby weight calculator
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

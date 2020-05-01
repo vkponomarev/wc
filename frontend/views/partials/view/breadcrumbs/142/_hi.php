@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/hi/baby-weight-and-height-calculator/" itemprop="item">
                     <span itemprop="name">
-                        बच्चे का वजन और ऊंचाई कैलकुलेटर
+                        बच्चे का वजन कैलकुलेटर
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

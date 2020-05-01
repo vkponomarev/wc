@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/hi/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        बच्चे का वजन और ऊंचाई कैलकुलेटर
+                        बच्चे का वजन कैलकुलेटर
                         </a></li>
                         
                         <li class="dropdown-li-extended">

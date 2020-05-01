@@ -10,67 +10,12 @@
                 </div>
             </a>
 
-            <a href="/en/probability-of-pregnancy-during-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/en/probability-of-pregnancy-test/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/78.png" alt="The probability of pregnancy during menstruation" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/88.png" alt="The probability of a pregnancy test" width="50"></p>
 
-                    <p class="plates-title">The probability of pregnancy during menstruation
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/en/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="The probability of pregnancy the day before menstruation" width="50"></p>
-
-                    <p class="plates-title">The probability of pregnancy the day before menstruation
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/en/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="The probability of pregnancy after menstruation" width="50"></p>
-
-                    <p class="plates-title">The probability of pregnancy after menstruation
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/en/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="The probability of pregnancy the first time" width="50"></p>
-
-                    <p class="plates-title">The probability of pregnancy the first time
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/en/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="Probability of miscarriage" width="50"></p>
-
-                    <p class="plates-title">Probability of miscarriage
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/en/probability-of-missed-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/86.png" alt="The probability of a missed pregnancy" width="50"></p>
-
-                    <p class="plates-title">The probability of a missed pregnancy
+                    <p class="plates-title">The probability of a pregnancy test
                     </p>
                     <p class="plates-under-title"></p>
                 </div>
@@ -87,12 +32,67 @@
                 </div>
             </a>
 
-            <a href="/en/probability-of-pregnancy-test/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/en/probability-of-missed-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/88.png" alt="The probability of a pregnancy test" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/86.png" alt="The probability of a missed pregnancy" width="50"></p>
 
-                    <p class="plates-title">The probability of a pregnancy test
+                    <p class="plates-title">The probability of a missed pregnancy
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/en/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="Probability of miscarriage" width="50"></p>
+
+                    <p class="plates-title">Probability of miscarriage
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/en/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="The probability of pregnancy the first time" width="50"></p>
+
+                    <p class="plates-title">The probability of pregnancy the first time
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/en/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="The probability of pregnancy after menstruation" width="50"></p>
+
+                    <p class="plates-title">The probability of pregnancy after menstruation
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/en/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="The probability of pregnancy the day before menstruation" width="50"></p>
+
+                    <p class="plates-title">The probability of pregnancy the day before menstruation
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/en/probability-of-pregnancy-during-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/78.png" alt="The probability of pregnancy during menstruation" width="50"></p>
+
+                    <p class="plates-title">The probability of pregnancy during menstruation
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

@@ -65,23 +65,23 @@
                 </div>
             </a>
 
-            <a href="/jv/conception-date-calculator-by-due-date/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/52.png" alt="Kalkulator tanggal tanggal miturut tanggal" width="50"></p>
-
-                    <p class="plates-title">Kalkulator tanggal tanggal miturut tanggal
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/jv/due-date-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
                     <p><img class="plates-img" src="/files/category-icons/7.png" alt="Kalkulator tanggal amarga" width="50"></p>
 
                     <p class="plates-title">Kalkulator tanggal amarga
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/jv/conception-date-calculator-by-due-date/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/52.png" alt="Kalkulator tanggal tanggal miturut tanggal" width="50"></p>
+
+                    <p class="plates-title">Kalkulator tanggal tanggal miturut tanggal
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

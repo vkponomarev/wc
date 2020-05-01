@@ -21,7 +21,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/uz/child-sleep-2-year/" itemprop="item">
                     <span itemprop="name">
-                        Bola 2 yilda qancha uxlashi kerak
+                        2-yilda bola qancha uxlashi kerak
                     </span>
                             </a>
                             <meta itemprop="position" content="4" />

@@ -19,7 +19,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/hu/pregnancy-calculator-by-menstrual-period/"
                                                    class="dropdown-li-a-extended">
-                        Terhesség számológép menstruációs periódusonként
+                        Hayz ko'rish bo'yicha homiladorlik kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
@@ -67,7 +67,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/hu/due-date-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Esedékességi számológép
+                        Tug’ish sanasining  kalkulyatori
                         </a></li>
                         
                         <li class="dropdown-li-extended">
@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/hu/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Baba súly és magasság számológép
+                        Baba súlyszámológép
                         </a></li>
                         
                         <li class="dropdown-li-extended">

@@ -1,4 +1,15 @@
 
+            <a href="/hi/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="लड़की के जन्म की संभावना" width="50"></p>
+
+                    <p class="plates-title">लड़की के जन्म की संभावना
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
             <a href="/hi/probability-of-birth-of-boy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -38,17 +49,6 @@
                     <p><img class="plates-img" src="/files/category-icons/94.png" alt="3 लड़कों और 2 लड़कियों के जन्म की संभावना" width="50"></p>
 
                     <p class="plates-title">3 लड़कों और 2 लड़कियों के जन्म की संभावना
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/hi/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="लड़की के जन्म की संभावना" width="50"></p>
-
-                    <p class="plates-title">लड़की के जन्म की संभावना
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

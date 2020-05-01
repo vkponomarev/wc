@@ -46,9 +46,9 @@
             <a href="/jv/baby-weight-and-height-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="Bobot bayi lan kalkulator dhuwur" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/35.png" alt="Kalkulator bobot bayi" width="50"></p>
 
-                    <p class="plates-title">Bobot bayi lan kalkulator dhuwur
+                    <p class="plates-title">Kalkulator bobot bayi
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

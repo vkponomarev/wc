@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/pl/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Kalkulator wagi i wzrostu dziecka
+                        Kalkulator wagi dziecka
                         </a></li>
                         
                         <li class="dropdown-li-extended">

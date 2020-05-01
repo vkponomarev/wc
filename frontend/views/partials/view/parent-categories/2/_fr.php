@@ -76,23 +76,23 @@
                 </div>
             </a>
 
-            <a href="/fr/conception-date-calculator-by-due-date/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/52.png" alt="Calculateur de date de conception par date d'échéance" width="50"></p>
-
-                    <p class="plates-title">Calculateur de date de conception par date d'échéance
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
             <a href="/fr/due-date-calculator/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
                     <p><img class="plates-img" src="/files/category-icons/7.png" alt="Calculateur de date d'échéance" width="50"></p>
 
                     <p class="plates-title">Calculateur de date d'échéance
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/fr/conception-date-calculator-by-due-date/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/52.png" alt="Calculateur de date de conception par date d'échéance" width="50"></p>
+
+                    <p class="plates-title">Calculateur de date de conception par date d'échéance
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

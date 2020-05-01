@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/hu/due-date-calculator/" itemprop="item">
                     <span itemprop="name">
-                        Esedékesség kalkulátor
+                        Tug’ish sanasining kalkulyatori
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

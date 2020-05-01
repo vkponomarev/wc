@@ -10,67 +10,12 @@
                 </div>
             </a>
 
-            <a href="/fr/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/fr/probability-of-pregnancy-test/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="La probabilité de grossesse la veille de la menstruation" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/88.png" alt="La probabilité d'un test de grossesse" width="50"></p>
 
-                    <p class="plates-title">La probabilité de grossesse la veille de la menstruation
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/fr/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="La probabilité de grossesse après la menstruation" width="50"></p>
-
-                    <p class="plates-title">La probabilité de grossesse après la menstruation
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/fr/probability-of-pregnancy-during-ovulation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/82.png" alt="La probabilité de grossesse pendant l'ovulation" width="50"></p>
-
-                    <p class="plates-title">La probabilité de grossesse pendant l'ovulation
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/fr/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="La probabilité de grossesse la première fois" width="50"></p>
-
-                    <p class="plates-title">La probabilité de grossesse la première fois
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/fr/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="Probabilité de fausse couche" width="50"></p>
-
-                    <p class="plates-title">Probabilité de fausse couche
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/fr/probability-of-missed-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/86.png" alt="La probabilité d'une grossesse manquée" width="50"></p>
-
-                    <p class="plates-title">La probabilité d'une grossesse manquée
+                    <p class="plates-title">La probabilité d'un test de grossesse
                     </p>
                     <p class="plates-under-title"></p>
                 </div>
@@ -87,12 +32,67 @@
                 </div>
             </a>
 
-            <a href="/fr/probability-of-pregnancy-test/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+            <a href="/fr/probability-of-missed-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
-                    <p><img class="plates-img" src="/files/category-icons/88.png" alt="La probabilité d'un test de grossesse" width="50"></p>
+                    <p><img class="plates-img" src="/files/category-icons/86.png" alt="La probabilité d'une grossesse manquée" width="50"></p>
 
-                    <p class="plates-title">La probabilité d'un test de grossesse
+                    <p class="plates-title">La probabilité d'une grossesse manquée
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/fr/probability-of-miscarriage/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/85.png" alt="Probabilité de fausse couche" width="50"></p>
+
+                    <p class="plates-title">Probabilité de fausse couche
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/fr/probability-of-pregnancy-from-first-time/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/84.png" alt="La probabilité de grossesse la première fois" width="50"></p>
+
+                    <p class="plates-title">La probabilité de grossesse la première fois
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/fr/probability-of-pregnancy-during-ovulation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/82.png" alt="La probabilité de grossesse pendant l'ovulation" width="50"></p>
+
+                    <p class="plates-title">La probabilité de grossesse pendant l'ovulation
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/fr/probability-of-pregnancy-after-menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/81.png" alt="La probabilité de grossesse après la menstruation" width="50"></p>
+
+                    <p class="plates-title">La probabilité de grossesse après la menstruation
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
+            <a href="/fr/probability-of-pregnancy-day-before menstruation/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/79.png" alt="La probabilité de grossesse la veille de la menstruation" width="50"></p>
+
+                    <p class="plates-title">La probabilité de grossesse la veille de la menstruation
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

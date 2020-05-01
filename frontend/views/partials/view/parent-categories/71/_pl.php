@@ -1,4 +1,15 @@
 
+            <a href="/pl/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
+                <div class="plates">
+
+                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="Prawdopodobieństwo urodzenia dziewczynki" width="50"></p>
+
+                    <p class="plates-title">Prawdopodobieństwo urodzenia dziewczynki
+                    </p>
+                    <p class="plates-under-title"></p>
+                </div>
+            </a>
+
             <a href="/pl/probability-of-birth-of-boy/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
                 <div class="plates">
 
@@ -49,17 +60,6 @@
                     <p><img class="plates-img" src="/files/category-icons/95.png" alt="Prawdopodobieństwo urodzenia 1 dziewczynki i 2 chłopców" width="50"></p>
 
                     <p class="plates-title">Prawdopodobieństwo urodzenia 1 dziewczynki i 2 chłopców
-                    </p>
-                    <p class="plates-under-title"></p>
-                </div>
-            </a>
-
-            <a href="/pl/probability-of-birth-of-girl/" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-12 main-pages-extended">
-                <div class="plates">
-
-                    <p><img class="plates-img" src="/files/category-icons/90.png" alt="Prawdopodobieństwo urodzenia dziewczynki" width="50"></p>
-
-                    <p class="plates-title">Prawdopodobieństwo urodzenia dziewczynki
                     </p>
                     <p class="plates-under-title"></p>
                 </div>

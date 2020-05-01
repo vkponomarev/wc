@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/ko/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        아기 체중과 신장 계산기
+                        아기 체중 계산기
                         </a></li>
                         
                         <li class="dropdown-li-extended">

@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/th/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        เครื่องคิดเลขน้ำหนักและส่วนสูงของทารก
+                        เครื่องคิดเลขน้ำหนักทารก
                         </a></li>
                         
                         <li class="dropdown-li-extended">

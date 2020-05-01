@@ -12,7 +12,7 @@
                             itemtype="http://schema.org/ListItem">
                             /  <a href="/uz/child-growth/" itemprop="item">
                     <span itemprop="name">
-                        Bola o'sishi kalkulyatori
+                        Bola o'sihining kalkulyatori
                     </span>
                             </a>
                             <meta itemprop="position" content="3" />

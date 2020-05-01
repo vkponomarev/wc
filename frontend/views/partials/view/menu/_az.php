@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/az/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Körpə çəkisi və boy boyu kalkulyatoru
+                        Körpə çəkisi kalkulyatoru
                         </a></li>
                         
                         <li class="dropdown-li-extended">

@@ -283,7 +283,7 @@
                         <li class="dropdown-li-extended">
                                                 <a href="/en/baby-weight-and-height-calculator/"
                                                    class="dropdown-li-a-extended">
-                        Baby weight and height calculator
+                        Baby weight calculator
                         </a></li>
                         
                         <li class="dropdown-li-extended">
