@@ -1,1 +1,0 @@
-<?=$this->render('/partials/view/breadcrumbs/' . $pageID . '/_' . Yii::$app->language);?>
