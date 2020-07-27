@@ -121,7 +121,7 @@ class WomenPagesGetParams
 
             $getParams = [
                 'date' => Yii::$app->request->get('date'),
-                'mothersAge' => Yii::$app->request->get('mothers-age'),
+                'mothersAge' => Yii::$app->request->get('mother-age'),
                 'large' => [1000, 1070],
                 'middle' => [620, 1600],
                 'small' => [305, 2860],
