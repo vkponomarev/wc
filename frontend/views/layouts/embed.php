@@ -27,7 +27,7 @@ AppAssetEmbed::register($this);
 
 
     <?php $this->head() ?>
-
+    <?= $this->render('/partials/canonical/_canonical');?>
 </head>
 <body class="background-transparent">
 <?php $this->beginBody() ?>
