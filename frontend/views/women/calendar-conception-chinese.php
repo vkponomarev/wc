@@ -31,7 +31,7 @@
                 <?= Yii::t('app', 'Choose mom\'s age:') ?>
             </div>
 
-            <select id="cycle-length-from" name="mothers-age" class="form-control select-extended">
+            <select id="cycle-length-from" name="mother-age" class="form-control select-extended">
 
                 <?php for ($i = 18; $i <= 45; $i++): ?>
                     <option value="<?= $i ?>"
