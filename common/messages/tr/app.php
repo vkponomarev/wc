@@ -8,6 +8,7 @@ return [
     'Home' => 'Ana',
     // Common -----------------
 
+
     // footer -----------------
     'Read' => 'Oku',
     'Help' => 'Yardım',
