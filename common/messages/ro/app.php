@@ -3,8 +3,8 @@
 return [
     // Румынский
     // Common -----------------
-    'Woman' => 'Feminin',
-    'Calculator' => 'Calculator',
+    'Woman' => 'Calculator',
+    'Calculator' => 'Feminin',
     'Home' => 'Principală',
     // Common -----------------
 
