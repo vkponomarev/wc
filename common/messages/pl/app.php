@@ -4,7 +4,7 @@ return [
     // Польский
     // Common -----------------
     'Woman' => 'Kobiecy',
-    'Calculator' => 'Kobiecy',
+    'Calculator' => 'Kalkulator',
     'Home' => 'Główna',
     // Common -----------------
 
