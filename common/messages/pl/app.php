@@ -5,6 +5,7 @@ return [
     // Common -----------------
     'Woman' => 'Kobiecy',
     'Calculator' => 'Kalkulator',
+
     'Home' => 'Główna',
     // Common -----------------
 
