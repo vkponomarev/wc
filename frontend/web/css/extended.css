@@ -290,6 +290,11 @@ h1 {
 
 }
 
+.h1-img {
+    width: 70px;
+    /* height: auto!important; */
+    align-self: baseline;
+}
 
 .breadcrumbs{
 
