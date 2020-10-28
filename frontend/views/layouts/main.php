@@ -94,12 +94,11 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 
-<?php Pjax::begin(); ?>
+
 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/<?= Yii::$app->language ?>/sdk.js#xfbml=1&version=v5.0&appId=174556506430768&autoLogAppEvents=1"></script>
 
-<?php Pjax::end(); ?>
 
 <div class="wrap">
 
