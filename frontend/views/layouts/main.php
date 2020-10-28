@@ -16,11 +16,7 @@ AppAsset::register($this);
 
     //Url::home();
 /*
- * <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
-
-    <script type="text/javascript">
-        VK.init({apiId: 7213089, onlyWidgets: true});
-    </script>
+ *
  *
  * */
 ?>
@@ -69,25 +65,18 @@ AppAsset::register($this);
 
     <?php $this->head() ?>
 
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
 
-
-
-
-
+    <script type="text/javascript">
+        VK.init({apiId: 7213089, onlyWidgets: true});
+    </script>
 
     <meta name="yandex-verification" content="40aa82a8394e6c36" />
-
-
     <meta property="fb:admins" content="100001835686449"/>
-
-
 
 </head>
 <body role="document">
 <?php $this->beginBody() ?>
-
-
-
 
 <div id="fb-root"></div>
 
