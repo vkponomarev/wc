@@ -15,7 +15,14 @@ AppAsset::register($this);
 //echo $this->params['title'];
 
     //Url::home();
+/*
+ * <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
 
+    <script type="text/javascript">
+        VK.init({apiId: 7213089, onlyWidgets: true});
+    </script>
+ *
+ * */
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -28,7 +35,7 @@ AppAsset::register($this);
         }
     </style>
 
-    <?php Pjax::begin(); ?>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130047868-2"></script>
     <script>
@@ -38,7 +45,7 @@ AppAsset::register($this);
 
         gtag('config', 'UA-130047868-2');
     </script>
-    <?php Pjax::end(); ?>
+
 
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta charset="<?= Yii::$app->charset ?>">
@@ -75,19 +82,15 @@ AppAsset::register($this);
 
 
 
-    <?php Pjax::begin(); ?>
-    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
 
-    <script type="text/javascript">
-        VK.init({apiId: 7213089, onlyWidgets: true});
-    </script>
+
     <meta name="yandex-verification" content="40aa82a8394e6c36" />
 
     <script data-ad-client="ca-pub-6533211636627045" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <meta property="fb:admins" content="100001835686449"/>
 
-    <?php Pjax::end(); ?>
+
 
 </head>
 <body role="document">
