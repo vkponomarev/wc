@@ -15,7 +15,7 @@ use yii\widgets\Pjax;
 
 ?>
 
-<?php Pjax::begin(); ?>
+
 <?php if (!Yii::$app->params['embed']): ?>
 <p><br></p>
 <div class="comments-width">
@@ -23,4 +23,4 @@ use yii\widgets\Pjax;
     <div class="fb-comments" data-lazy="true" data-href="https://womencalc.com/<?= Yii::$app->language ?>/<?= $getUrls['url'] ?>/" data-width="100%" data-numposts="15"></div>
 </div>
 <?php endif;?>
-<?php Pjax::end(); ?>
+

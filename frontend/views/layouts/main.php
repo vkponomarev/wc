@@ -36,15 +36,6 @@ AppAsset::register($this);
     </style>
 
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130047868-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-130047868-2');
-    </script>
 
 
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -235,13 +226,23 @@ AppAsset::register($this);
 </script>
 
 <?php $this->endBody() ?>
-<?php Pjax::begin(); ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130047868-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130047868-2');
+</script>
+
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dbbf2586b540d45"></script>
 <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
 <script src="https://yastatic.net/share2/share.js" async="async"></script>
 
 <?= $this->render('/partials/counters/_counters');?>
-<?php Pjax::end(); ?>
+
 
 </body>
 </html>
