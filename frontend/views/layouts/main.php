@@ -77,7 +77,6 @@ AppAsset::register($this);
 
     <meta name="yandex-verification" content="40aa82a8394e6c36" />
 
-    <script data-ad-client="ca-pub-6533211636627045" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <meta property="fb:admins" content="100001835686449"/>
 
@@ -91,7 +90,6 @@ AppAsset::register($this);
 
 
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/<?=Yii::$app->params['language']['lang']?>/sdk.js#xfbml=1&version=v5.0&appId=174556506430768&autoLogAppEvents=1"></script>
 
 
 <div class="wrap">
@@ -236,6 +234,8 @@ AppAsset::register($this);
 
     gtag('config', 'UA-130047868-2');
 </script>
+<script data-ad-client="ca-pub-6533211636627045" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/<?=Yii::$app->params['language']['lang']?>/sdk.js#xfbml=1&version=v5.0&appId=174556506430768&autoLogAppEvents=1"></script>
 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dbbf2586b540d45"></script>
 <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
