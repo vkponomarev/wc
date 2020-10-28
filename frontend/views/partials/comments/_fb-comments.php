@@ -20,7 +20,7 @@ use yii\widgets\Pjax;
 <p><br></p>
 <div class="comments-width">
 
-    <div class="fb-comments" data-href="https://womencalc.com/<?= Yii::$app->language ?>/<?= $getUrls['url'] ?>/" data-width="100%" data-numposts="15"></div>
+    <div class="fb-comments" data-lazy="true" data-href="https://womencalc.com/<?= Yii::$app->language ?>/<?= $getUrls['url'] ?>/" data-width="100%" data-numposts="15"></div>
 </div>
 <?php endif;?>
 <?php Pjax::end(); ?>

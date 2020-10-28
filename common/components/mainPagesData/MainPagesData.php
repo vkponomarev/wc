@@ -92,6 +92,7 @@ class MainPagesData
         Yii::$app->params['language']['name'] = $currentLanguage['name'];
         Yii::$app->params['language']['id'] = $currentLanguage['id'];
         Yii::$app->params['language']['url'] = $currentLanguage['url'];
+        Yii::$app->params['language']['lang'] = $currentLanguage['lang_lang'];
         return $currentLanguage;
 
     }

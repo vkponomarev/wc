@@ -97,7 +97,7 @@ AppAsset::register($this);
 
 
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/<?= Yii::$app->language ?>/sdk.js#xfbml=1&version=v5.0&appId=174556506430768&autoLogAppEvents=1"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/<?=Yii::$app->params['language']['lang']?>/sdk.js#xfbml=1&version=v5.0&appId=174556506430768&autoLogAppEvents=1"></script>
 
 
 <div class="wrap">

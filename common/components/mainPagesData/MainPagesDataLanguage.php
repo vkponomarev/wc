@@ -17,6 +17,7 @@ class MainPagesDataLanguage
             languages.id,
             languages.name,
             languages.url,
+            languages.lang_lang,
             languages.active
             from
             languages
