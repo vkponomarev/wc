@@ -30,39 +30,6 @@ $this->params['icon'] = $getPages['icon'];
 
 $position = 1;
 
-//echo '<pre>';
-//print_r($breadcrumbs);
-//echo '</pre>';
-
-/*
- *
- *                 <?php foreach ($breadcrumbs as $breadcrumb):?>
-                    <?php $position++ ?>
-                    <li class="breadcrumbs-item" itemprop="itemListElement" itemscope
-                    itemtype="http://schema.org/ListItem">
-                    /  <a href="/<?= Yii::$app->language ?>/<?= $breadcrumb['url'] ?>/" itemprop="item">
-                    <span itemprop="name">
-                        <?= $breadcrumb['plates_title'] ?>
-                    </span>
-                    </a>
-                    <meta itemprop="position" content="<?= $position ?>" />
-                </li>
-                <?php endforeach; ?>
- *
- *
- *
- *            <?=$this->render('/partials/view/parent-categories/parent-categories' ,[
-                'parentCategories' => $parentCategories,
-                'getIcon' => $getPages['icon'],
-
-            ]);?>
- *<?=$this->render('/partials/parent-categories/_parent-categories' ,[
-                'parentCategories' => $parentCategories,
-                'getIcon' => $getPages['icon'],
-
-            ]);?>
- * */
-
 
 ?>
 
@@ -137,9 +104,13 @@ $position = 1;
                 and ($pageID<>47)
             ):?>
                 <?php if (Yii::$app->language == 'ru'):?>
-                    <?= $this->render('/partials/comments/_vk-comments.php')?>
+                    <?= $this->render('/partials/comments/_vk-comments.php', [
+                        'getUrls' => $getUrls,
+                    ])?>
                 <?php else:?>
-                    <?= $this->render('/partials/comments/_fb-comments.php')?>
+                    <?= $this->render('/partials/comments/_fb-comments.php', [
+                        'getUrls' => $getUrls,
+                    ])?>
                 <?php endif;?>
             <?php endif;?>
 

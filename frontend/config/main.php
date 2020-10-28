@@ -61,7 +61,7 @@ return [
                 '/embed' => 'embed/index',
                 '/cookie' => 'cms/cookie',
                 '/policy' => 'cms/policy',
-                '/translation' => 'cms/translation',
+                //'/translation' => 'cms/translation',
                 '/donation' => 'cms/donation',
                 '/contact' => 'cms/contact',
                 //'/script/translate-uz' => 'scripts/translate-uz',

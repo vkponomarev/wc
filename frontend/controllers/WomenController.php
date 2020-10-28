@@ -31,7 +31,17 @@ class WomenController extends Controller
     {
     }
 
+    /**
 
+     * Все обращения к страницам $url идут через основные страницы
+     * index-url - если это не встроенный калькулятор
+     * index-url-embed - если это встроенный калькулятор с параметром embed=1
+     *
+     * getPages - основные настройки страницы
+     * getParams - параметры url страницы
+     * result - результат вычисления калькулятора
+     * getUrls - Основной урл страницы
+     */
 
     public function actionUrl($url)
     {
