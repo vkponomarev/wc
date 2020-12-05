@@ -68,6 +68,8 @@ return [
                 //'/script/artists-show' => 'scripts/artists-show',
                 '/<url>' => 'women/url',
 
+                // Текст для перевод
+                //'/script/show-all-english' => 'scripts/show-all-english',
 
                 //'/' => 'pages/index',
                 //'/<url>' => 'pages/one',

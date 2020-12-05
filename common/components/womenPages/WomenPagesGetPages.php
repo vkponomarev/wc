@@ -565,7 +565,7 @@ class WomenPagesGetPages
 
         $getPages[88] = [
             'pageName' => 'probability-of-pregnancy-test',
-            'getParam' => 'none',
+            'getParam' => 'probabilityOfPregnancyTest',
             'specify' => 'none',
             'icon' => '88.png',
         ];

@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 
+use common\components\womenPages\WomenPages;
 use common\models\components\WomanCalendars;
 use common\models\Mail;
 use common\components\mainPagesData\MainPagesData;
@@ -62,6 +63,19 @@ class ScriptsController extends Controller
 
     }
 
+    public function actionShowAllEnglish()
+    {
 
+        $this->layout = 'embed.php';
+        $mainPagesData = new MainPagesData(0,0);
+
+        //$womenPages = new womenPages($mainPagesData->pageId);
+
+
+        return $this->render('show-all-english', [
+
+        ]);
+
+    }
 
 }

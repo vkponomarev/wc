@@ -463,7 +463,7 @@ class WomenPagesGetParams
 
         }
 
-           if ($getParam == 'childBodyMassIndex') {
+        if ($getParam == 'childBodyMassIndex') {
 
             $getParams = [
 
@@ -472,56 +472,67 @@ class WomenPagesGetParams
                 'childAgeMonths' => Yii::$app->request->get('child-age-months'),
                 'height' => Yii::$app->request->get('height'),
                 'weight' => Yii::$app->request->get('weight'),
-                'large' => [800,710],
-                'middle' => [600,700],
-                'small' => [280,800],
+                'large' => [800, 710],
+                'middle' => [600, 700],
+                'small' => [280, 800],
 
             ];
 
         }
-        
-            if ($getParam == 'childSleep') {
+
+        if ($getParam == 'childSleep') {
 
             $getParams = [
 
                 'childGender' => Yii::$app->request->get('child-gender'),
                 'childAgeYears' => Yii::$app->request->get('child-age-years'),
                 'childAgeMonths' => Yii::$app->request->get('child-age-months'),
-                'large' => [800,570],
-                'middle' => [600,570],
-                'small' => [280,600],
+                'large' => [800, 570],
+                'middle' => [600, 570],
+                'small' => [280, 600],
 
             ];
 
         }
-        
-            if ($getParam == 'childFood') {
+
+        if ($getParam == 'childFood') {
 
             $getParams = [
 
                 'childAge' => Yii::$app->request->get('child-age'),
-                'large' => [800,410],
-                'middle' => [600,400],
-                'small' => [280,480],
+                'large' => [800, 410],
+                'middle' => [600, 400],
+                'small' => [280, 480],
 
             ];
 
         }
-        
-            if ($getParam == 'childAge') {
+
+        if ($getParam == 'childAge') {
 
             $getParams = [
 
                 'date' => Yii::$app->request->get('date'),
-                'large' => [800,410],
-                'middle' => [600,400],
-                'small' => [280,480],
+                'large' => [800, 410],
+                'middle' => [600, 400],
+                'small' => [280, 480],
 
             ];
 
+
         }
-        
-         return $getParams;
+
+        if ($getParam == 'probabilityOfPregnancyTest') {
+
+            $getParams = [
+
+                'large' => [800, 410],
+                'middle' => [600, 400],
+                'small' => [280, 580],
+
+            ];
+        }
+        return $getParams;
 
     }
 

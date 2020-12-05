@@ -19,7 +19,6 @@
             <?php echo $pages->url; ?>
             <br>
             <?php echo $pages->menu_name; ?>
-
             <br>
             <?php echo $pages->title; ?>
             <br>
