@@ -32,7 +32,7 @@ use kartik\date\DatePicker;
             <div class="col-xs-12 col-sm-6 align-mid">
 
                 <div class="form-element-title">
-                    <?=Yii::t('app','Choose mom\'s age:')?>
+                    <?=Yii::t('app','Choose mother\'s age:')?>
                 </div>
 
                 <select id="cycle-length-from" name="mother-age" class="form-control select-extended">

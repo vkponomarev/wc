@@ -33,7 +33,7 @@
 
             <div class="col-xs-12 col-sm-6 align-mid">
 
-                <div class="form-left-title"><?= Yii::t('app', 'Mom\'s hair color:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Mother\'s hair colour:') ?></div>
 
                 <select id="cycle-length-from" name="mother-hair-color" class="form-control select-extended">
 
@@ -59,7 +59,7 @@
 
                 </select>
 
-                <div class="form-left-title"><?= Yii::t('app', 'Dad\'s hair color:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Father\'s hair colour:') ?></div>
 
                 <select id="cycle-length-from" name="father-hair-color" class="form-control select-extended">
 
@@ -138,7 +138,7 @@
                     <?= Yii::t('app', 'With a high degree of probability the child will have dark or brown hair') ?><br>
                 <?php endif; ?>
                 <?php if ($result['childHairColor'] == 3): ?>
-                    <?= Yii::t('app', 'With a high probability the child will be blond or with light brown hair') ?><br>
+                    <?= Yii::t('app', 'With a high probability the child will be blonde or with light brown hair') ?><br>
                 <?php endif; ?>
 
                 <?php if ($result['childHairColor'] == 5): ?>

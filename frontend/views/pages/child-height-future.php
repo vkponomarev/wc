@@ -66,13 +66,13 @@
 
                     </div>
 
-                    <div class="form-left-title"><?=Yii::t('app','Mom\'s height (cm):')?></div>
+                    <div class="form-left-title"><?=Yii::t('app','Mother\'s height (cm):')?></div>
 
                     <input id="cycle-length-from" name="mother-height" class="form-control select-extended" type="text" size="40"
                            value="<?php if ($childHeightFutureCalculationData['motherHeight']): ?><?=$childHeightFutureCalculationData['motherHeight']?><?php else:?>155<?php endif?>">
 
 
-                    <div class="form-left-title"><?=Yii::t('app','Dad\'s height (cm):')?></div>
+                    <div class="form-left-title"><?=Yii::t('app','Father\'s height (cm):')?></div>
 
 
                     <input id="cycle-length-from" name="father-height" class="form-control select-extended" type="text" size="40"
@@ -125,7 +125,7 @@
         <div class="result-div-text">
             <span class="result-pre-text">
                 <?php if ($childHeightFutureCalculation['childHeightFolk']<>0):?>
-                    <?=Yii::t('app','According to the folk formula:')?>
+                    <?=Yii::t('app','According to the Folk formula:')?>
                     <?=$childHeightFutureCalculation['childHeightFolk']?> <?=Yii::t('app','cm')?><br>
                 <?php endif;?>
                 <?php if ($childHeightFutureCalculation['childHeightHawker']<>0):?>

@@ -60,7 +60,7 @@
 
                 </select>
 
-                <div class="form-left-title"><?= Yii::t('app', 'Dad:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Father:') ?></div>
 
                 <select id="cycle-length-from" name="father-color" class="form-control select-extended">
 
@@ -132,7 +132,7 @@
     <br><br>
     <div class="result-div-text">
             <span class="result-pre-text">
-                <?= Yii::t('app', 'The table of probability of color blindness of the child:') ?> <br><br>
+                <?= Yii::t('app', 'The table of probability of colour blindness of the child:') ?> <br><br>
 
                 <?= Yii::t('app', 'Girls:') ?><br>
                 <?= Yii::t('app', 'Normal vision') ?> - <?= $result['childColorBlindness'][1][1] ?> %<br>

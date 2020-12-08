@@ -33,7 +33,7 @@
 
             <div class="col-xs-12 col-sm-6 align-mid">
 
-                <div class="form-left-title"><?= Yii::t('app', 'Mom\'s eye color:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Mother\'s eye colour:') ?></div>
 
                 <select id="cycle-length-from" name="mother-eyes-color" class="form-control select-extended">
 
@@ -59,7 +59,7 @@
 
                 </select>
 
-                <div class="form-left-title"><?= Yii::t('app', 'Dad\'s eye color:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Father\'s eye colour:') ?></div>
 
                 <select id="cycle-length-from" name="father-eyes-color" class="form-control select-extended">
 

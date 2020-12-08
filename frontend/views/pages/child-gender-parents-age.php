@@ -34,7 +34,7 @@ if (!$childGenderBloodRenewalData['childGenderBloodRenewalMotherBirthDate']){
 
             <div class="col-xs-12 col-sm-6 align-mid">
 
-                <div class="form-left-title"><?=Yii::t('app','Choose mom\'s birthday:')?></div>
+                <div class="form-left-title"><?=Yii::t('app','Choose mother\'s birthday:')?></div>
 
 
                 <div class="well well-sm form-date-picker-extended xs-align-mid">
@@ -51,7 +51,7 @@ if (!$childGenderBloodRenewalData['childGenderBloodRenewalMotherBirthDate']){
                     ]);?>
                 </div>
 
-                <div class="form-left-title"><?=Yii::t('app','Choose dad\'s birthday:')?></div>
+                <div class="form-left-title"><?=Yii::t('app','Choose father\'s birthday:')?></div>
 
                 <div class="well well-sm form-date-picker-extended xs-align-mid">
                     <?= DatePicker::widget([
@@ -126,16 +126,16 @@ if (!$childGenderBloodRenewalData['childGenderBloodRenewalMotherBirthDate']){
             </span>
 
             <span class="result-pre-text">
-                <?=Yii::t('app','Days Since Mom\'s Last Blood Update:')?>
+                <?=Yii::t('app','Days Since mother\'s last blood update:')?>
                 <?= $childGenderBloodRenewal['countDaysFromMotherLastBloodRenewal']; ?>
                 <br>
-                <?=Yii::t('app','Days Since Dad\'s Last Blood Update:')?>
+                <?=Yii::t('app','Days Since father\'s last blood update:')?>
                 <?= $childGenderBloodRenewal['countDaysFromFatherLastBloodRenewal']; ?>
                 <br>
-                <?=Yii::t('app','Date of Mom\'s last blood update:')?>
+                <?=Yii::t('app','Date of mother\'s last blood update:')?>
                 <?= $childGenderBloodRenewal['motherLastRenewalDate']; ?>
                 <br>
-                <?=Yii::t('app','Date of Dad\'s last blood update:')?>
+                <?=Yii::t('app','Date of father\'s last blood update:')?>
                 <?= $childGenderBloodRenewal['fatherLastRenewalDate']; ?>
             </span>
         </div>

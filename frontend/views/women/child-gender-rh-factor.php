@@ -28,7 +28,7 @@
 
             <div class="col-xs-12 col-sm-6 align-mid">
 
-                <div class="form-left-title"><?= Yii::t('app', 'Choose Mom\'s RH factor:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Choose mother\'s RH factor:') ?></div>
 
                 <select id="cycle-length-from" name="mother-rh-factor" class="form-control select-extended">
 
@@ -51,7 +51,7 @@
 
                 </select>
 
-                <div class="form-left-title"><?= Yii::t('app', 'Choose Dad\'s RH factor:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Choose father\'s RH factor:') ?></div>
 
                 <select id="cycle-length-from" name="father-rh-factor" class="form-control select-extended">
 

@@ -1,19 +1,7 @@
 <?php
 
 
-Woman
-Calculator
-Home
-
-Read
-Help
-Contacts
-Cookie info
-Privacy policy
-Translations
-Donations
-Write to us
-
+return [
 
     // pregnancy
     'Pregnancy calculation method:' => 'Pregnancy calculation method:',
@@ -79,27 +67,27 @@ Write to us
     'Unfavorable days for conception' => 'Unfavorable days for conception',
     'Favorable days for conception of a girl' => 'Favorable days for conception of a girl',
     'Favorable days for conception of a boy' => 'Favorable days for conception of a boy',
-    'Choose mom\'s age:' => 'Choose mom\'s age:',
+    'Choose mother\'s age:' => 'Choose mother\'s age:',
     'Select a calendar start date:' => 'Select a calendar start date:',
-    'Choose mom\'s month of birth:' => 'Choose mom\'s month of birth:',
-    'Choose dad\'s month of birth:' => 'Choose dad\'s month of birth:',
+    'Choose mother\'s month of birth:' => 'Choose mother\'s month of birth:',
+    'Choose father\'s month of birth:' => 'Choose father\'s month of birth:',
     'Calculate' => 'Calculate',
     'Conditionally safe days' => 'Conditionally safe days',
 
 
     // Child gender
-    'Choose mom\'s birthday:' => 'Choose mom’s birthday:',
-    'Choose dad\'s birthday:' => 'Choose dad\'s birthday:',
+    'Choose mother\'s birthday:' => 'Choose mom’s birthday:',
+    'Choose father\'s birthday:' => 'Choose father\'s birthday:',
     'You will have a girl' => 'You will have a girl',
     'You will have a boy' => 'You will have a boy',
-    'Days Since Mom\'s Last Blood Update:' => 'Days Since Mom\'s Last Blood Update:',
-    'Days Since Dad\'s Last Blood Update:' => 'Days Since Dad\'s Last Blood Update:',
-    'Date of Mom\'s last blood update:' => 'Date of Mom\'s last blood update:',
-    'Date of Dad\'s last blood update:' => 'Date of Dad\'s last blood update:',
-    'Choose Mom\'s blood type:' => 'Choose mom\'s blood type:',
-    'Choose Dad\'s blood type:' => 'Choose Dad\'s blood type:',
-    'Choose Mom\'s RH factor:' => 'Choose Mom\'s RH factor:',
-    'Choose Dad\'s RH factor:' => 'Choose Dad\'s RH factor:',
+    'Days Since mother\'s last blood update:' => 'Days Since mother\'s last blood update:',
+    'Days Since father\'s last blood update:' => 'Days Since father\'s last blood update:',
+    'Date of mother\'s last blood update:' => 'Date of mother\'s last blood update:',
+    'Date of father\'s last blood update:' => 'Date of father\'s last blood update:',
+    'Choose mother\'s blood type:' => 'Choose mom\'s blood type:',
+    'Choose father\'s blood type:' => 'Choose father\'s blood type:',
+    'Choose mother\'s RH factor:' => 'Choose mother\'s RH factor:',
+    'Choose father\'s RH factor:' => 'Choose father\'s RH factor:',
     'Negative' => 'Negative',
     'Positive' => 'Positive',
     'Choose the gender of the child:' => 'Choose the gender of the child:',
@@ -110,17 +98,17 @@ Write to us
     'Average height for this age:' => 'Average height for this age:',
     'Average weight for this age:' => 'Average weight for this age:',
     'Average head size for this age:' => 'Average head size for this age:',
-    'Mom\'s eye color:' => 'Mom\'s eye color:',
-    'Dad\'s eye color:' => 'Dad\'s eye color:',
+    'Mother\'s eye colour:' => 'Mother\'s eye colour:',
+    'Father\'s eye colour:' => 'Father\'s eye colour:',
     'Brown' => 'Brown',
     'Green' => 'Green',
     'Blue' => 'Blue',
     'Brown eyes' => 'Brown eyes',
     'Green eyes' => 'Green eyes',
     'Blue eyes' => 'Blue eyes',
-    'Mom\'s height (cm):' => 'Mom\'s height (cm):',
-    'Dad\'s height (cm):' => 'Dad\'s height (cm):',
-    'According to the folk formula:' => 'According to the folk formula:',
+    'Mother\'s height (cm):' => 'Mother\'s height (cm):',
+    'Father\'s height (cm):' => 'Father\'s height (cm):',
+    'According to the Folk formula:' => 'According to the Folk formula:',
     'According to the Hawker formula:' => 'According to the Hawker formula:',
     'According to the Karkus formula:' => 'According to the Karkus formula:',
     'According to the Smirnov formula' => 'According to the Smirnov formula',
@@ -200,15 +188,15 @@ Write to us
     'Amount of mixture / milk per day (milliliters):' => 'Количество смеси / молока за сутки (милилитры):',
 
     //child hair color
-    'Mom\'s hair color:' => 'Цвет волос мамы:',
-    'Dad\'s hair color:' => 'Цвет волос папы:',
+    'Mother\'s hair colour:' => 'Цвет волос мамы:',
+    'Father\'s hair colour:' => 'Цвет волос папы:',
     'Dark' => 'Темный',
     'Light' => 'Светлый',
     'Redhead' => 'Рыжий',
 
     'With a high probability the child will have dark hair' => 'С большой долей вероятности у ребенка будут темные волосы',
     'With a high degree of probability the child will have dark or brown hair' => 'С большой долей вероятности у ребенка будут темные или русые волосы',
-    'With a high probability the child will be blond or with light brown hair' => 'С большой долей вероятности ребенок будет блондин или со светло-русыми волосами',
+    'With a high probability the child will be blonde or with light brown hair' => 'С большой долей вероятности ребенок будет блондин или со светло-русыми волосами',
     'With a high probability the child will have red hair' => 'С большой долей вероятности у ребенка будут рыжие волосы',
     'With a high degree of probability the child will have light blond or red hair' => 'С большой долей вероятности у ребенка будут светло-русые или рыжие волосы',
 
@@ -241,10 +229,10 @@ Write to us
     'The possibility of having children with a chromosomal disease:' => 'Возможность рождения детей каким либо хромосомным заболеванием:',
 
     'Mother:' => 'Мама:',
-    'Dad:' => 'Папа:',
+    'Father:' => 'Папа:',
     'Normal vision' => 'Нормальное зрение',
     'Color blindness' => 'Дальтонизм',
-    'The table of probability of color blindness of the child:' => 'Таблица вероятности дальтонизма ребенка:',
+    'The table of probability of colour blindness of the child:' => 'Таблица вероятности дальтонизма ребенка:',
     'Carrier' => 'Носитель',
     'Girls:' => 'Девочки:',
     'Boys:' => 'Мальчики:',
@@ -356,9 +344,9 @@ Write to us
     'Probability table for migraine in a child:' => 'Таблица вероятности мигрени у ребенка:',
 
     //child rhesus factor
-    'Rhesus factor mom:' => 'Резус фактор мамы:',
-    'Rhesus factor dad:' => 'Резус фактор папы:',
-    'Table of probable rhesus factor of the child:' => 'Таблица вероятного резус фактора ребенка:',
+    'Rhesus Factor mom:' => 'Резус фактор мамы:',
+    'Rhesus Factor dad:' => 'Резус фактор папы:',
+    'Table of probable Rhesus Factor of the child:' => 'Таблица вероятного резус фактора ребенка:',
 
 
 

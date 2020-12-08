@@ -181,7 +181,7 @@ AppAsset::register($this);
                 <ul class="contact">
                     <span><?=Yii::t('app','Contacts')?></span>
                     <li>
-                        <a href="/<?= Yii::$app->language ?>/contact/" rel="nofollow"><?=Yii::t('app','Write to us')?></a>
+                        <a href="/<?= Yii::$app->language ?>/contact/" rel="nofollow"><?=Yii::t('app','Please write to us')?></a>
                     </li>
 
                 </ul>

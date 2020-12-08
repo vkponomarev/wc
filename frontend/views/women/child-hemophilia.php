@@ -60,7 +60,7 @@
 
                 </select>
 
-                <div class="form-left-title"><?= Yii::t('app', 'Dad:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Father:') ?></div>
 
                 <select id="cycle-length-from" name="father-hemophilia" class="form-control select-extended">
 

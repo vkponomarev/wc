@@ -33,7 +33,7 @@
 
             <div class="col-xs-12 col-sm-6 align-mid">
 
-                <div class="form-left-title"><?= Yii::t('app', 'Rhesus factor mom:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Rhesus Factor mom:') ?></div>
 
                 <select id="cycle-length-from" name="mother-rhesus-factor" class="form-control select-extended">
 
@@ -55,7 +55,7 @@
 
                 </select>
 
-                <div class="form-left-title"><?= Yii::t('app', 'Rhesus factor dad:') ?></div>
+                <div class="form-left-title"><?= Yii::t('app', 'Rhesus Factor dad:') ?></div>
 
                 <select id="cycle-length-from" name="father-rhesus-factor" class="form-control select-extended">
 
@@ -121,7 +121,7 @@
     <br><br>
     <div class="result-div-text">
             <span class="result-pre-text">
-                <?= Yii::t('app', 'Table of probable rhesus factor of the child:') ?> <br>
+                <?= Yii::t('app', 'Table of probable Rhesus Factor of the child:') ?> <br>
                 <?= $result['rhesusFactors'][1] ?> - <?= $result['childRhesusFactor'][1] ?> %<br>
                 <?= $result['rhesusFactors'][2] ?> - <?= $result['childRhesusFactor'][2] ?> %<br>
 
