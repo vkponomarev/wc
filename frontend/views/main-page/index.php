@@ -100,12 +100,38 @@ use yii\widgets\Pjax; ?>
 
     </div>
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <?php if (Yii::$app->language == 'ru'):?>
+        <div class="row" style="text-align: -webkit-center;display: flex; flex-wrap: wrap;">
 
+            <div class="col-xs-12" style="/*max-width:400px;*/text-align: center;padding: 20px;background-color: #c8e9ff;">
+                <h2 style="color:#255e62;font-size: 28px;">Слушать музыку онлайн</h2>
+                <p>Любимые исполнители, треки и альбомы в одном месте, слушай музыку бесплатно.</p>
+                <h2 style="color:#255e62;font-size: 28px;">Тексты песен</h2>
+                <p>Музыкальный сервис с огромным количеством текстов песен и переводов песен на русский язык.</p>
+                <a href="https://flowlez.com/ru/">flowlez.com</a>
+            </div>
 
+        </div>
 
+    <?php else: ?>
 
+        <div class="row" style="text-align: -webkit-center;display: flex; flex-wrap: wrap;">
+            <div class="col-xs-12" style="text-align: center;padding: 20px;background-color: #c8e9ff;">
+                <h2 style="color:#255e62;font-size: 28px;">Listen to music online</h2>
+                <p>Favorite artists, tracks and albums in one place, listen to music for free.</p>
+                <h2 style="color:#255e62;font-size: 28px;">Lyrics</h2>
+                <p>Music service with a huge number of lyrics and translations of songs.</p>
+                <a href="https://flowlez.com/en/">flowlez.com</a>
+            </div>
+        </div>
 
-
-
+    <?php endif;?>
 
 </div>
+
+
