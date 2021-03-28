@@ -197,6 +197,7 @@ class PregnancyCalculation
         }
 
 
+
         return [
 
             'dueDate' => Yii::$app->formatter->asDate($dueDate->format('Y-m-d'), 'long'),
