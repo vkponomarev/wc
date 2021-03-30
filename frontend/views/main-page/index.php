@@ -118,6 +118,19 @@ use yii\widgets\Pjax; ?>
 
         </div>
 
+    <br>
+
+        <div class="row" style="text-align: -webkit-center;display: flex; flex-wrap: wrap;">
+
+            <div class="col-xs-12" style="/*max-width:400px;*/text-align: center;padding: 20px;background-color: #c8e9ff;">
+                <h2 style="color:#255e62;font-size: 28px;">Календарь онлайн</h2>
+                <p>Календарь на год.</p>
+                <h2 style="color:#255e62;font-size: 28px;">Праздники</h2>
+                <p>Производственный календарь. Праздники онлайн.</p>
+                <a href="https://timesles.com/ru/">timesles.com</a>
+            </div>
+
+        </div>
     <?php else: ?>
 
         <div class="row" style="text-align: -webkit-center;display: flex; flex-wrap: wrap;">
@@ -127,6 +140,18 @@ use yii\widgets\Pjax; ?>
                 <h2 style="color:#255e62;font-size: 28px;">Lyrics</h2>
                 <p>Music service with a huge number of lyrics and translations of songs.</p>
                 <a href="https://flowlez.com/en/">flowlez.com</a>
+            </div>
+        </div>
+
+    <br>
+
+        <div class="row" style="text-align: -webkit-center;display: flex; flex-wrap: wrap;">
+            <div class="col-xs-12" style="text-align: center;padding: 20px;background-color: #c8e9ff;">
+                <h2 style="color:#255e62;font-size: 28px;">Calendar online</h2>
+                <p>Calendar for a year.</p>
+                <h2 style="color:#255e62;font-size: 28px;">Holidays</h2>
+                <p>Business days calendar. Holidays calendar.</p>
+                <a href="https://timesles.com/en/">timesles.com</a>
             </div>
         </div>
 
