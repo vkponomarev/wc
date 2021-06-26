@@ -513,7 +513,7 @@ class WomanCalculatorsDataArraysSecond {
         $result['7'] = '1';
         $result['8'] = '1';
         $result['9'] = '2';
-
+        $result['10'] = '2';
 
         //,
         return $result[$number];
